@@ -11,8 +11,13 @@ async function getPokemonHub(){
 
 // get specific pokemon info by id
 async function getPokemonById(id) {
-  // azy pepchite
-  // https://pokeapi.co/
+  try {
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon/'+ id)
+    if (await response.status !== 200) throw new Error(response.statusText);
+    return await response.json();
+  } catch (error) {
+    console.error("Erreur lors de la requête : " + error.message);
+  }
 }
 
 // main code
