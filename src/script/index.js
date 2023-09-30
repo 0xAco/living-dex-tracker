@@ -23,6 +23,7 @@ async function getPokemonById(id) {
 // main code
 document.body.onload = async() => {
   const sylveon = await getPokemonById('sylveon');
+  
   const keepProps = ['id', 'name', 'types'];
   const sylveonClean = Object.fromEntries(
     Object.entries(sylveon)
