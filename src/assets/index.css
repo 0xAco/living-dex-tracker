@@ -104,6 +104,30 @@ button img {
   font-size: 30px;
 }
 
+.nav_menu {
+    height: 80px;
+    background: #4692bd;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.nav_title {
+    color: white;
+    font-family: "Kodchasan";
+    font-size: 30px;
+}
+
 .generation__section {
   display: flex;
   flex-direction: column;
