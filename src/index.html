@@ -4,10 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&family=Pacifico&family=Roboto:wght@100&family=Shrikhand&family=Work+Sans&display=swap" rel="stylesheet">
   <title>Living dex Tracker</title>
 </head>
 <body>
-  
+  <nav class="nav_menu">
+    <ul class="nav_list">
+        <li class="nav_title" >Livingdex</li>
+        <li class="nav_title">Ressources utiles</li> 
+    </ul>
+  </nav>
+  <main>
+    <!-- Généré auto  via js-->  
+  </main>
+  <aside>
+    <form>
+      <input type="checkbox" id="checkbox" />
+      <label for="checkbox">Mode shiny</label>
+      <select name="generation" id="generation">
+        <option value="">-filtrer par génération-</option>
+        <option value="génération 01">génération 01</option>
+        <option value="génération 02">génération 02</option>
+        <option value="génération 03">génération 03</option>
+        <option value="génération 04">génération 04</option>
+        <option value="génération 05">génération 05</option>
+        <option value="génération 06">génération 06</option>
+        <option value="génération 07">génération 07</option>
+        <option value="génération 08">génération 08</option>
+        <option value="génération 09">génération 09</option>
+      </select>
+      <label for="num_pokemon">Numéro du Pokemon</label>
+      <input type="text" id="num_pokemon" required maxlength="4">
+      <label for="name_pokemon">Nom du Pokemon</label>
+      <input type="text" id="name_pokemon">
+  </aside>
 </body>
 <script src="script/index.js"></script>
 </html>
