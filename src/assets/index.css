@@ -72,6 +72,12 @@ button img {
     align-items: center;
 }
 
+.drawer select {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
 .mode_shiny {
     display: flex;
     flex-direction: row;
@@ -81,7 +87,11 @@ button img {
 }
 
 .drawer input {
-    margin-top: -20px;
+    margin-top: -16px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
 
 .drawer img {
@@ -165,7 +175,7 @@ button img {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    gap: 30px;
+    gap: 70px;
     list-style-type: none;
     padding-right: 20px;
 }
