@@ -14,30 +14,50 @@
   <main>
     <!-- content is inserted here -->
   </main>
-  <aside>
-    <button id="export-data" class="button--aside"><i class="fa-solid fa-file-arrow-down"></i></button>
-    <button id="switch-display" class="button--aside"><img src="./assets/charme-chroma.png" alt="charme chroma"></button>
-    <form>
-      <input type="checkbox" id="checkbox" />
-      <label for="checkbox">Mode shiny</label>
-      <select name="generation" id="generation">
-        <option value="">-filtrer par génération-</option>
-        <option value="génération 01">génération 01</option>
-        <option value="génération 02">génération 02</option>
-        <option value="génération 03">génération 03</option>
-        <option value="génération 04">génération 04</option>
-        <option value="génération 05">génération 05</option>
-        <option value="génération 06">génération 06</option>
-        <option value="génération 07">génération 07</option>
-        <option value="génération 08">génération 08</option>
-        <option value="génération 09">génération 09</option>
-      </select>
-      <label for="num_pokemon">Numéro du Pokemon</label>
-      <input type="text" id="num_pokemon" required maxlength="4">
-      <label for="name_pokemon">Nom du Pokemon</label>
-      <input type="text" id="name_pokemon">
-    </form>
-  </aside>
+  <div class="container_drawer">
+    <aside>
+      <button id="export-data" class="button--aside"><i class="fa-solid fa-file-arrow-down"></i></button>
+      <button id="switch-display" class="button--aside"><img src="./assets/charme-chroma.png" alt="charme chroma"></button>
+      <form>
+        <input type="checkbox" id="checkbox" />
+        <label for="checkbox">Mode shiny</label>
+        <select name="generation" id="generation">
+          <option value="">-filtrer par génération-</option>
+          <option value="génération 01">génération 01</option>
+          <option value="génération 02">génération 02</option>
+          <option value="génération 03">génération 03</option>
+          <option value="génération 04">génération 04</option>
+          <option value="génération 05">génération 05</option>
+          <option value="génération 06">génération 06</option>
+          <option value="génération 07">génération 07</option>
+          <option value="génération 08">génération 08</option>
+          <option value="génération 09">génération 09</option>
+        </select>
+        <label for="num_pokemon">Numéro du Pokemon</label>
+        <input type="text" id="num_pokemon" required maxlength="4">
+        <label for="name_pokemon">Nom du Pokemon</label>
+        <input type="text" id="name_pokemon">
+        <img class="img_type" src="./assets/types/acier.png" alt="acier">
+        <img class="img_type" src="./assets/types/combat.png" alt="combat">
+        <img class="img_type" src="./assets/types/dragon.png" alt="dragon">
+        <img class="img_type" src="./assets/types/eau.png" alt="eau">
+        <img class="img_type" src="./assets/types/electrik.png" alt="electrik">
+        <img class="img_type" src="./assets/types/fee.png" alt="fee">
+        <img class="img_type" src="./assets/types/feu.png" alt="feu">
+        <img class="img_type" src="./assets/types/glace.png" alt="glace">
+        <img class="img_type" src="./assets/types/insecte.png" alt="insecte">
+        <img class="img_type" src="./assets/types/normal.png" alt="normal">
+        <img class="img_type" src="./assets/types/plante.png" alt="plante">
+        <img class="img_type" src="./assets/types/poison.png" alt="poison">
+        <img class="img_type" src="./assets/types/psy.png" alt="psy">
+        <img class="img_type" src="./assets/types/roche.png" alt="roche">
+        <img class="img_type" src="./assets/types/sol.png" alt="sol">
+        <img class="img_type" src="./assets/types/spectre.png" alt="spectre">
+        <img class="img_type" src="./assets/types/tenebres.png" alt="tenebres">
+        <img class="img_type" src="./assets/types/vol.png" alt="vol">
+      </form>
+    </aside>
+  </div>
   <div class="alert display_none" id="data_saved"><i class="fa-solid fa-circle-check check_icon"></i><span class="txt_data_saved">Données sauvegardées</span></div>
 </body>
 <script type="text/javascript" src="data/dex_all_gens.js"></script>
