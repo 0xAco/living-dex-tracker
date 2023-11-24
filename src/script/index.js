@@ -9,12 +9,32 @@ function getDOMelements() {
 
 // sets event listeners for static DOM
 function setEventsListeners() {
-  exportButton.addEventListener('click', exportData)
+  exportButton.addEventListener('click', exportData);
 }
 
 // exports the data as a JSON
 function exportData() {
-  console.log('todo - export data');
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+  const exportedData = [];
+
+  checkboxes.forEach(box => {
+    const mon = { 
+      'id': parseInt(box.id.split('+')[0]),
+      'internalid': box.id,
+    }
+    exportedData.push(mon);
+  })
+
+  saveData(exportedData);
+  alert("Données sauvegardées");
+}
+
+function saveData(data) {
+  localStorage.setItem('pokemonData', JSON.stringify(data));
+}
+
+function loadData() {
+  return JSON.parse(localStorage.getItem('pokemonData'));
 }
 
 // create every pokemon
@@ -22,6 +42,8 @@ function createPokemon() {
   let previousGen;
   let previousSection;
   let currentGen;
+
+  const existingData = loadData();
 
   for(pokemon of pokedex) {
 
@@ -50,13 +72,14 @@ function createPokemon() {
     const div = document.createElement('div');
     const img = document.createElement('img');
     div.classList.add('pokemon__card');
-    img.src = pokemon.sprite // shiny;
-    img.alt = pokemon.namefr // + ' shiny';
+    img.src = pokemon.spriteshiny;
+    img.alt = pokemon.namefr + ' shiny';
     img.classList.add('pokemon__img');
     div.appendChild(img);
-    div.innerHTML += `<input type="checkbox" id="${pokemon.id}-${pokemon.namefr}" name="${pokemon.namefr}" checked/>`;
+    const internalid = `${pokemon.id}+${pokemon.namefr}`;
+    const check = existingData.some(mon => mon.internalid === internalid) ? 'checked' : '';
+    div.innerHTML += `<input type="checkbox" id="${internalid}" name="${pokemon.namefr}" ${check}/>`;
     previousSection.appendChild(div);
-    // console.log(pokemon.id, pokemon.namefr);
   }
 }
 
