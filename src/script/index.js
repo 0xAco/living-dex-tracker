@@ -77,7 +77,8 @@ function createPokemon() {
     img.classList.add('pokemon__img');
     div.appendChild(img);
     const internalid = `${pokemon.id}+${pokemon.namefr}`;
-    const check = existingData.some(mon => mon.internalid === internalid) ? 'checked' : '';
+    let check = '';
+    if (existingData && existingData.some(mon => mon.internalid === internalid)) check = 'checked';
     div.innerHTML += `<input type="checkbox" id="${internalid}" name="${pokemon.namefr}" ${check}/>`;
     previousSection.appendChild(div);
   }
