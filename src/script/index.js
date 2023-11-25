@@ -32,12 +32,16 @@ function exportData() {
 // click on a pokemon card
 function onCardClick(event) {
   const targetTag = event.target.tagName;
-  // retrieve the div element
-  const card = targetTag === 'IMG' || targetTag === 'INPUT'
-    ? event.target.closest('.pokemon__card')
-    : event.target;
+
+  // clicked on the input directly
+  if (targetTag === 'INPUT') return;
+
+  // retrieve the card element
+  card = event.target;
+  if (targetTag === 'IMG') card = event.target.closest('.pokemon__card');
   const internalid = card.id.split('+').splice(1).join('+');
-  document.getElementById(internalid).click();
+  const check = document.getElementById(internalid);
+  check.click();
 }
 
 function saveData(data) {
@@ -83,16 +87,23 @@ function createPokemon() {
     // ajout des images
     const div = document.createElement('div');
     const img = document.createElement('img');
+    const input = document.createElement('input');
     div.classList.add('pokemon__card');
     div.id = `div+${internalid}`;
     div.addEventListener('click', onCardClick);
-    img.src = pokemon.spriteshiny;
-    img.alt = pokemon.namefr + ' shiny';
+    img.src = pokemon.sprite //shiny;
+    img.alt = pokemon.namefr //+ ' shiny';
     img.classList.add('pokemon__img');
-    div.appendChild(img);
-    let check = 'checked';
+    let check = '';
     if (existingData && existingData.some(mon => mon.internalid === internalid)) check = 'checked';
-    div.innerHTML += `<input type="checkbox" id="${internalid}" class="pokemon__checkbox" name="${pokemon.namefr}" ${check}/>`;
+    input.type = 'checkbox';
+    input.id = internalid;
+    input.classList.add('pokemon__checkbox');
+    input.name = pokemon.namefr;
+    input.checked = check;
+
+    div.appendChild(img);
+    div.appendChild(input);
     previousSection.appendChild(div);
   }
 }

@@ -74,4 +74,5 @@ input {
 
 .pokemon__checkbox {
   margin-bottom: 8px;
+  cursor: pointer;
 }
