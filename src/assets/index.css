@@ -58,8 +58,20 @@ input {
   align-items: center;
   width: 96px;
   margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: transparent;
+  transition: background-color .5s ease-out;
+}
+
+.pokemon__card:hover {
+  background-color: rgb(221, 198, 168);
 }
 
 .pokemon__img {
   width: 96px;
+}
+
+.pokemon__checkbox {
+  margin-bottom: 8px;
 }
