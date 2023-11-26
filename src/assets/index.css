@@ -1,36 +1,60 @@
+:root {
+  --primary-color: steelblue;
+  --secondary-color: aliceblue;
+  --card-hover-color: rgb(173, 213, 232);
+  --background-color: rgb(243, 247, 249);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: linen;
+  background-color: var(--background-color);
 }
 
 input {
-  background-color: saddlebrown;  
+  background-color: var(--primary-color);  
 }
 
-#export-data {
+aside {
   position: fixed;
-  right: 10px;
-  top: 50px;
+  right: 8px;
+  top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
+button {
   cursor: pointer;
   outline: none;
-  border: solid 1px white;
   border-radius: 999px;
   width: 48px;
   height: 48px;
   font-size: 20px;
-  background-color: saddlebrown;
-  color: white;
+  border: solid 1px var(--secondary-color);
 }
 
-#export-data:hover {
-  color: saddlebrown;
-  background-color: white;
-  border-color: saddlebrown;
+.button--aside {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.button--aside:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+button img {
+  height: 80%;
+}
+
+.button--aside:hover > img {
+  filter: brightness(0) invert();
 }
 
 .generation__section {
@@ -41,8 +65,8 @@ input {
 .generation__title {
   display: block;
   padding: 20px;
-  background-color: saddlebrown;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -65,7 +89,7 @@ input {
 }
 
 .pokemon__card:hover {
-  background-color: rgb(221, 198, 168);
+  background-color: var(--card-hover-color);
 }
 
 .pokemon__img {
