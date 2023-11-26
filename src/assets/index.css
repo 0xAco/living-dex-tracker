@@ -37,6 +37,10 @@ button {
   border: solid 1px var(--secondary-color);
 }
 
+button img {
+  height: 80%;
+}
+
 .button--aside {
   background-color: var(--secondary-color);
   color: var(--primary-color);
@@ -47,10 +51,6 @@ button {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border-color: var(--secondary-color);
-}
-
-button img {
-  height: 80%;
 }
 
 .button--aside:hover > img {
@@ -99,4 +99,8 @@ button img {
 .pokemon__checkbox {
   margin-bottom: 8px;
   cursor: pointer;
+}
+
+.--hidden {
+  display: none;
 }
