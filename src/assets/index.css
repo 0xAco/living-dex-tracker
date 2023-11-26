@@ -96,6 +96,11 @@ button img {
   width: 96px;
 }
 
+.--shadow {
+  filter: grayscale(1) brightness(50%);
+  opacity: 70%;
+}
+
 .pokemon__checkbox {
   margin-bottom: 8px;
   cursor: pointer;

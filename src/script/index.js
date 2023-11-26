@@ -13,12 +13,12 @@ function getDOMelements() {
 
 // sets event listeners for static DOM
 function setEventsListeners() {
-  exportButton.addEventListener('click', exportData(isShinyDisplay));
+  exportButton.addEventListener('click', exportData);
   switchDisplay.addEventListener('click', switchToOtherDisplay);
 }
 
 // exports the data as a JSON
-function exportData(isShiny) {
+function exportData() {
   const checkboxes = document.querySelectorAll('.pokemon__checkbox:checked');
   const exportedData = [];
 
@@ -30,17 +30,18 @@ function exportData(isShiny) {
     exportedData.push(mon);
   })
 
-  saveData(exportedData, isShiny);
+  saveData(exportedData, isShinyDisplay);
   alert("Données sauvegardées");
 }
 
 // update checkboxes when changing display mode
-function updateCheckboxes(isShiny) {
+function updateCheckboxes() {
   const checkboxes = document.querySelectorAll('.pokemon__checkbox');
-  const existingData = loadData(isShiny);
+  const existingData = loadData(isShinyDisplay);
   checkboxes.forEach(box => {
     if (existingData) box.checked = existingData.some(mon => mon.internalid === box.id);
     else box.checked = false;
+    updateShadowEffect(box);
   });
 }
 
@@ -82,14 +83,13 @@ function onCardClick(event) {
   check.click();
 }
 
-function saveData(data, isShiny) {
-  const itemName = 'pokemonData' + (isShiny ? '-shiny' : '');
+function saveData(data) {
+  const itemName = 'pokemonData' + (isShinyDisplay ? '-shiny' : '');
   localStorage.setItem(itemName, JSON.stringify(data));
 }
 
-function loadData(isShiny) {
-  const itemName = 'pokemonData' + (isShiny ? '-shiny' : '');
-  console.log('get ', itemName);
+function loadData() {
+  const itemName = 'pokemonData' + (isShinyDisplay ? '-shiny' : '');
   return JSON.parse(localStorage.getItem(itemName));
 }
 
@@ -130,28 +130,45 @@ function createPokemon() {
     const img = document.createElement('img');
     const imgshiny = document.createElement('img');
     const input = document.createElement('input');
+
+    let check = '';
+    if (existingData && existingData.some(mon => mon.internalid === internalid)) check = 'checked';
+    // card div
     div.classList.add('pokemon__card');
     div.id = `div+${internalid}`;
     div.addEventListener('click', onCardClick);
+    // images
     img.src = pokemon.sprite;
     img.alt = pokemon.namefr;
     img.classList.add('pokemon__img', '--non-shiny');
+    if (!check) img.classList.add('--shadow');
+    img.dataset.internalid = internalid;
     imgshiny.src = pokemon.spriteshiny;
     imgshiny.alt = pokemon.namefr + ' shiny';
     imgshiny.classList.add('pokemon__img', '--shiny', '--hidden');
-    let check = '';
-    if (existingData && existingData.some(mon => mon.internalid === internalid)) check = 'checked';
+    if (!check) imgshiny.classList.add('--shadow');
+    imgshiny.dataset.internalid = internalid;
+    // checkbox
     input.type = 'checkbox';
     input.id = internalid;
     input.classList.add('pokemon__checkbox');
     input.name = pokemon.namefr;
     input.checked = check;
-
+    input.addEventListener('change', updateShadowEffect);
+    // append everything
     div.appendChild(img);
     div.appendChild(imgshiny);
     div.appendChild(input);
     previousSection.appendChild(div);
   }
+}
+
+function updateShadowEffect(event) {
+  const checkbox = event.target ? event.target : event;
+  const internalid = checkbox.id;
+  const image = document.querySelector(`.pokemon__img${isShinyDisplay ? '.--shiny' : '.--non-shiny'}[data-internalid="${internalid}"]`);
+  if (checkbox.checked) image.classList.remove('--shadow');
+  else image.classList.add('--shadow');
 }
 
 document.body.onload = async() => {
