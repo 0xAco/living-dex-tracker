@@ -1,20 +1,25 @@
 // pokedex est importé depuis le html
 let main;
+let exportButton;
+let switchDisplay;
+let isShinyDisplay = false;
 
 // retrieve DOM elements
 function getDOMelements() {
   main = document.querySelector('main');
   exportButton = document.querySelector('#export-data');
+  switchDisplay = document.querySelector('#switch-display');
 }
 
 // sets event listeners for static DOM
 function setEventsListeners() {
   exportButton.addEventListener('click', exportData);
+  switchDisplay.addEventListener('click', switchToOtherDisplay);
 }
 
 // exports the data as a JSON
-function exportData() {
-  const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+function exportData(isShiny) {
+  const checkboxes = document.querySelectorAll('.pokemon__checkbox:checked');
   const exportedData = [];
 
   checkboxes.forEach(box => {
@@ -25,8 +30,41 @@ function exportData() {
     exportedData.push(mon);
   })
 
-  saveData(exportedData);
+  saveData(exportedData, isShiny);
   alert("Données sauvegardées");
+}
+
+// update checkboxes when changing display mode
+function updateCheckboxes(isShiny) {
+  const checkboxes = document.querySelectorAll('.pokemon__checkbox');
+  const existingData = loadData(isShiny);
+  checkboxes.forEach(box => {
+    if (existingData) box.checked = existingData.some(mon => mon.internalid === box.id);
+    else box.checked = false;
+  });
+}
+
+// switch display to shiny or back 
+function switchToOtherDisplay() {
+  // save current display data
+  exportData(isShinyDisplay);
+
+  // update internal value
+  isShinyDisplay = !isShinyDisplay;
+
+  // replace images
+  const shinies = document.querySelectorAll('.--shiny');
+  const normals = document.querySelectorAll('.--non-shiny');
+  if (isShinyDisplay) {
+    shinies.forEach(mon => mon.classList.remove('--hidden'));
+    normals.forEach(mon => mon.classList.add('--hidden'));
+  } else {
+    shinies.forEach(mon => mon.classList.add('--hidden'));
+    normals.forEach(mon => mon.classList.remove('--hidden'));
+  }
+
+  // update checkboxes
+  updateCheckboxes(isShinyDisplay);
 }
 
 // click on a pokemon card
@@ -44,12 +82,15 @@ function onCardClick(event) {
   check.click();
 }
 
-function saveData(data) {
-  localStorage.setItem('pokemonData', JSON.stringify(data));
+function saveData(data, isShiny) {
+  const itemName = 'pokemonData' + (isShiny ? '-shiny' : '');
+  localStorage.setItem(itemName, JSON.stringify(data));
 }
 
-function loadData() {
-  return JSON.parse(localStorage.getItem('pokemonData'));
+function loadData(isShiny) {
+  const itemName = 'pokemonData' + (isShiny ? '-shiny' : '');
+  console.log('get ', itemName);
+  return JSON.parse(localStorage.getItem(itemName));
 }
 
 // create every pokemon
@@ -58,7 +99,7 @@ function createPokemon() {
   let previousSection;
   let currentGen;
 
-  const existingData = loadData();
+  const existingData = loadData(isShinyDisplay);
 
   for(pokemon of pokedex) {
     const internalid = `${pokemon.id}+${pokemon.namefr}`;
@@ -87,13 +128,17 @@ function createPokemon() {
     // ajout des images
     const div = document.createElement('div');
     const img = document.createElement('img');
+    const imgshiny = document.createElement('img');
     const input = document.createElement('input');
     div.classList.add('pokemon__card');
     div.id = `div+${internalid}`;
     div.addEventListener('click', onCardClick);
-    img.src = pokemon.sprite //shiny;
-    img.alt = pokemon.namefr //+ ' shiny';
-    img.classList.add('pokemon__img');
+    img.src = pokemon.sprite;
+    img.alt = pokemon.namefr;
+    img.classList.add('pokemon__img', '--non-shiny');
+    imgshiny.src = pokemon.spriteshiny;
+    imgshiny.alt = pokemon.namefr + ' shiny';
+    imgshiny.classList.add('pokemon__img', '--shiny', '--hidden');
     let check = '';
     if (existingData && existingData.some(mon => mon.internalid === internalid)) check = 'checked';
     input.type = 'checkbox';
@@ -103,6 +148,7 @@ function createPokemon() {
     input.checked = check;
 
     div.appendChild(img);
+    div.appendChild(imgshiny);
     div.appendChild(input);
     previousSection.appendChild(div);
   }
