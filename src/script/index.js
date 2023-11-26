@@ -3,12 +3,14 @@ let main;
 let exportButton;
 let switchDisplay;
 let isShinyDisplay = false;
+let alertSaveData;
 
 // retrieve DOM elements
 function getDOMelements() {
   main = document.querySelector('main');
   exportButton = document.querySelector('#export-data');
   switchDisplay = document.querySelector('#switch-display');
+  alertSaveData = document.querySelector('#data_saved')
 }
 
 // sets event listeners for static DOM
@@ -31,7 +33,8 @@ function exportData() {
   })
 
   saveData(exportedData, isShinyDisplay);
-  alert("Données sauvegardées");
+  alertSaveData.classList.remove("display_none"); 
+  setTimeout(()=>alertSaveData.classList.add('display_none'), 3500);
 }
 
 // update checkboxes when changing display mode
