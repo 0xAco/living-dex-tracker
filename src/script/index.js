@@ -13,7 +13,7 @@ function getDOMelements() {
 
 // sets event listeners for static DOM
 function setEventsListeners() {
-  exportButton.addEventListener('click', exportData);
+  exportButton.addEventListener('click', exportData(isShinyDisplay));
   switchDisplay.addEventListener('click', switchToOtherDisplay);
 }
 
