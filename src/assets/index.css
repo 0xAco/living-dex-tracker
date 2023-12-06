@@ -167,13 +167,14 @@ aside .img-container {
   color: white;
   padding: 17px 12px;
   position: fixed;
-  right: 20px;
+  left: 20px;
   bottom: 20px;
   display: flex;
   flex-direction: row;
   gap : 10px;
   align-items: center;
   animation: animAlert 3.5s forwards;
+  border: white 1px solid;
 }
 
 @keyframes animAlert {
