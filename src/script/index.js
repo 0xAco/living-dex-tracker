@@ -1,22 +1,28 @@
 // pokedex est importé depuis le html
 let main;
+let isShinyDisplay = false;
+let isAsideVisible = false;
 let exportButton;
 let switchDisplay;
-let isShinyDisplay = false;
 let alertSaveData;
+let asideToggle;
+let asideElement;
 
 // retrieve DOM elements
 function getDOMelements() {
   main = document.querySelector('main');
   exportButton = document.querySelector('#export-data');
   switchDisplay = document.querySelector('#switch-display');
-  alertSaveData = document.querySelector('#data_saved')
+  alertSaveData = document.querySelector('#data_saved');
+  asideToggle = document.querySelector('#aside__toggle-button');
+  asideElement = document.querySelector('.aside');
 }
 
 // sets event listeners for static DOM
 function setEventsListeners() {
   exportButton.addEventListener('click', exportData);
   switchDisplay.addEventListener('click', switchToOtherDisplay);
+  asideToggle.addEventListener('click', toggleAside);
 }
 
 // exports the data as a JSON
@@ -69,6 +75,13 @@ function switchToOtherDisplay() {
 
   // update checkboxes
   updateCheckboxes(isShinyDisplay);
+}
+
+// collapse or show aside
+function toggleAside() {
+  isAsideVisible = !isAsideVisible;
+  if (isAsideVisible) asideElement.classList.remove('--collapsed');
+  else asideElement.classList.add('--collapsed');
 }
 
 // click on a pokemon card
@@ -129,17 +142,18 @@ function createPokemon() {
     }
 
     // ajout des images
-    const div = document.createElement('div');
+    const card = document.createElement('div');
     const img = document.createElement('img');
     const imgshiny = document.createElement('img');
     const input = document.createElement('input');
+    const infos = document.createElement('div')
 
     let check = '';
     if (existingData && existingData.some(mon => mon.internalid === internalid)) check = 'checked';
     // card div
-    div.classList.add('pokemon__card');
-    div.id = `div+${internalid}`;
-    div.addEventListener('click', onCardClick);
+    card.classList.add('pokemon__card');
+    card.id = `div+${internalid}`;
+    card.addEventListener('click', onCardClick);
     // images
     img.src = pokemon.sprite;
     img.alt = pokemon.namefr;
@@ -151,6 +165,9 @@ function createPokemon() {
     imgshiny.classList.add('pokemon__img', '--shiny', '--hidden');
     if (!check) imgshiny.classList.add('--shadow');
     imgshiny.dataset.internalid = internalid;
+    // infos pokémon
+    infos.innerHTML = `<span class="pokemon__id">${pokemon.id}</span><span>${pokemon.namefr}</span>`;
+    infos.classList.add('infos__container');
     // checkbox
     input.type = 'checkbox';
     input.id = internalid;
@@ -159,10 +176,11 @@ function createPokemon() {
     input.checked = check;
     input.addEventListener('change', updateShadowEffect);
     // append everything
-    div.appendChild(img);
-    div.appendChild(imgshiny);
-    div.appendChild(input);
-    previousSection.appendChild(div);
+    card.appendChild(img);
+    card.appendChild(imgshiny);
+    card.appendChild(input);
+    card.appendChild(infos);
+    previousSection.appendChild(card);
   }
 }
 
