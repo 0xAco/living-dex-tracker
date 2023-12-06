@@ -1,22 +1,28 @@
 // pokedex est importé depuis le html
 let main;
+let isShinyDisplay = false;
+let isAsideVisible = false;
 let exportButton;
 let switchDisplay;
-let isShinyDisplay = false;
 let alertSaveData;
+let asideToggle;
+let asideElement;
 
 // retrieve DOM elements
 function getDOMelements() {
   main = document.querySelector('main');
   exportButton = document.querySelector('#export-data');
   switchDisplay = document.querySelector('#switch-display');
-  alertSaveData = document.querySelector('#data_saved')
+  alertSaveData = document.querySelector('#data_saved');
+  asideToggle = document.querySelector('#aside__toggle-button');
+  asideElement = document.querySelector('.aside');
 }
 
 // sets event listeners for static DOM
 function setEventsListeners() {
   exportButton.addEventListener('click', exportData);
   switchDisplay.addEventListener('click', switchToOtherDisplay);
+  asideToggle.addEventListener('click', toggleAside);
 }
 
 // exports the data as a JSON
@@ -69,6 +75,13 @@ function switchToOtherDisplay() {
 
   // update checkboxes
   updateCheckboxes(isShinyDisplay);
+}
+
+// collapse or show aside
+function toggleAside() {
+  isAsideVisible = !isAsideVisible;
+  if (isAsideVisible) asideElement.classList.remove('--collapsed');
+  else asideElement.classList.add('--collapsed');
 }
 
 // click on a pokemon card

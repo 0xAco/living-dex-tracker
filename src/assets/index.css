@@ -1,6 +1,7 @@
 :root {
   --primary-color: steelblue;
   --secondary-color: aliceblue;
+  --primary-color--lighter: hsl(207, 44%, 59%);
   --card-hover-color: rgb(173, 213, 232);
   --background-color: rgb(243, 247, 249);
 }
@@ -28,36 +29,51 @@ input {
   background-color: var(--background-color);  
 }
 
-aside {
+.aside {
   background-color: var(--primary-color);
   position: sticky;
   top: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 12px;
   height: 100vh;
   width: 300px;
-  overflow-y: auto;
   padding: 24px 0;
+  transition: width .2s ease-out;
 }
 
-aside .aside__button-container {
+.--collapsed {
+  width: 0;
+
+  & .aside__content { display: none; }
+
+  & #aside__toggle-button {
+    &:hover { transform: scaleX(1.1); }
+    & i { rotate: 180deg; }
+  }
+
+  .aside__button-container {
+    flex-direction: column;
+    position: relative;
+    left: -35px;
+  }
+}
+
+.aside__button-container {
   display: flex;
+  justify-content: center;
   gap: 10px;
-}
-
-button {
-  cursor: pointer;
-  outline: none;
-  border-radius: 999px;
-  width: 48px;
-  height: 48px;
-  font-size: 20px;
-  border: solid 1px var(--secondary-color);
 }
 
 button img {
   height: 80%;
+}
+
+.aside__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 aside form {
@@ -108,17 +124,41 @@ aside .img-container {
 .button--aside {
   background-color: var(--secondary-color);
   color: var(--primary-color);
-  border-color: var(--primary-color);
+  border: solid 1px var(--primary-color);
+  cursor: pointer;
+  outline: none;
+  border-radius: 999px;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+
+    & > img { filter: brightness(0) invert(); }
+  }
 }
 
-.button--aside:hover {
+#aside__toggle-button {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
-  border-color: var(--secondary-color);
-}
+  color: white;
+  border: none;
+  border-radius: 24px 0 0 24px;
+  height: 100px;
+  width: 50px;
+  position: absolute;
+  bottom: calc(100px / 2 + 20px);
+  left: -50px;
+  transform: scaleX(1);
+  transform-origin: 100% 0;
+  transition: transform ease-in .1s;
 
-.button--aside:hover > img {
-  filter: brightness(0) invert();
+  &:hover {
+    background-color: var(--primary-color--lighter);
+    transform: scaleX(.9);
+  }
 }
 
 .alert {
@@ -192,9 +232,17 @@ aside .img-container {
     font-size: 30px;
 }
 
+.separator {
+  color: var(--secondary-color);
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 .generation__section {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .generation__title {
@@ -203,12 +251,16 @@ aside .img-container {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  border-radius: 0 99px 99px 0;
+  align-self: flex-start;
 }
 
 .generation__content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 85%;
 }
 
 .pokemon__card {
