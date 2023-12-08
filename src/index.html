@@ -22,44 +22,148 @@
       </div>
       <div class="aside__content">
         <hr class="separator"/>
-        <form>
-          <select name="generation" id="generation">
-            <option value="">Toutes les générations</option>
-            <option value="1">1G</option>
-            <option value="2">2G</option>
-            <option value="3">3G</option>
-            <option value="4">4G</option>
-            <option value="5">5G</option>
-            <option value="6">6G</option>
-            <option value="7">7G</option>
-            <option value="8">8G</option>
-            <option value="9">9G</option>
-          </select>
-          <label for="num_pokemon">Numéro du Pokemon</label>
-          <input type="text" id="num_pokemon" required maxlength="4">
-          <label for="name_pokemon">Nom du Pokemon</label>
-          <input type="text" id="name_pokemon">
-          <div class="img-container">
-            <img class="img_type" src="./assets/types/acier.png" alt="acier">
-            <img class="img_type" src="./assets/types/combat.png" alt="combat">
-            <img class="img_type" src="./assets/types/dragon.png" alt="dragon">
-            <img class="img_type" src="./assets/types/eau.png" alt="eau">
-            <img class="img_type" src="./assets/types/electrik.png" alt="electrik">
-            <img class="img_type" src="./assets/types/fee.png" alt="fee">
-            <img class="img_type" src="./assets/types/feu.png" alt="feu">
-            <img class="img_type" src="./assets/types/glace.png" alt="glace">
-            <img class="img_type" src="./assets/types/insecte.png" alt="insecte">
-            <img class="img_type" src="./assets/types/normal.png" alt="normal">
-            <img class="img_type" src="./assets/types/plante.png" alt="plante">
-            <img class="img_type" src="./assets/types/poison.png" alt="poison">
-            <img class="img_type" src="./assets/types/psy.png" alt="psy">
-            <img class="img_type" src="./assets/types/roche.png" alt="roche">
-            <img class="img_type" src="./assets/types/sol.png" alt="sol">
-            <img class="img_type" src="./assets/types/spectre.png" alt="spectre">
-            <img class="img_type" src="./assets/types/tenebres.png" alt="tenebres">
-            <img class="img_type" src="./assets/types/vol.png" alt="vol">
+        <form id="filters__form" method="PUT">
+          <!-- recherche directe -->
+          <div class="filters__input-group">
+            <label for="num_pokemon" class="mb-4">Numéro du Pokemon</label>
+            <input type="number"  min="1" max="1017" id="num"/>
           </div>
+          <div class="filters__input-group">
+            <label for="name_pokemon" class="mb-4">Nom du Pokemon</label>
+            <input type="text" id="name"/>
+          </div>
+          <!-- état de capture -->
+          <div class="fitlers__capture-state">
+            <div class="filters__input-group">
+              <input type="radio" name="capture-state" id="captured-all" value="all" checked/>
+              <label for="captured-all">Tous</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="radio" name="capture-state" id="captured-true" value="true"/>
+              <label for="captured-true">Capturés uniquement</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="radio" name="capture-state" id="captured-false" value="false"/>
+              <label for="captured-false">Non capturés uniquement</label>
+            </div>
+          </div>
+          <!-- generation -->
+          <div class="filters__generation">
+            <div class="filters__input-group">
+              <input type="checkbox" value="1" id="gen1"/>
+              <label for="gen1">1G</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="2" id="gen2"/>
+              <label for="gen2">2G</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="3" id="gen3"/>
+              <label for="gen3">3G</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="4" id="gen4"/>
+              <label for="gen4">4G</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="5" id="gen5"/>
+              <label for="gen5">5G</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="6" id="gen6"/>
+              <label for="gen6">6G</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="7" id="gen7"/>
+              <label for="gen7">7G</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="8" id="gen8"/>
+              <label for="gen8">8G</label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="9" id="gen9"/>
+              <label for="gen9">9G</label>
+            </div>
+          </div>
+          <!-- types -->
+          <div class="filters__types">
+            <div class="filters__input-group">
+              <input type="checkbox" value="acier" id="type-acier"/>
+              <label for="type-acier"><img class="img_type" src="./assets/types/acier.png" alt="acier"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="combat" id="type-combat"/>
+              <label for="type-combat"><img class="img_type" src="./assets/types/combat.png" alt="combat"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="dragon" id="type-dragon"/>
+              <label for="type-dragon"><img class="img_type" src="./assets/types/dragon.png" alt="dragon"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="eau" id="type-eau"/>
+              <label for="type-eau"><img class="img_type" src="./assets/types/eau.png" alt="eau"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="electrik" id="type-electrik"/>
+              <label for="type-electrik"><img class="img_type" src="./assets/types/electrik.png" alt="electrik"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="fee" id="type-fee"/>
+              <label for="type-fee"><img class="img_type" src="./assets/types/fee.png" alt="fee"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="feu" id="type-feu"/>
+              <label for="type-feu"><img class="img_type" src="./assets/types/feu.png" alt="feu"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="glace" id="type-glace"/>
+              <label for="type-glace"><img class="img_type" src="./assets/types/glace.png" alt="glace"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="insecte" id="type-insecte"/>
+              <label for="type-insecte"><img class="img_type" src="./assets/types/insecte.png" alt="insecte"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="normal" id="type-normal"/>
+              <label for="type-normal"><img class="img_type" src="./assets/types/normal.png" alt="normal"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="plante" id="type-plante"/>
+              <label for="type-plante"><img class="img_type" src="./assets/types/plante.png" alt="plante"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="poison" id="type-poison"/>
+              <label for="type-poison"><img class="img_type" src="./assets/types/poison.png" alt="poison"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="psy" id="type-psy"/>
+              <label for="type-psy"><img class="img_type" src="./assets/types/psy.png" alt="psy"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="roche" id="type-roche"/>
+              <label for="type-roche"><img class="img_type" src="./assets/types/roche.png" alt="roche"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="sol" id="type-sol"/>
+              <label for="type-sol"><img class="img_type" src="./assets/types/sol.png" alt="sol"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="spectre" id="type-spectre"/>
+              <label for="type-spectre"><img class="img_type" src="./assets/types/spectre.png" alt="spectre"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="tenebres" id="type-tenebres"/>
+              <label for="type-tenebres"><img class="img_type" src="./assets/types/tenebres.png" alt="tenebres"></label>
+            </div>
+            <div class="filters__input-group">
+              <input type="checkbox" value="vol" id="type-vol"/>
+              <label for="type-vol"><img class="img_type" src="./assets/types/vol.png" alt="vol"></label>
+            </div>
+          </div>
+          <button type="submit" class="filters__button"><i class="fa-solid fa-filter"></i>Filtrer</button>
         </form>
+        <button id="clear-filters" class="filters__button --clear --hidden"><i class="fa-solid fa-filter-circle-xmark"></i>Supprimer les filtres</button>
       </div>
       <button id="aside__toggle-button" class="button--aside">
         <i class="fa-solid fa-angle-right"></i>

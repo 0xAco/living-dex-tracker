@@ -4,6 +4,7 @@
   --primary-color--lighter: hsl(207, 44%, 59%);
   --card-hover-color: rgb(173, 213, 232);
   --background-color: rgb(243, 247, 249);
+  --warning-color: brown;
 }
 
 * {
@@ -91,11 +92,18 @@ aside select {
 }
 
 aside input {
-  margin-top: -16px;
   outline: none;
   border: none;
   border-radius: 6px;
   margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"] {
+  margin-top: 4px;
+  background: var(--secondary-color);
+  padding: 4px 12px;
+  border-radius: 99px;
+  font-size: 12px;
 }
 
 aside label {
@@ -107,7 +115,7 @@ aside .img_type {
   border-radius: 99px;
 }
 
-aside .img-container {
+aside .filters__types {
   padding: 10px 0;
   margin: 0 8px;
   border-radius: 8px;
@@ -115,10 +123,32 @@ aside .img-container {
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px 12px;
+}
 
-  :hover {
-    cursor: pointer;
+aside .filters__types,
+aside .filters__generation {
+  :hover { cursor: pointer; }
+}
+
+.fitlers__capture-state {
+  & .filters__input-group {
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    & input, & label {
+      margin-right: 4px;
+      cursor: pointer;
+    }
   }
+}
+
+.filters__input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & input { margin: 0; }
 }
 
 .button--aside {
@@ -158,6 +188,50 @@ aside .img-container {
   &:hover {
     background-color: var(--primary-color--lighter);
     transform: scaleX(.9);
+  }
+}
+
+.filters__generation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 12px;
+
+  & .filters__input-group { 
+    flex-direction: initial;
+
+    & input { margin-right: 3px; }
+  }
+}
+
+.filters__button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: solid 1px var(--secondary-color);
+  cursor: pointer;
+  outline: none;
+  border-radius: 999px;
+  height: 48px;
+  width: 80%;
+  margin-top: 20px;
+  padding: 0 24px 0 16px;
+  font-size: 16px;
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  & i { margin-right: 8px; }
+}
+
+#clear-filters {
+  background-color: var(--warning-color);
+  color: white;
+
+  &:hover {
+    color: var(--warning-color);
+    background-color: white;
   }
 }
 
@@ -327,4 +401,8 @@ aside .img-container {
 
 .--hidden {
   display: none;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
 }

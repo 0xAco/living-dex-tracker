@@ -2,11 +2,14 @@
 let main;
 let isShinyDisplay = false;
 let isAsideVisible = false;
+let isFilterActive = false;
 let exportButton;
 let switchDisplay;
 let alertSaveData;
 let asideToggle;
 let asideElement;
+let filtersForm;
+let clearFiltersBtn;
 
 // retrieve DOM elements
 function getDOMelements() {
@@ -16,6 +19,8 @@ function getDOMelements() {
   alertSaveData = document.querySelector('#data_saved');
   asideToggle = document.querySelector('#aside__toggle-button');
   asideElement = document.querySelector('.aside');
+  filtersForm = document.querySelector('#filters__form');
+  clearFiltersBtn = document.querySelector('#clear-filters');
 }
 
 // sets event listeners for static DOM
@@ -23,6 +28,8 @@ function setEventsListeners() {
   exportButton.addEventListener('click', exportData);
   switchDisplay.addEventListener('click', switchToOtherDisplay);
   asideToggle.addEventListener('click', toggleAside);
+  filtersForm.addEventListener('submit', filterPokemons);
+  clearFiltersBtn.addEventListener('click', clearFilters);
 }
 
 // exports the data as a JSON
@@ -99,6 +106,52 @@ function onCardClick(event) {
   check.click();
 }
 
+function clearFilters() {
+  document.querySelector('#num').value = null;
+  document.querySelector('#name').value = '';
+  document.querySelector('#captured-all').checked = true;
+  for (input of document.querySelectorAll('.filters__generation input[checked]'))
+    input.checked = false;
+  for (input of document.querySelectorAll('.filters__types input[checked]'))
+    input.checked = false;
+
+  isFilterActive = false;
+  updateClearFilters();
+  createPokemon();
+}
+
+function filterPokemons(event) {
+  event.preventDefault();
+  inpouts = event.target.elements;
+
+  const filters = {
+    num: parseInt(inpouts.num.value),
+    name: inpouts.name.value.toLowerCase(),
+    captureState: '',
+    generations: [],
+    types: []
+  }
+
+  for(inpout of inpouts) {
+    if (inpout.id.includes('gen') && inpout.checked) 
+      filters.generations.push(parseInt(inpout.value));
+    else if (inpout.id.includes('type') && inpout.checked)
+      filters.types.push(inpout.value.toLowerCase());
+    else if (inpout.id.includes('captured') && inpout.checked)
+      filters.captureState = inpout.value;
+  }
+
+  isFilterActive = true;
+  updateClearFilters();
+  createPokemon(filters);
+}
+
+function updateClearFilters() {
+  isFilterActive ?
+    clearFiltersBtn.classList.remove('--hidden') :
+    clearFiltersBtn.classList.add('--hidden');
+}
+
 function saveData(data) {
   const itemName = 'pokemonData' + (isShinyDisplay ? '-shiny' : '');
   localStorage.setItem(itemName, JSON.stringify(data));
@@ -110,14 +163,43 @@ function loadData() {
 }
 
 // create every pokemon
-function createPokemon() {
+function createPokemon(filters) {
   let previousGen;
   let previousSection;
   let currentGen;
 
+  main.innerHTML = '';
   const existingData = loadData(isShinyDisplay);
 
-  for(pokemon of pokedex) {
+  let filteredPokedex = pokedex;
+  if (filters) {
+    filteredPokedex = [];
+    for (pokemon of pokedex) {
+      const internalid = `${pokemon.id}+${pokemon.namefr}`;
+      let numTest = !filters.num || pokemon.id === filters.num;
+      let nameTest = filters.name === '' || pokemon.namefr.toLowerCase().includes(filters.name) || pokemon.nameen.toLowerCase().includes(filters.name);
+      let genTest = filters.generations.length === 0 || filters.generations.indexOf(pokemon.gen) > -1;
+      let typeTest = filters.types.length === 0;
+      let captureTest = filters.captureState === 'all';
+      if (!typeTest) for (type of pokemon.types) {
+        if (filters.types.includes(type.toLowerCase())) {
+          typeTest = true;
+          break;
+        }
+      }
+      if (!captureTest) {
+        if (filters.captureState === 'true')
+          captureTest = existingData.findIndex(pok => pok.internalid === internalid) > -1;
+        else
+          captureTest = existingData.findIndex(pok => pok.internalid === internalid) <= -1;
+      }
+
+      if (numTest && nameTest && genTest && typeTest && captureTest)
+        filteredPokedex.push(pokemon);
+    }
+  }
+
+  for(pokemon of filteredPokedex) {
     const internalid = `${pokemon.id}+${pokemon.namefr}`;
 
     // créations des sections pour les générations
