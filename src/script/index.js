@@ -142,17 +142,18 @@ function createPokemon() {
     }
 
     // ajout des images
-    const div = document.createElement('div');
+    const card = document.createElement('div');
     const img = document.createElement('img');
     const imgshiny = document.createElement('img');
     const input = document.createElement('input');
+    const infos = document.createElement('div')
 
     let check = '';
     if (existingData && existingData.some(mon => mon.internalid === internalid)) check = 'checked';
     // card div
-    div.classList.add('pokemon__card');
-    div.id = `div+${internalid}`;
-    div.addEventListener('click', onCardClick);
+    card.classList.add('pokemon__card');
+    card.id = `div+${internalid}`;
+    card.addEventListener('click', onCardClick);
     // images
     img.src = pokemon.sprite;
     img.alt = pokemon.namefr;
@@ -164,6 +165,9 @@ function createPokemon() {
     imgshiny.classList.add('pokemon__img', '--shiny', '--hidden');
     if (!check) imgshiny.classList.add('--shadow');
     imgshiny.dataset.internalid = internalid;
+    // infos pokémon
+    infos.innerHTML = `<span class="pokemon__id">${pokemon.id}</span><span>${pokemon.namefr}</span>`;
+    infos.classList.add('infos__container');
     // checkbox
     input.type = 'checkbox';
     input.id = internalid;
@@ -172,10 +176,11 @@ function createPokemon() {
     input.checked = check;
     input.addEventListener('change', updateShadowEffect);
     // append everything
-    div.appendChild(img);
-    div.appendChild(imgshiny);
-    div.appendChild(input);
-    previousSection.appendChild(div);
+    card.appendChild(img);
+    card.appendChild(imgshiny);
+    card.appendChild(input);
+    card.appendChild(infos);
+    previousSection.appendChild(card);
   }
 }
 
