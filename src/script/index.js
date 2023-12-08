@@ -2,12 +2,14 @@
 let main;
 let isShinyDisplay = false;
 let isAsideVisible = false;
+let isFilterActive = false;
 let exportButton;
 let switchDisplay;
 let alertSaveData;
 let asideToggle;
 let asideElement;
 let filtersForm;
+let clearFiltersBtn;
 
 // retrieve DOM elements
 function getDOMelements() {
@@ -18,6 +20,7 @@ function getDOMelements() {
   asideToggle = document.querySelector('#aside__toggle-button');
   asideElement = document.querySelector('.aside');
   filtersForm = document.querySelector('#filters__form');
+  clearFiltersBtn = document.querySelector('#clear-filters');
 }
 
 // sets event listeners for static DOM
@@ -26,6 +29,7 @@ function setEventsListeners() {
   switchDisplay.addEventListener('click', switchToOtherDisplay);
   asideToggle.addEventListener('click', toggleAside);
   filtersForm.addEventListener('submit', filterPokemons);
+  clearFiltersBtn.addEventListener('click', clearFilters);
 }
 
 // exports the data as a JSON
@@ -102,6 +106,20 @@ function onCardClick(event) {
   check.click();
 }
 
+function clearFilters() {
+  document.querySelector('#num').value = null;
+  document.querySelector('#name').value = '';
+  document.querySelector('#captured-all').checked = true;
+  for (input of document.querySelectorAll('.filters__generation input[checked]'))
+    input.checked = false;
+  for (input of document.querySelectorAll('.filters__types input[checked]'))
+    input.checked = false;
+
+  isFilterActive = false;
+  updateClearFilters();
+  createPokemon();
+}
+
 function filterPokemons(event) {
   event.preventDefault();
   inpouts = event.target.elements;
@@ -123,7 +141,15 @@ function filterPokemons(event) {
       filters.captureState = inpout.value;
   }
 
+  isFilterActive = true;
+  updateClearFilters();
   createPokemon(filters);
+}
+
+function updateClearFilters() {
+  isFilterActive ?
+    clearFiltersBtn.classList.remove('--hidden') :
+    clearFiltersBtn.classList.add('--hidden');
 }
 
 function saveData(data) {
@@ -142,6 +168,7 @@ function createPokemon(filters) {
   let previousSection;
   let currentGen;
 
+  main.innerHTML = '';
   const existingData = loadData(isShinyDisplay);
 
   let filteredPokedex = pokedex;
@@ -166,12 +193,10 @@ function createPokemon(filters) {
         else
           captureTest = existingData.findIndex(pok => pok.internalid === internalid) <= -1;
       }
-      
+
       if (numTest && nameTest && genTest && typeTest && captureTest)
         filteredPokedex.push(pokemon);
     }
-
-    main.innerHTML = '';
   }
 
   for(pokemon of filteredPokedex) {

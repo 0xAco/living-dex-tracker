@@ -4,6 +4,7 @@
   --primary-color--lighter: hsl(207, 44%, 59%);
   --card-hover-color: rgb(173, 213, 232);
   --background-color: rgb(243, 247, 249);
+  --warning-color: brown;
 }
 
 * {
@@ -114,7 +115,7 @@ aside .img_type {
   border-radius: 99px;
 }
 
-aside .types-container {
+aside .filters__types {
   padding: 10px 0;
   margin: 0 8px;
   border-radius: 8px;
@@ -124,7 +125,7 @@ aside .types-container {
   gap: 8px 12px;
 }
 
-aside .types-container,
+aside .filters__types,
 aside .filters__generation {
   :hover { cursor: pointer; }
 }
@@ -222,6 +223,16 @@ aside .filters__generation {
     color: var(--secondary-color);
   }
   & i { margin-right: 8px; }
+}
+
+#clear-filters {
+  background-color: var(--warning-color);
+  color: white;
+
+  &:hover {
+    color: var(--warning-color);
+    background-color: white;
+  }
 }
 
 .alert {
