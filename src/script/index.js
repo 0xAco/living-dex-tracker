@@ -244,8 +244,12 @@ function createPokemon(filters) {
     img.dataset.internalid = internalid;
     imgshiny.src = pokemon.spriteshiny;
     imgshiny.alt = pokemon.namefr + ' shiny';
-    imgshiny.classList.add('pokemon__img', '--shiny', '--hidden');
+    imgshiny.classList.add('pokemon__img', '--shiny');
     if (!check) imgshiny.classList.add('--shadow');
+    if (isShinyDisplay)
+      img.classList.add('--hidden');
+    else
+      imgshiny.classList.add('--hidden');
     imgshiny.dataset.internalid = internalid;
     // infos pokémon
     infos.innerHTML = `<span class="pokemon__id">${pokemon.id}</span><span>${pokemon.namefr}</span>`;
