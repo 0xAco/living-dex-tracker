@@ -10,6 +10,7 @@ let asideToggle;
 let asideElement;
 let filtersForm;
 let clearFiltersBtn;
+let filterTypeInputs;
 
 // retrieve DOM elements
 function getDOMelements() {
@@ -21,6 +22,7 @@ function getDOMelements() {
   asideElement = document.querySelector('.aside');
   filtersForm = document.querySelector('#filters__form');
   clearFiltersBtn = document.querySelector('#clear-filters');
+  filterTypeInputs = document.querySelectorAll('.filters__types input');
 }
 
 // sets event listeners for static DOM
@@ -30,6 +32,17 @@ function setEventsListeners() {
   asideToggle.addEventListener('click', toggleAside);
   filtersForm.addEventListener('submit', filterPokemons);
   clearFiltersBtn.addEventListener('click', clearFilters);
+  
+  for (input of filterTypeInputs) {
+    input.addEventListener('change', updateTypeFilterEffect);
+  }
+}
+
+function updateTypeFilterEffect(event) {
+  const typeInput = event.target;
+  const typeLabel = typeInput.nextElementSibling;
+  if (typeInput.checked) typeLabel.classList.remove('--shadow--types');
+  else typeLabel.classList.add('--shadow--types');
 }
 
 // exports the data as a JSON

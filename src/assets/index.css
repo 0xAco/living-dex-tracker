@@ -111,7 +111,7 @@ aside label {
 }
 
 aside .img_type {
-  border: solid 1px var(--background-color);
+  border: solid 2px var(--background-color);
   border-radius: 99px;
 }
 
@@ -123,6 +123,11 @@ aside .filters__types {
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px 12px;
+
+  & input {
+    position: absolute;
+    opacity: 0;
+  }
 }
 
 aside .filters__types,
@@ -366,6 +371,13 @@ aside .filters__generation {
 .--shadow {
   filter: grayscale(1) brightness(50%);
   opacity: 70%;
+}
+
+.--shadow--types {
+  filter: grayscale(.5) brightness(70%);
+  opacity: 70%;
+  
+  & img { border-color: transparent; }
 }
 
 .pokemon__checkbox {
