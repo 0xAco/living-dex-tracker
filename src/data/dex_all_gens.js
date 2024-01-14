@@ -6,7 +6,7 @@ const pokedex = [
     "namefr": "Bulbizarre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bulbasaur.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bulbasaur.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -15,7 +15,7 @@ const pokedex = [
     "namefr": "Herbizarre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ivysaur.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ivysaur.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -24,7 +24,7 @@ const pokedex = [
     "namefr": "Florizarre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/venusaur.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/venusaur.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -51,7 +51,7 @@ const pokedex = [
     "namefr": "Dracaufeu",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/charizard.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/charizard.png",
-    "types": [ "Feu, Vol" ]
+    "types": [ "Feu", "Vol" ]
   },
   {
     "gen": 1,
@@ -105,7 +105,7 @@ const pokedex = [
     "namefr": "Papilusion",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/butterfree.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/butterfree.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 1,
@@ -114,7 +114,7 @@ const pokedex = [
     "namefr": "Aspicot",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/weedle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/weedle.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 1,
@@ -123,7 +123,7 @@ const pokedex = [
     "namefr": "Coconfort",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kakuna.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kakuna.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 1,
@@ -132,7 +132,7 @@ const pokedex = [
     "namefr": "Dardargnan",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/beedrill.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/beedrill.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 1,
@@ -141,7 +141,7 @@ const pokedex = [
     "namefr": "Roucool",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pidgey.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pidgey.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 1,
@@ -150,7 +150,7 @@ const pokedex = [
     "namefr": "Roucoups",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pidgeotto.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pidgeotto.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 1,
@@ -159,7 +159,7 @@ const pokedex = [
     "namefr": "Roucarnage",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pidgeot.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pidgeot.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 1,
@@ -177,7 +177,7 @@ const pokedex = [
     "namefr": "Rattata (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rattata-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rattata-alola.png",
-    "types": [ "Ténèbres, Normal" ]
+    "types": [ "Ténèbres", "Normal" ]
   },
   {
     "gen": 1,
@@ -195,7 +195,7 @@ const pokedex = [
     "namefr": "Rattatac (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/raticate-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/raticate-alola.png",
-    "types": [ "Ténèbres, Normal" ]
+    "types": [ "Ténèbres", "Normal" ]
   },
   {
     "gen": 1,
@@ -204,7 +204,7 @@ const pokedex = [
     "namefr": "Piafabec",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/spearow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/spearow.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 1,
@@ -213,7 +213,7 @@ const pokedex = [
     "namefr": "Rapasdepic",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/fearow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/fearow.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 1,
@@ -258,7 +258,7 @@ const pokedex = [
     "namefr": "Raichu (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/raichu-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/raichu-alola.png",
-    "types": [ "Électrik, Psy" ]
+    "types": [ "Électrik", "Psy" ]
   },
   {
     "gen": 1,
@@ -276,7 +276,7 @@ const pokedex = [
     "namefr": "Sabelette (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sandshrew-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sandshrew-alola.png",
-    "types": [ "Glace, Acier" ]
+    "types": [ "Glace", "Acier" ]
   },
   {
     "gen": 1,
@@ -294,7 +294,7 @@ const pokedex = [
     "namefr": "Sablaireau (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sandslash-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sandslash-alola.png",
-    "types": [ "Glace, Acier" ]
+    "types": [ "Glace", "Acier" ]
   },
   {
     "gen": 1,
@@ -321,7 +321,7 @@ const pokedex = [
     "namefr": "Nidoqueen",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/nidoqueen.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/nidoqueen.png",
-    "types": [ "Poison, Sol" ]
+    "types": [ "Poison", "Sol" ]
   },
   {
     "gen": 1,
@@ -348,7 +348,7 @@ const pokedex = [
     "namefr": "Nidoking",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/nidoking.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/nidoking.png",
-    "types": [ "Poison, Sol" ]
+    "types": [ "Poison", "Sol" ]
   },
   {
     "gen": 1,
@@ -402,7 +402,7 @@ const pokedex = [
     "namefr": "Feunard (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ninetales-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ninetales-alola.png",
-    "types": [ "Glace, Fée" ]
+    "types": [ "Glace", "Fée" ]
   },
   {
     "gen": 1,
@@ -411,7 +411,7 @@ const pokedex = [
     "namefr": "Rondoudou",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/jigglypuff.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/jigglypuff.png",
-    "types": [ "Normal, Fée" ]
+    "types": [ "Normal", "Fée" ]
   },
   {
     "gen": 1,
@@ -420,7 +420,7 @@ const pokedex = [
     "namefr": "Grodoudou",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wigglytuff.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wigglytuff.png",
-    "types": [ "Normal, Fée" ]
+    "types": [ "Normal", "Fée" ]
   },
   {
     "gen": 1,
@@ -429,7 +429,7 @@ const pokedex = [
     "namefr": "Nosferapti",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zubat.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zubat.png",
-    "types": [ "Poison, Vol" ]
+    "types": [ "Poison", "Vol" ]
   },
   {
     "gen": 1,
@@ -438,7 +438,7 @@ const pokedex = [
     "namefr": "Nosferalto",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/golbat.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/golbat.png",
-    "types": [ "Poison, Vol" ]
+    "types": [ "Poison", "Vol" ]
   },
   {
     "gen": 1,
@@ -447,7 +447,7 @@ const pokedex = [
     "namefr": "Mystherbe",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/oddish.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/oddish.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -456,7 +456,7 @@ const pokedex = [
     "namefr": "Ortide",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gloom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gloom.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -465,7 +465,7 @@ const pokedex = [
     "namefr": "Rafflesia",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/vileplume.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/vileplume.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -474,7 +474,7 @@ const pokedex = [
     "namefr": "Paras",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/paras.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/paras.png",
-    "types": [ "Insecte, Plante" ]
+    "types": [ "Insecte", "Plante" ]
   },
   {
     "gen": 1,
@@ -483,7 +483,7 @@ const pokedex = [
     "namefr": "Parasect",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/parasect.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/parasect.png",
-    "types": [ "Insecte, Plante" ]
+    "types": [ "Insecte", "Plante" ]
   },
   {
     "gen": 1,
@@ -492,7 +492,7 @@ const pokedex = [
     "namefr": "Mimitoss",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/venonat.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/venonat.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 1,
@@ -501,7 +501,7 @@ const pokedex = [
     "namefr": "Aéromite",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/venomoth.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/venomoth.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 1,
@@ -519,7 +519,7 @@ const pokedex = [
     "namefr": "Taupiqueur (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/diglett-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/diglett-alola.png",
-    "types": [ "Sol, Acier" ]
+    "types": [ "Sol", "Acier" ]
   },
   {
     "gen": 1,
@@ -537,7 +537,7 @@ const pokedex = [
     "namefr": "Triopikeur (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dugtrio-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dugtrio-alola.png",
-    "types": [ "Sol, Acier" ]
+    "types": [ "Sol", "Acier" ]
   },
   {
     "gen": 1,
@@ -636,7 +636,7 @@ const pokedex = [
     "namefr": "Caninos (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/growlithe-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/growlithe-hisui.png",
-    "types": [ "Feu, Roche" ]
+    "types": [ "Feu", "Roche" ]
   },
   {
     "gen": 1,
@@ -654,7 +654,7 @@ const pokedex = [
     "namefr": "Arcanin (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/arcanine-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/arcanine-hisui.png",
-    "types": [ "Feu, Roche" ]
+    "types": [ "Feu", "Roche" ]
   },
   {
     "gen": 1,
@@ -681,7 +681,7 @@ const pokedex = [
     "namefr": "Tartard",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/poliwrath.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/poliwrath.png",
-    "types": [ "Eau, Combat" ]
+    "types": [ "Eau", "Combat" ]
   },
   {
     "gen": 1,
@@ -744,7 +744,7 @@ const pokedex = [
     "namefr": "Chétiflor",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bellsprout.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bellsprout.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -753,7 +753,7 @@ const pokedex = [
     "namefr": "Boustiflor",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/weepinbell.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/weepinbell.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -762,7 +762,7 @@ const pokedex = [
     "namefr": "Empiflor",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/victreebel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/victreebel.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 1,
@@ -771,7 +771,7 @@ const pokedex = [
     "namefr": "Tentacool",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tentacool.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tentacool.png",
-    "types": [ "Eau, Poison" ]
+    "types": [ "Eau", "Poison" ]
   },
   {
     "gen": 1,
@@ -780,7 +780,7 @@ const pokedex = [
     "namefr": "Tentacruel",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tentacruel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tentacruel.png",
-    "types": [ "Eau, Poison" ]
+    "types": [ "Eau", "Poison" ]
   },
   {
     "gen": 1,
@@ -789,7 +789,7 @@ const pokedex = [
     "namefr": "Racaillou",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/geodude.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/geodude.png",
-    "types": [ "Roche, Sol" ]
+    "types": [ "Roche", "Sol" ]
   },
   {
     "gen": 1,
@@ -798,7 +798,7 @@ const pokedex = [
     "namefr": "Racaillou (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/geodude-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/geodude-alola.png",
-    "types": [ "Roche, Électrik" ]
+    "types": [ "Roche", "Électrik" ]
   },
   {
     "gen": 1,
@@ -807,7 +807,7 @@ const pokedex = [
     "namefr": "Gravalanch",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/graveler.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/graveler.png",
-    "types": [ "Roche, Sol" ]
+    "types": [ "Roche", "Sol" ]
   },
   {
     "gen": 1,
@@ -816,7 +816,7 @@ const pokedex = [
     "namefr": "Gravalanch (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/graveler-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/graveler-alola.png",
-    "types": [ "Roche, Électrik" ]
+    "types": [ "Roche", "Électrik" ]
   },
   {
     "gen": 1,
@@ -825,7 +825,7 @@ const pokedex = [
     "namefr": "Grolem",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/golem.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/golem.png",
-    "types": [ "Roche, Sol" ]
+    "types": [ "Roche", "Sol" ]
   },
   {
     "gen": 1,
@@ -834,7 +834,7 @@ const pokedex = [
     "namefr": "Grolem (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/golem-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/golem-alola.png",
-    "types": [ "Roche, Électrik" ]
+    "types": [ "Roche", "Électrik" ]
   },
   {
     "gen": 1,
@@ -870,7 +870,7 @@ const pokedex = [
     "namefr": "Galopa (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rapidash-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rapidash-galar.png",
-    "types": [ "Psy, Fée" ]
+    "types": [ "Psy", "Fée" ]
   },
   {
     "gen": 1,
@@ -879,7 +879,7 @@ const pokedex = [
     "namefr": "Ramoloss",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/slowpoke.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/slowpoke.png",
-    "types": [ "Eau, Psy" ]
+    "types": [ "Eau", "Psy" ]
   },
   {
     "gen": 1,
@@ -897,7 +897,7 @@ const pokedex = [
     "namefr": "Flagadoss",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/slowbro.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/slowbro.png",
-    "types": [ "Eau, Psy" ]
+    "types": [ "Eau", "Psy" ]
   },
   {
     "gen": 1,
@@ -906,7 +906,7 @@ const pokedex = [
     "namefr": "Flagadoss (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/slowbro-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/slowbro-galar.png",
-    "types": [ "Poison, Psy" ]
+    "types": [ "Poison", "Psy" ]
   },
   {
     "gen": 1,
@@ -915,7 +915,7 @@ const pokedex = [
     "namefr": "Magnéti",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/magnemite.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/magnemite.png",
-    "types": [ "Électrik, Acier" ]
+    "types": [ "Électrik", "Acier" ]
   },
   {
     "gen": 1,
@@ -924,7 +924,7 @@ const pokedex = [
     "namefr": "Magnéton",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/magneton.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/magneton.png",
-    "types": [ "Électrik, Acier" ]
+    "types": [ "Électrik", "Acier" ]
   },
   {
     "gen": 1,
@@ -933,7 +933,7 @@ const pokedex = [
     "namefr": "Canarticho",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/farfetchd.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/farfetchd.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 1,
@@ -951,7 +951,7 @@ const pokedex = [
     "namefr": "Doduo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/doduo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/doduo.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 1,
@@ -960,7 +960,7 @@ const pokedex = [
     "namefr": "Dodrio",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dodrio.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dodrio.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 1,
@@ -978,7 +978,7 @@ const pokedex = [
     "namefr": "Lamantine",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dewgong.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dewgong.png",
-    "types": [ "Eau, Glace" ]
+    "types": [ "Eau", "Glace" ]
   },
   {
     "gen": 1,
@@ -996,7 +996,7 @@ const pokedex = [
     "namefr": "Tadmorv (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/grimer-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/grimer-alola.png",
-    "types": [ "Poison, Ténèbres" ]
+    "types": [ "Poison", "Ténèbres" ]
   },
   {
     "gen": 1,
@@ -1014,7 +1014,7 @@ const pokedex = [
     "namefr": "Grotadmorv (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/muk-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/muk-alola.png",
-    "types": [ "Poison, Ténèbres" ]
+    "types": [ "Poison", "Ténèbres" ]
   },
   {
     "gen": 1,
@@ -1032,7 +1032,7 @@ const pokedex = [
     "namefr": "Crustabri",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/cloyster.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/cloyster.png",
-    "types": [ "Eau, Glace" ]
+    "types": [ "Eau", "Glace" ]
   },
   {
     "gen": 1,
@@ -1041,7 +1041,7 @@ const pokedex = [
     "namefr": "Fantominus",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gastly.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gastly.png",
-    "types": [ "Spectre, Poison" ]
+    "types": [ "Spectre", "Poison" ]
   },
   {
     "gen": 1,
@@ -1050,7 +1050,7 @@ const pokedex = [
     "namefr": "Spectrum",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/haunter.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/haunter.png",
-    "types": [ "Spectre, Poison" ]
+    "types": [ "Spectre", "Poison" ]
   },
   {
     "gen": 1,
@@ -1059,7 +1059,7 @@ const pokedex = [
     "namefr": "Ectoplasma",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gengar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gengar.png",
-    "types": [ "Spectre, Poison" ]
+    "types": [ "Spectre", "Poison" ]
   },
   {
     "gen": 1,
@@ -1068,7 +1068,7 @@ const pokedex = [
     "namefr": "Onix",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/onix.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/onix.png",
-    "types": [ "Roche, Sol" ]
+    "types": [ "Roche", "Sol" ]
   },
   {
     "gen": 1,
@@ -1122,7 +1122,7 @@ const pokedex = [
     "namefr": "Voltorbe (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/voltorb-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/voltorb-hisui.png",
-    "types": [ "Électrik, Plante" ]
+    "types": [ "Électrik", "Plante" ]
   },
   {
     "gen": 1,
@@ -1140,7 +1140,7 @@ const pokedex = [
     "namefr": "Électrode (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/electrode-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/electrode-hisui.png",
-    "types": [ "Électrik, Plante" ]
+    "types": [ "Électrik", "Plante" ]
   },
   {
     "gen": 1,
@@ -1149,7 +1149,7 @@ const pokedex = [
     "namefr": "Noeunoeuf",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/exeggcute.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/exeggcute.png",
-    "types": [ "Plante, Psy" ]
+    "types": [ "Plante", "Psy" ]
   },
   {
     "gen": 1,
@@ -1158,7 +1158,7 @@ const pokedex = [
     "namefr": "Noadkoko",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/exeggutor.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/exeggutor.png",
-    "types": [ "Plante, Psy" ]
+    "types": [ "Plante", "Psy" ]
   },
   {
     "gen": 1,
@@ -1167,7 +1167,7 @@ const pokedex = [
     "namefr": "Noadkoko (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/exeggutor-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/exeggutor-alola.png",
-    "types": [ "Plante, Dragon" ]
+    "types": [ "Plante", "Dragon" ]
   },
   {
     "gen": 1,
@@ -1194,7 +1194,7 @@ const pokedex = [
     "namefr": "Ossatueur (Forme d'Alola)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/marowak-alola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/marowak-alola.png",
-    "types": [ "Feu, Spectre" ]
+    "types": [ "Feu", "Spectre" ]
   },
   {
     "gen": 1,
@@ -1248,7 +1248,7 @@ const pokedex = [
     "namefr": "Smogogo (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/weezing-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/weezing-galar.png",
-    "types": [ "Poison, Fée" ]
+    "types": [ "Poison", "Fée" ]
   },
   {
     "gen": 1,
@@ -1257,7 +1257,7 @@ const pokedex = [
     "namefr": "Rhinocorne",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rhyhorn.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rhyhorn.png",
-    "types": [ "Sol, Roche" ]
+    "types": [ "Sol", "Roche" ]
   },
   {
     "gen": 1,
@@ -1266,7 +1266,7 @@ const pokedex = [
     "namefr": "Rhinoféros",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rhydon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rhydon.png",
-    "types": [ "Sol, Roche" ]
+    "types": [ "Sol", "Roche" ]
   },
   {
     "gen": 1,
@@ -1347,7 +1347,7 @@ const pokedex = [
     "namefr": "Staross",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/starmie.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/starmie.png",
-    "types": [ "Eau, Psy" ]
+    "types": [ "Eau", "Psy" ]
   },
   {
     "gen": 1,
@@ -1356,7 +1356,7 @@ const pokedex = [
     "namefr": "M. Mime",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mrmime.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mrmime.png",
-    "types": [ "Psy, Fée" ]
+    "types": [ "Psy", "Fée" ]
   },
   {
     "gen": 1,
@@ -1365,7 +1365,7 @@ const pokedex = [
     "namefr": "M. Mime (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mrmime-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mrmime-galar.png",
-    "types": [ "Glace, Psy" ]
+    "types": [ "Glace", "Psy" ]
   },
   {
     "gen": 1,
@@ -1374,7 +1374,7 @@ const pokedex = [
     "namefr": "Insécateur",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/scyther.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/scyther.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 1,
@@ -1383,7 +1383,7 @@ const pokedex = [
     "namefr": "Lippoutou",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/jynx.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/jynx.png",
-    "types": [ "Glace, Psy" ]
+    "types": [ "Glace", "Psy" ]
   },
   {
     "gen": 1,
@@ -1437,7 +1437,7 @@ const pokedex = [
     "namefr": "Tauros (Forme de Paldea Race Flamboyante)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tauros-paldeablaze.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tauros-paldeablaze.png",
-    "types": [ "Combat, Feu" ]
+    "types": [ "Combat", "Feu" ]
   },
   {
     "gen": 1,
@@ -1446,7 +1446,7 @@ const pokedex = [
     "namefr": "Tauros (Forme de Paldea Race Aquatique)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tauros-paldeaaqua.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tauros-paldeaaqua.png",
-    "types": [ "Combat, Eau" ]
+    "types": [ "Combat", "Eau" ]
   },
   {
     "gen": 1,
@@ -1464,7 +1464,7 @@ const pokedex = [
     "namefr": "Léviator",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gyarados.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gyarados.png",
-    "types": [ "Eau, Vol" ]
+    "types": [ "Eau", "Vol" ]
   },
   {
     "gen": 1,
@@ -1473,7 +1473,7 @@ const pokedex = [
     "namefr": "Lokhlass",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lapras.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lapras.png",
-    "types": [ "Eau, Glace" ]
+    "types": [ "Eau", "Glace" ]
   },
   {
     "gen": 1,
@@ -1536,7 +1536,7 @@ const pokedex = [
     "namefr": "Amonita",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/omanyte.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/omanyte.png",
-    "types": [ "Roche, Eau" ]
+    "types": [ "Roche", "Eau" ]
   },
   {
     "gen": 1,
@@ -1545,7 +1545,7 @@ const pokedex = [
     "namefr": "Amonistar",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/omastar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/omastar.png",
-    "types": [ "Roche, Eau" ]
+    "types": [ "Roche", "Eau" ]
   },
   {
     "gen": 1,
@@ -1554,7 +1554,7 @@ const pokedex = [
     "namefr": "Kabuto",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kabuto.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kabuto.png",
-    "types": [ "Roche, Eau" ]
+    "types": [ "Roche", "Eau" ]
   },
   {
     "gen": 1,
@@ -1563,7 +1563,7 @@ const pokedex = [
     "namefr": "Kabutops",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kabutops.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kabutops.png",
-    "types": [ "Roche, Eau" ]
+    "types": [ "Roche", "Eau" ]
   },
   {
     "gen": 1,
@@ -1572,7 +1572,7 @@ const pokedex = [
     "namefr": "Ptéra",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/aerodactyl.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/aerodactyl.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 1,
@@ -1590,7 +1590,7 @@ const pokedex = [
     "namefr": "Artikodin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/articuno.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/articuno.png",
-    "types": [ "Glace, Vol" ]
+    "types": [ "Glace", "Vol" ]
   },
   {
     "gen": 1,
@@ -1599,7 +1599,7 @@ const pokedex = [
     "namefr": "Artikodin (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/articuno-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/articuno-galar.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 1,
@@ -1608,7 +1608,7 @@ const pokedex = [
     "namefr": "Électhor",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zapdos.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zapdos.png",
-    "types": [ "Électrik, Vol" ]
+    "types": [ "Électrik", "Vol" ]
   },
   {
     "gen": 1,
@@ -1617,7 +1617,7 @@ const pokedex = [
     "namefr": "Électhor (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zapdos-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zapdos-galar.png",
-    "types": [ "Combat, Vol" ]
+    "types": [ "Combat", "Vol" ]
   },
   {
     "gen": 1,
@@ -1626,7 +1626,7 @@ const pokedex = [
     "namefr": "Sulfura",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/moltres.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/moltres.png",
-    "types": [ "Feu, Vol" ]
+    "types": [ "Feu", "Vol" ]
   },
   {
     "gen": 1,
@@ -1635,7 +1635,7 @@ const pokedex = [
     "namefr": "Sulfura (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/moltres-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/moltres-galar.png",
-    "types": [ "Ténèbres, Vol" ]
+    "types": [ "Ténèbres", "Vol" ]
   },
   {
     "gen": 1,
@@ -1662,7 +1662,7 @@ const pokedex = [
     "namefr": "Dracolosse",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dragonite.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dragonite.png",
-    "types": [ "Dragon, Vol" ]
+    "types": [ "Dragon", "Vol" ]
   },
   {
     "gen": 1,
@@ -1743,7 +1743,7 @@ const pokedex = [
     "namefr": "Typhlosion (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/typhlosion-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/typhlosion-hisui.png",
-    "types": [ "Feu, Spectre" ]
+    "types": [ "Feu", "Spectre" ]
   },
   {
     "gen": 2,
@@ -1797,7 +1797,7 @@ const pokedex = [
     "namefr": "Hoothoot",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hoothoot.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hoothoot.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 2,
@@ -1806,7 +1806,7 @@ const pokedex = [
     "namefr": "Noarfang",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/noctowl.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/noctowl.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 2,
@@ -1815,7 +1815,7 @@ const pokedex = [
     "namefr": "Coxy",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ledyba.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ledyba.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 2,
@@ -1824,7 +1824,7 @@ const pokedex = [
     "namefr": "Coxyclaque",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ledian.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ledian.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 2,
@@ -1833,7 +1833,7 @@ const pokedex = [
     "namefr": "Mimigal",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/spinarak.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/spinarak.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 2,
@@ -1842,7 +1842,7 @@ const pokedex = [
     "namefr": "Migalos",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ariados.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ariados.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 2,
@@ -1851,7 +1851,7 @@ const pokedex = [
     "namefr": "Nostenfer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/crobat.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/crobat.png",
-    "types": [ "Poison, Vol" ]
+    "types": [ "Poison", "Vol" ]
   },
   {
     "gen": 2,
@@ -1860,7 +1860,7 @@ const pokedex = [
     "namefr": "Loupio",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/chinchou.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/chinchou.png",
-    "types": [ "Eau, Électrik" ]
+    "types": [ "Eau", "Électrik" ]
   },
   {
     "gen": 2,
@@ -1869,7 +1869,7 @@ const pokedex = [
     "namefr": "Lanturn",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lanturn.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lanturn.png",
-    "types": [ "Eau, Électrik" ]
+    "types": [ "Eau", "Électrik" ]
   },
   {
     "gen": 2,
@@ -1896,7 +1896,7 @@ const pokedex = [
     "namefr": "Toudoudou",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/igglybuff.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/igglybuff.png",
-    "types": [ "Normal, Fée" ]
+    "types": [ "Normal", "Fée" ]
   },
   {
     "gen": 2,
@@ -1914,7 +1914,7 @@ const pokedex = [
     "namefr": "Togetic",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/togetic.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/togetic.png",
-    "types": [ "Fée, Vol" ]
+    "types": [ "Fée", "Vol" ]
   },
   {
     "gen": 2,
@@ -1923,7 +1923,7 @@ const pokedex = [
     "namefr": "Natu",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/natu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/natu.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 2,
@@ -1932,7 +1932,7 @@ const pokedex = [
     "namefr": "Xatu",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/xatu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/xatu.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 2,
@@ -1977,7 +1977,7 @@ const pokedex = [
     "namefr": "Marill",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/marill.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/marill.png",
-    "types": [ "Eau, Fée" ]
+    "types": [ "Eau", "Fée" ]
   },
   {
     "gen": 2,
@@ -1986,7 +1986,7 @@ const pokedex = [
     "namefr": "Azumarill",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/azumarill.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/azumarill.png",
-    "types": [ "Eau, Fée" ]
+    "types": [ "Eau", "Fée" ]
   },
   {
     "gen": 2,
@@ -2013,7 +2013,7 @@ const pokedex = [
     "namefr": "Granivol",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hoppip.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hoppip.png",
-    "types": [ "Plante, Vol" ]
+    "types": [ "Plante", "Vol" ]
   },
   {
     "gen": 2,
@@ -2022,7 +2022,7 @@ const pokedex = [
     "namefr": "Floravol",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/skiploom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/skiploom.png",
-    "types": [ "Plante, Vol" ]
+    "types": [ "Plante", "Vol" ]
   },
   {
     "gen": 2,
@@ -2031,7 +2031,7 @@ const pokedex = [
     "namefr": "Cotovol",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/jumpluff.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/jumpluff.png",
-    "types": [ "Plante, Vol" ]
+    "types": [ "Plante", "Vol" ]
   },
   {
     "gen": 2,
@@ -2067,7 +2067,7 @@ const pokedex = [
     "namefr": "Yanma",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/yanma.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/yanma.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 2,
@@ -2076,7 +2076,7 @@ const pokedex = [
     "namefr": "Axoloto",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wooper.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wooper.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 2,
@@ -2085,7 +2085,7 @@ const pokedex = [
     "namefr": "Axoloto (Forme de Paldea)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wooper-paldea.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wooper-paldea.png",
-    "types": [ "Poison, Sol" ]
+    "types": [ "Poison", "Sol" ]
   },
   {
     "gen": 2,
@@ -2094,7 +2094,7 @@ const pokedex = [
     "namefr": "Maraiste",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/quagsire.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/quagsire.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 2,
@@ -2121,7 +2121,7 @@ const pokedex = [
     "namefr": "Cornèbre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/murkrow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/murkrow.png",
-    "types": [ "Ténèbres, Vol" ]
+    "types": [ "Ténèbres", "Vol" ]
   },
   {
     "gen": 2,
@@ -2130,7 +2130,7 @@ const pokedex = [
     "namefr": "Roigada",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/slowking.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/slowking.png",
-    "types": [ "Eau, Psy" ]
+    "types": [ "Eau", "Psy" ]
   },
   {
     "gen": 2,
@@ -2139,7 +2139,7 @@ const pokedex = [
     "namefr": "Roigada (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/slowking-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/slowking-galar.png",
-    "types": [ "Poison, Psy" ]
+    "types": [ "Poison", "Psy" ]
   },
   {
     "gen": 2,
@@ -2418,7 +2418,7 @@ const pokedex = [
     "namefr": "Girafarig",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/girafarig.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/girafarig.png",
-    "types": [ "Normal, Psy" ]
+    "types": [ "Normal", "Psy" ]
   },
   {
     "gen": 2,
@@ -2436,7 +2436,7 @@ const pokedex = [
     "namefr": "Foretress",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/forretress.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/forretress.png",
-    "types": [ "Insecte, Acier" ]
+    "types": [ "Insecte", "Acier" ]
   },
   {
     "gen": 2,
@@ -2454,7 +2454,7 @@ const pokedex = [
     "namefr": "Scorplane",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gligar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gligar.png",
-    "types": [ "Sol, Vol" ]
+    "types": [ "Sol", "Vol" ]
   },
   {
     "gen": 2,
@@ -2463,7 +2463,7 @@ const pokedex = [
     "namefr": "Steelix",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/steelix.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/steelix.png",
-    "types": [ "Acier, Sol" ]
+    "types": [ "Acier", "Sol" ]
   },
   {
     "gen": 2,
@@ -2490,7 +2490,7 @@ const pokedex = [
     "namefr": "Qwilfish",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/qwilfish.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/qwilfish.png",
-    "types": [ "Eau, Poison" ]
+    "types": [ "Eau", "Poison" ]
   },
   {
     "gen": 2,
@@ -2499,7 +2499,7 @@ const pokedex = [
     "namefr": "Qwilfish (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/qwilfish-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/qwilfish-hisui.png",
-    "types": [ "Ténèbres, Poison" ]
+    "types": [ "Ténèbres", "Poison" ]
   },
   {
     "gen": 2,
@@ -2508,7 +2508,7 @@ const pokedex = [
     "namefr": "Cizayox",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/scizor.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/scizor.png",
-    "types": [ "Insecte, Acier" ]
+    "types": [ "Insecte", "Acier" ]
   },
   {
     "gen": 2,
@@ -2517,7 +2517,7 @@ const pokedex = [
     "namefr": "Caratroc",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/shuckle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/shuckle.png",
-    "types": [ "Insecte, Roche" ]
+    "types": [ "Insecte", "Roche" ]
   },
   {
     "gen": 2,
@@ -2526,7 +2526,7 @@ const pokedex = [
     "namefr": "Scarhino",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/heracross.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/heracross.png",
-    "types": [ "Insecte, Combat" ]
+    "types": [ "Insecte", "Combat" ]
   },
   {
     "gen": 2,
@@ -2535,7 +2535,7 @@ const pokedex = [
     "namefr": "Farfuret",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sneasel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sneasel.png",
-    "types": [ "Ténèbres, Glace" ]
+    "types": [ "Ténèbres", "Glace" ]
   },
   {
     "gen": 2,
@@ -2544,7 +2544,7 @@ const pokedex = [
     "namefr": "Farfuret (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sneasel-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sneasel-hisui.png",
-    "types": [ "Combat, Poison" ]
+    "types": [ "Combat", "Poison" ]
   },
   {
     "gen": 2,
@@ -2580,7 +2580,7 @@ const pokedex = [
     "namefr": "Volcaropod",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/magcargo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/magcargo.png",
-    "types": [ "Feu, Roche" ]
+    "types": [ "Feu", "Roche" ]
   },
   {
     "gen": 2,
@@ -2589,7 +2589,7 @@ const pokedex = [
     "namefr": "Marcacrin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/swinub.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/swinub.png",
-    "types": [ "Glace, Sol" ]
+    "types": [ "Glace", "Sol" ]
   },
   {
     "gen": 2,
@@ -2598,7 +2598,7 @@ const pokedex = [
     "namefr": "Cochignon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/piloswine.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/piloswine.png",
-    "types": [ "Glace, Sol" ]
+    "types": [ "Glace", "Sol" ]
   },
   {
     "gen": 2,
@@ -2607,7 +2607,7 @@ const pokedex = [
     "namefr": "Corayon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/corsola.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/corsola.png",
-    "types": [ "Eau, Roche" ]
+    "types": [ "Eau", "Roche" ]
   },
   {
     "gen": 2,
@@ -2643,7 +2643,7 @@ const pokedex = [
     "namefr": "Cadoizo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/delibird.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/delibird.png",
-    "types": [ "Glace, Vol" ]
+    "types": [ "Glace", "Vol" ]
   },
   {
     "gen": 2,
@@ -2652,7 +2652,7 @@ const pokedex = [
     "namefr": "Démanta",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mantine.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mantine.png",
-    "types": [ "Eau, Vol" ]
+    "types": [ "Eau", "Vol" ]
   },
   {
     "gen": 2,
@@ -2661,7 +2661,7 @@ const pokedex = [
     "namefr": "Airmure",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/skarmory.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/skarmory.png",
-    "types": [ "Acier, Vol" ]
+    "types": [ "Acier", "Vol" ]
   },
   {
     "gen": 2,
@@ -2670,7 +2670,7 @@ const pokedex = [
     "namefr": "Malosse",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/houndour.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/houndour.png",
-    "types": [ "Ténèbres, Feu" ]
+    "types": [ "Ténèbres", "Feu" ]
   },
   {
     "gen": 2,
@@ -2679,7 +2679,7 @@ const pokedex = [
     "namefr": "Démolosse",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/houndoom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/houndoom.png",
-    "types": [ "Ténèbres, Feu" ]
+    "types": [ "Ténèbres", "Feu" ]
   },
   {
     "gen": 2,
@@ -2688,7 +2688,7 @@ const pokedex = [
     "namefr": "Hyporoi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kingdra.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kingdra.png",
-    "types": [ "Eau, Dragon" ]
+    "types": [ "Eau", "Dragon" ]
   },
   {
     "gen": 2,
@@ -2760,7 +2760,7 @@ const pokedex = [
     "namefr": "Lippouti",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/smoochum.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/smoochum.png",
-    "types": [ "Glace, Psy" ]
+    "types": [ "Glace", "Psy" ]
   },
   {
     "gen": 2,
@@ -2832,7 +2832,7 @@ const pokedex = [
     "namefr": "Embrylex",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/larvitar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/larvitar.png",
-    "types": [ "Roche, Sol" ]
+    "types": [ "Roche", "Sol" ]
   },
   {
     "gen": 2,
@@ -2841,7 +2841,7 @@ const pokedex = [
     "namefr": "Ymphect",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pupitar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pupitar.png",
-    "types": [ "Roche, Sol" ]
+    "types": [ "Roche", "Sol" ]
   },
   {
     "gen": 2,
@@ -2850,7 +2850,7 @@ const pokedex = [
     "namefr": "Tyranocif",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tyranitar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tyranitar.png",
-    "types": [ "Roche, Ténèbres" ]
+    "types": [ "Roche", "Ténèbres" ]
   },
   {
     "gen": 2,
@@ -2859,7 +2859,7 @@ const pokedex = [
     "namefr": "Lugia",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lugia.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lugia.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 2,
@@ -2868,7 +2868,7 @@ const pokedex = [
     "namefr": "Ho-Oh",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hooh.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hooh.png",
-    "types": [ "Feu, Vol" ]
+    "types": [ "Feu", "Vol" ]
   },
   {
     "gen": 2,
@@ -2877,7 +2877,7 @@ const pokedex = [
     "namefr": "Celebi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/celebi.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/celebi.png",
-    "types": [ "Psy, Plante" ]
+    "types": [ "Psy", "Plante" ]
   },
   {
     "gen": 3,
@@ -2922,7 +2922,7 @@ const pokedex = [
     "namefr": "Galifeu",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/combusken.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/combusken.png",
-    "types": [ "Feu, Combat" ]
+    "types": [ "Feu", "Combat" ]
   },
   {
     "gen": 3,
@@ -2931,7 +2931,7 @@ const pokedex = [
     "namefr": "Braségali",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/blaziken.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/blaziken.png",
-    "types": [ "Feu, Combat" ]
+    "types": [ "Feu", "Combat" ]
   },
   {
     "gen": 3,
@@ -2949,7 +2949,7 @@ const pokedex = [
     "namefr": "Flobio",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/marshtomp.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/marshtomp.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 3,
@@ -2958,7 +2958,7 @@ const pokedex = [
     "namefr": "Laggron",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/swampert.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/swampert.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 3,
@@ -2994,7 +2994,7 @@ const pokedex = [
     "namefr": "Zigzaton (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zigzagoon-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zigzagoon-galar.png",
-    "types": [ "Ténèbres, Normal" ]
+    "types": [ "Ténèbres", "Normal" ]
   },
   {
     "gen": 3,
@@ -3012,7 +3012,7 @@ const pokedex = [
     "namefr": "Linéon (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/linoone-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/linoone-galar.png",
-    "types": [ "Ténèbres, Normal" ]
+    "types": [ "Ténèbres", "Normal" ]
   },
   {
     "gen": 3,
@@ -3039,7 +3039,7 @@ const pokedex = [
     "namefr": "Charmillon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/beautifly.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/beautifly.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 3,
@@ -3057,7 +3057,7 @@ const pokedex = [
     "namefr": "Papinox",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dustox.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dustox.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 3,
@@ -3066,7 +3066,7 @@ const pokedex = [
     "namefr": "Nénupiot",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lotad.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lotad.png",
-    "types": [ "Eau, Plante" ]
+    "types": [ "Eau", "Plante" ]
   },
   {
     "gen": 3,
@@ -3075,7 +3075,7 @@ const pokedex = [
     "namefr": "Lombre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lombre.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lombre.png",
-    "types": [ "Eau, Plante" ]
+    "types": [ "Eau", "Plante" ]
   },
   {
     "gen": 3,
@@ -3084,7 +3084,7 @@ const pokedex = [
     "namefr": "Ludicolo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ludicolo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ludicolo.png",
-    "types": [ "Eau, Plante" ]
+    "types": [ "Eau", "Plante" ]
   },
   {
     "gen": 3,
@@ -3102,7 +3102,7 @@ const pokedex = [
     "namefr": "Pifeuil",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/nuzleaf.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/nuzleaf.png",
-    "types": [ "Plante, Ténèbres" ]
+    "types": [ "Plante", "Ténèbres" ]
   },
   {
     "gen": 3,
@@ -3111,7 +3111,7 @@ const pokedex = [
     "namefr": "Tengalice",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/shiftry.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/shiftry.png",
-    "types": [ "Plante, Ténèbres" ]
+    "types": [ "Plante", "Ténèbres" ]
   },
   {
     "gen": 3,
@@ -3120,7 +3120,7 @@ const pokedex = [
     "namefr": "Nirondelle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/taillow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/taillow.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 3,
@@ -3129,7 +3129,7 @@ const pokedex = [
     "namefr": "Hélédelle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/swellow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/swellow.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 3,
@@ -3138,7 +3138,7 @@ const pokedex = [
     "namefr": "Goélise",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wingull.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wingull.png",
-    "types": [ "Eau, Vol" ]
+    "types": [ "Eau", "Vol" ]
   },
   {
     "gen": 3,
@@ -3147,7 +3147,7 @@ const pokedex = [
     "namefr": "Bekipan",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pelipper.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pelipper.png",
-    "types": [ "Eau, Vol" ]
+    "types": [ "Eau", "Vol" ]
   },
   {
     "gen": 3,
@@ -3156,7 +3156,7 @@ const pokedex = [
     "namefr": "Tarsal",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ralts.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ralts.png",
-    "types": [ "Psy, Fée" ]
+    "types": [ "Psy", "Fée" ]
   },
   {
     "gen": 3,
@@ -3165,7 +3165,7 @@ const pokedex = [
     "namefr": "Kirlia",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kirlia.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kirlia.png",
-    "types": [ "Psy, Fée" ]
+    "types": [ "Psy", "Fée" ]
   },
   {
     "gen": 3,
@@ -3174,7 +3174,7 @@ const pokedex = [
     "namefr": "Gardevoir",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gardevoir.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gardevoir.png",
-    "types": [ "Psy, Fée" ]
+    "types": [ "Psy", "Fée" ]
   },
   {
     "gen": 3,
@@ -3183,7 +3183,7 @@ const pokedex = [
     "namefr": "Arakdo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/surskit.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/surskit.png",
-    "types": [ "Insecte, Eau" ]
+    "types": [ "Insecte", "Eau" ]
   },
   {
     "gen": 3,
@@ -3192,7 +3192,7 @@ const pokedex = [
     "namefr": "Maskadra",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/masquerain.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/masquerain.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 3,
@@ -3210,7 +3210,7 @@ const pokedex = [
     "namefr": "Chapignon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/breloom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/breloom.png",
-    "types": [ "Plante, Combat" ]
+    "types": [ "Plante", "Combat" ]
   },
   {
     "gen": 3,
@@ -3246,7 +3246,7 @@ const pokedex = [
     "namefr": "Ningale",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/nincada.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/nincada.png",
-    "types": [ "Insecte, Sol" ]
+    "types": [ "Insecte", "Sol" ]
   },
   {
     "gen": 3,
@@ -3255,7 +3255,7 @@ const pokedex = [
     "namefr": "Ninjask",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ninjask.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ninjask.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 3,
@@ -3264,7 +3264,7 @@ const pokedex = [
     "namefr": "Munja",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/shedinja.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/shedinja.png",
-    "types": [ "Insecte, Spectre" ]
+    "types": [ "Insecte", "Spectre" ]
   },
   {
     "gen": 3,
@@ -3318,7 +3318,7 @@ const pokedex = [
     "namefr": "Azurill",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/azurill.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/azurill.png",
-    "types": [ "Normal, Fée" ]
+    "types": [ "Normal", "Fée" ]
   },
   {
     "gen": 3,
@@ -3354,7 +3354,7 @@ const pokedex = [
     "namefr": "Ténéfix",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sableye.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sableye.png",
-    "types": [ "Ténèbres, Spectre" ]
+    "types": [ "Ténèbres", "Spectre" ]
   },
   {
     "gen": 3,
@@ -3363,7 +3363,7 @@ const pokedex = [
     "namefr": "Mysdibule",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mawile.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mawile.png",
-    "types": [ "Acier, Fée" ]
+    "types": [ "Acier", "Fée" ]
   },
   {
     "gen": 3,
@@ -3372,7 +3372,7 @@ const pokedex = [
     "namefr": "Galekid",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/aron.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/aron.png",
-    "types": [ "Acier, Roche" ]
+    "types": [ "Acier", "Roche" ]
   },
   {
     "gen": 3,
@@ -3381,7 +3381,7 @@ const pokedex = [
     "namefr": "Galegon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lairon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lairon.png",
-    "types": [ "Acier, Roche" ]
+    "types": [ "Acier", "Roche" ]
   },
   {
     "gen": 3,
@@ -3390,7 +3390,7 @@ const pokedex = [
     "namefr": "Galeking",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/aggron.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/aggron.png",
-    "types": [ "Acier, Roche" ]
+    "types": [ "Acier", "Roche" ]
   },
   {
     "gen": 3,
@@ -3399,7 +3399,7 @@ const pokedex = [
     "namefr": "Méditikka",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/meditite.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/meditite.png",
-    "types": [ "Combat, Psy" ]
+    "types": [ "Combat", "Psy" ]
   },
   {
     "gen": 3,
@@ -3408,7 +3408,7 @@ const pokedex = [
     "namefr": "Charmina",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/medicham.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/medicham.png",
-    "types": [ "Combat, Psy" ]
+    "types": [ "Combat", "Psy" ]
   },
   {
     "gen": 3,
@@ -3471,7 +3471,7 @@ const pokedex = [
     "namefr": "Rosélia",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/roselia.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/roselia.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 3,
@@ -3498,7 +3498,7 @@ const pokedex = [
     "namefr": "Carvanha",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/carvanha.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/carvanha.png",
-    "types": [ "Eau, Ténèbres" ]
+    "types": [ "Eau", "Ténèbres" ]
   },
   {
     "gen": 3,
@@ -3507,7 +3507,7 @@ const pokedex = [
     "namefr": "Sharpedo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sharpedo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sharpedo.png",
-    "types": [ "Eau, Ténèbres" ]
+    "types": [ "Eau", "Ténèbres" ]
   },
   {
     "gen": 3,
@@ -3534,7 +3534,7 @@ const pokedex = [
     "namefr": "Chamallot",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/numel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/numel.png",
-    "types": [ "Feu, Sol" ]
+    "types": [ "Feu", "Sol" ]
   },
   {
     "gen": 3,
@@ -3543,7 +3543,7 @@ const pokedex = [
     "namefr": "Camérupt",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/camerupt.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/camerupt.png",
-    "types": [ "Feu, Sol" ]
+    "types": [ "Feu", "Sol" ]
   },
   {
     "gen": 3,
@@ -3597,7 +3597,7 @@ const pokedex = [
     "namefr": "Vibraninf",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/vibrava.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/vibrava.png",
-    "types": [ "Sol, Dragon" ]
+    "types": [ "Sol", "Dragon" ]
   },
   {
     "gen": 3,
@@ -3606,7 +3606,7 @@ const pokedex = [
     "namefr": "Libégon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/flygon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/flygon.png",
-    "types": [ "Sol, Dragon" ]
+    "types": [ "Sol", "Dragon" ]
   },
   {
     "gen": 3,
@@ -3624,7 +3624,7 @@ const pokedex = [
     "namefr": "Cacturne",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/cacturne.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/cacturne.png",
-    "types": [ "Plante, Ténèbres" ]
+    "types": [ "Plante", "Ténèbres" ]
   },
   {
     "gen": 3,
@@ -3633,7 +3633,7 @@ const pokedex = [
     "namefr": "Tylton",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/swablu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/swablu.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 3,
@@ -3642,7 +3642,7 @@ const pokedex = [
     "namefr": "Altaria",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/altaria.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/altaria.png",
-    "types": [ "Dragon, Vol" ]
+    "types": [ "Dragon", "Vol" ]
   },
   {
     "gen": 3,
@@ -3669,7 +3669,7 @@ const pokedex = [
     "namefr": "Séléroc",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lunatone.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lunatone.png",
-    "types": [ "Roche, Psy" ]
+    "types": [ "Roche", "Psy" ]
   },
   {
     "gen": 3,
@@ -3678,7 +3678,7 @@ const pokedex = [
     "namefr": "Solaroc",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/solrock.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/solrock.png",
-    "types": [ "Roche, Psy" ]
+    "types": [ "Roche", "Psy" ]
   },
   {
     "gen": 3,
@@ -3687,7 +3687,7 @@ const pokedex = [
     "namefr": "Barloche",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/barboach.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/barboach.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 3,
@@ -3696,7 +3696,7 @@ const pokedex = [
     "namefr": "Barbicha",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/whiscash.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/whiscash.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 3,
@@ -3714,7 +3714,7 @@ const pokedex = [
     "namefr": "Colhomard",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/crawdaunt.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/crawdaunt.png",
-    "types": [ "Eau, Ténèbres" ]
+    "types": [ "Eau", "Ténèbres" ]
   },
   {
     "gen": 3,
@@ -3723,7 +3723,7 @@ const pokedex = [
     "namefr": "Balbuto",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/baltoy.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/baltoy.png",
-    "types": [ "Sol, Psy" ]
+    "types": [ "Sol", "Psy" ]
   },
   {
     "gen": 3,
@@ -3732,7 +3732,7 @@ const pokedex = [
     "namefr": "Kaorine",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/claydol.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/claydol.png",
-    "types": [ "Sol, Psy" ]
+    "types": [ "Sol", "Psy" ]
   },
   {
     "gen": 3,
@@ -3741,7 +3741,7 @@ const pokedex = [
     "namefr": "Lilia",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lileep.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lileep.png",
-    "types": [ "Roche, Plante" ]
+    "types": [ "Roche", "Plante" ]
   },
   {
     "gen": 3,
@@ -3750,7 +3750,7 @@ const pokedex = [
     "namefr": "Vacilys",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/cradily.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/cradily.png",
-    "types": [ "Roche, Plante" ]
+    "types": [ "Roche", "Plante" ]
   },
   {
     "gen": 3,
@@ -3759,7 +3759,7 @@ const pokedex = [
     "namefr": "Anorith",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/anorith.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/anorith.png",
-    "types": [ "Roche, Insecte" ]
+    "types": [ "Roche", "Insecte" ]
   },
   {
     "gen": 3,
@@ -3768,7 +3768,7 @@ const pokedex = [
     "namefr": "Armaldo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/armaldo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/armaldo.png",
-    "types": [ "Roche, Insecte" ]
+    "types": [ "Roche", "Insecte" ]
   },
   {
     "gen": 3,
@@ -3876,7 +3876,7 @@ const pokedex = [
     "namefr": "Tropius",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tropius.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tropius.png",
-    "types": [ "Plante, Vol" ]
+    "types": [ "Plante", "Vol" ]
   },
   {
     "gen": 3,
@@ -3930,7 +3930,7 @@ const pokedex = [
     "namefr": "Obalie",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/spheal.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/spheal.png",
-    "types": [ "Glace, Eau" ]
+    "types": [ "Glace", "Eau" ]
   },
   {
     "gen": 3,
@@ -3939,7 +3939,7 @@ const pokedex = [
     "namefr": "Phogleur",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sealeo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sealeo.png",
-    "types": [ "Glace, Eau" ]
+    "types": [ "Glace", "Eau" ]
   },
   {
     "gen": 3,
@@ -3948,7 +3948,7 @@ const pokedex = [
     "namefr": "Kaimorse",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/walrein.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/walrein.png",
-    "types": [ "Glace, Eau" ]
+    "types": [ "Glace", "Eau" ]
   },
   {
     "gen": 3,
@@ -3984,7 +3984,7 @@ const pokedex = [
     "namefr": "Relicanth",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/relicanth.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/relicanth.png",
-    "types": [ "Eau, Roche" ]
+    "types": [ "Eau", "Roche" ]
   },
   {
     "gen": 3,
@@ -4020,7 +4020,7 @@ const pokedex = [
     "namefr": "Drattak",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/salamence.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/salamence.png",
-    "types": [ "Dragon, Vol" ]
+    "types": [ "Dragon", "Vol" ]
   },
   {
     "gen": 3,
@@ -4029,7 +4029,7 @@ const pokedex = [
     "namefr": "Terhal",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/beldum.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/beldum.png",
-    "types": [ "Acier, Psy" ]
+    "types": [ "Acier", "Psy" ]
   },
   {
     "gen": 3,
@@ -4038,7 +4038,7 @@ const pokedex = [
     "namefr": "Métang",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/metang.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/metang.png",
-    "types": [ "Acier, Psy" ]
+    "types": [ "Acier", "Psy" ]
   },
   {
     "gen": 3,
@@ -4047,7 +4047,7 @@ const pokedex = [
     "namefr": "Métalosse",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/metagross.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/metagross.png",
-    "types": [ "Acier, Psy" ]
+    "types": [ "Acier", "Psy" ]
   },
   {
     "gen": 3,
@@ -4083,7 +4083,7 @@ const pokedex = [
     "namefr": "Latias",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/latias.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/latias.png",
-    "types": [ "Dragon, Psy" ]
+    "types": [ "Dragon", "Psy" ]
   },
   {
     "gen": 3,
@@ -4092,7 +4092,7 @@ const pokedex = [
     "namefr": "Latios",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/latios.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/latios.png",
-    "types": [ "Dragon, Psy" ]
+    "types": [ "Dragon", "Psy" ]
   },
   {
     "gen": 3,
@@ -4119,7 +4119,7 @@ const pokedex = [
     "namefr": "Rayquaza",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rayquaza.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rayquaza.png",
-    "types": [ "Dragon, Vol" ]
+    "types": [ "Dragon", "Vol" ]
   },
   {
     "gen": 3,
@@ -4128,7 +4128,7 @@ const pokedex = [
     "namefr": "Jirachi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/jirachi.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/jirachi.png",
-    "types": [ "Acier, Psy" ]
+    "types": [ "Acier", "Psy" ]
   },
   {
     "gen": 3,
@@ -4164,7 +4164,7 @@ const pokedex = [
     "namefr": "Torterra",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/torterra.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/torterra.png",
-    "types": [ "Plante, Sol" ]
+    "types": [ "Plante", "Sol" ]
   },
   {
     "gen": 4,
@@ -4182,7 +4182,7 @@ const pokedex = [
     "namefr": "Chimpenfeu",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/monferno.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/monferno.png",
-    "types": [ "Feu, Combat" ]
+    "types": [ "Feu", "Combat" ]
   },
   {
     "gen": 4,
@@ -4191,7 +4191,7 @@ const pokedex = [
     "namefr": "Simiabraz",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/infernape.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/infernape.png",
-    "types": [ "Feu, Combat" ]
+    "types": [ "Feu", "Combat" ]
   },
   {
     "gen": 4,
@@ -4218,7 +4218,7 @@ const pokedex = [
     "namefr": "Pingoléon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/empoleon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/empoleon.png",
-    "types": [ "Eau, Acier" ]
+    "types": [ "Eau", "Acier" ]
   },
   {
     "gen": 4,
@@ -4227,7 +4227,7 @@ const pokedex = [
     "namefr": "Étourmi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/starly.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/starly.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 4,
@@ -4236,7 +4236,7 @@ const pokedex = [
     "namefr": "Étourvol",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/staravia.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/staravia.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 4,
@@ -4245,7 +4245,7 @@ const pokedex = [
     "namefr": "Étouraptor",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/staraptor.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/staraptor.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 4,
@@ -4263,7 +4263,7 @@ const pokedex = [
     "namefr": "Castorno",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bibarel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bibarel.png",
-    "types": [ "Normal, Eau" ]
+    "types": [ "Normal", "Eau" ]
   },
   {
     "gen": 4,
@@ -4317,7 +4317,7 @@ const pokedex = [
     "namefr": "Rozbouton",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/budew.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/budew.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 4,
@@ -4326,7 +4326,7 @@ const pokedex = [
     "namefr": "Roserade",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/roserade.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/roserade.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 4,
@@ -4353,7 +4353,7 @@ const pokedex = [
     "namefr": "Dinoclier",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/shieldon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/shieldon.png",
-    "types": [ "Roche, Acier" ]
+    "types": [ "Roche", "Acier" ]
   },
   {
     "gen": 4,
@@ -4362,7 +4362,7 @@ const pokedex = [
     "namefr": "Bastiodon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bastiodon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bastiodon.png",
-    "types": [ "Roche, Acier" ]
+    "types": [ "Roche", "Acier" ]
   },
   {
     "gen": 4,
@@ -4398,7 +4398,7 @@ const pokedex = [
     "namefr": "Cheniselle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wormadam.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wormadam.png",
-    "types": [ "Insecte, Plante" ]
+    "types": [ "Insecte", "Plante" ]
   },
   {
     "gen": 4,
@@ -4407,7 +4407,7 @@ const pokedex = [
     "namefr": "Cheniselle (Cape Sable)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wormadam-sandy.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wormadam-sandy.png",
-    "types": [ "Insecte, Sol" ]
+    "types": [ "Insecte", "Sol" ]
   },
   {
     "gen": 4,
@@ -4416,7 +4416,7 @@ const pokedex = [
     "namefr": "Cheniselle (Cape Déchet)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wormadam-trash.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wormadam-trash.png",
-    "types": [ "Insecte, Acier" ]
+    "types": [ "Insecte", "Acier" ]
   },
   {
     "gen": 4,
@@ -4425,7 +4425,7 @@ const pokedex = [
     "namefr": "Papilord",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mothim.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mothim.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 4,
@@ -4434,7 +4434,7 @@ const pokedex = [
     "namefr": "Apitrini",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/combee.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/combee.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 4,
@@ -4443,7 +4443,7 @@ const pokedex = [
     "namefr": "Apireine",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/vespiquen.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/vespiquen.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 4,
@@ -4515,7 +4515,7 @@ const pokedex = [
     "namefr": "Tritosor",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gastrodon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gastrodon.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 4,
@@ -4524,7 +4524,7 @@ const pokedex = [
     "namefr": "Tritosor (Mer Orient)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gastrodon-east.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gastrodon-east.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 4,
@@ -4542,7 +4542,7 @@ const pokedex = [
     "namefr": "Baudrive",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/drifloon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/drifloon.png",
-    "types": [ "Spectre, Vol" ]
+    "types": [ "Spectre", "Vol" ]
   },
   {
     "gen": 4,
@@ -4551,7 +4551,7 @@ const pokedex = [
     "namefr": "Grodrive",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/drifblim.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/drifblim.png",
-    "types": [ "Spectre, Vol" ]
+    "types": [ "Spectre", "Vol" ]
   },
   {
     "gen": 4,
@@ -4587,7 +4587,7 @@ const pokedex = [
     "namefr": "Corboss",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/honchkrow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/honchkrow.png",
-    "types": [ "Ténèbres, Vol" ]
+    "types": [ "Ténèbres", "Vol" ]
   },
   {
     "gen": 4,
@@ -4623,7 +4623,7 @@ const pokedex = [
     "namefr": "Moufouette",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/stunky.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/stunky.png",
-    "types": [ "Poison, Ténèbres" ]
+    "types": [ "Poison", "Ténèbres" ]
   },
   {
     "gen": 4,
@@ -4632,7 +4632,7 @@ const pokedex = [
     "namefr": "Moufflair",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/skuntank.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/skuntank.png",
-    "types": [ "Poison, Ténèbres" ]
+    "types": [ "Poison", "Ténèbres" ]
   },
   {
     "gen": 4,
@@ -4641,7 +4641,7 @@ const pokedex = [
     "namefr": "Archéomire",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bronzor.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bronzor.png",
-    "types": [ "Acier, Psy" ]
+    "types": [ "Acier", "Psy" ]
   },
   {
     "gen": 4,
@@ -4650,7 +4650,7 @@ const pokedex = [
     "namefr": "Archéodong",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bronzong.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bronzong.png",
-    "types": [ "Acier, Psy" ]
+    "types": [ "Acier", "Psy" ]
   },
   {
     "gen": 4,
@@ -4668,7 +4668,7 @@ const pokedex = [
     "namefr": "Mime Jr.",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mimejr.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mimejr.png",
-    "types": [ "Psy, Fée" ]
+    "types": [ "Psy", "Fée" ]
   },
   {
     "gen": 4,
@@ -4686,7 +4686,7 @@ const pokedex = [
     "namefr": "Pijako",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/chatot.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/chatot.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 4,
@@ -4695,7 +4695,7 @@ const pokedex = [
     "namefr": "Spiritomb",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/spiritomb.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/spiritomb.png",
-    "types": [ "Spectre, Ténèbres" ]
+    "types": [ "Spectre", "Ténèbres" ]
   },
   {
     "gen": 4,
@@ -4704,7 +4704,7 @@ const pokedex = [
     "namefr": "Griknot",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gible.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gible.png",
-    "types": [ "Dragon, Sol" ]
+    "types": [ "Dragon", "Sol" ]
   },
   {
     "gen": 4,
@@ -4713,7 +4713,7 @@ const pokedex = [
     "namefr": "Carmache",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gabite.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gabite.png",
-    "types": [ "Dragon, Sol" ]
+    "types": [ "Dragon", "Sol" ]
   },
   {
     "gen": 4,
@@ -4722,7 +4722,7 @@ const pokedex = [
     "namefr": "Carchacrok",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/garchomp.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/garchomp.png",
-    "types": [ "Dragon, Sol" ]
+    "types": [ "Dragon", "Sol" ]
   },
   {
     "gen": 4,
@@ -4749,7 +4749,7 @@ const pokedex = [
     "namefr": "Lucario",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lucario.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lucario.png",
-    "types": [ "Combat, Acier" ]
+    "types": [ "Combat", "Acier" ]
   },
   {
     "gen": 4,
@@ -4776,7 +4776,7 @@ const pokedex = [
     "namefr": "Rapion",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/skorupi.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/skorupi.png",
-    "types": [ "Poison, Insecte" ]
+    "types": [ "Poison", "Insecte" ]
   },
   {
     "gen": 4,
@@ -4785,7 +4785,7 @@ const pokedex = [
     "namefr": "Drascore",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/drapion.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/drapion.png",
-    "types": [ "Poison, Ténèbres" ]
+    "types": [ "Poison", "Ténèbres" ]
   },
   {
     "gen": 4,
@@ -4794,7 +4794,7 @@ const pokedex = [
     "namefr": "Cradopaud",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/croagunk.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/croagunk.png",
-    "types": [ "Poison, Combat" ]
+    "types": [ "Poison", "Combat" ]
   },
   {
     "gen": 4,
@@ -4803,7 +4803,7 @@ const pokedex = [
     "namefr": "Coatox",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/toxicroak.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/toxicroak.png",
-    "types": [ "Poison, Combat" ]
+    "types": [ "Poison", "Combat" ]
   },
   {
     "gen": 4,
@@ -4839,7 +4839,7 @@ const pokedex = [
     "namefr": "Babimanta",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mantyke.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mantyke.png",
-    "types": [ "Eau, Vol" ]
+    "types": [ "Eau", "Vol" ]
   },
   {
     "gen": 4,
@@ -4848,7 +4848,7 @@ const pokedex = [
     "namefr": "Blizzi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/snover.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/snover.png",
-    "types": [ "Plante, Glace" ]
+    "types": [ "Plante", "Glace" ]
   },
   {
     "gen": 4,
@@ -4857,7 +4857,7 @@ const pokedex = [
     "namefr": "Blizzaroi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/abomasnow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/abomasnow.png",
-    "types": [ "Plante, Glace" ]
+    "types": [ "Plante", "Glace" ]
   },
   {
     "gen": 4,
@@ -4866,7 +4866,7 @@ const pokedex = [
     "namefr": "Dimoret",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/weavile.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/weavile.png",
-    "types": [ "Ténèbres, Glace" ]
+    "types": [ "Ténèbres", "Glace" ]
   },
   {
     "gen": 4,
@@ -4875,7 +4875,7 @@ const pokedex = [
     "namefr": "Magnézone",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/magnezone.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/magnezone.png",
-    "types": [ "Électrik, Acier" ]
+    "types": [ "Électrik", "Acier" ]
   },
   {
     "gen": 4,
@@ -4893,7 +4893,7 @@ const pokedex = [
     "namefr": "Rhinastoc",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rhyperior.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rhyperior.png",
-    "types": [ "Sol, Roche" ]
+    "types": [ "Sol", "Roche" ]
   },
   {
     "gen": 4,
@@ -4929,7 +4929,7 @@ const pokedex = [
     "namefr": "Togekiss",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/togekiss.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/togekiss.png",
-    "types": [ "Fée, Vol" ]
+    "types": [ "Fée", "Vol" ]
   },
   {
     "gen": 4,
@@ -4938,7 +4938,7 @@ const pokedex = [
     "namefr": "Yanmega",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/yanmega.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/yanmega.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 4,
@@ -4965,7 +4965,7 @@ const pokedex = [
     "namefr": "Scorvol",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gliscor.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gliscor.png",
-    "types": [ "Sol, Vol" ]
+    "types": [ "Sol", "Vol" ]
   },
   {
     "gen": 4,
@@ -4974,7 +4974,7 @@ const pokedex = [
     "namefr": "Mammochon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mamoswine.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mamoswine.png",
-    "types": [ "Glace, Sol" ]
+    "types": [ "Glace", "Sol" ]
   },
   {
     "gen": 4,
@@ -4992,7 +4992,7 @@ const pokedex = [
     "namefr": "Gallame",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gallade.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gallade.png",
-    "types": [ "Psy, Combat" ]
+    "types": [ "Psy", "Combat" ]
   },
   {
     "gen": 4,
@@ -5001,7 +5001,7 @@ const pokedex = [
     "namefr": "Tarinorme",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/probopass.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/probopass.png",
-    "types": [ "Roche, Acier" ]
+    "types": [ "Roche", "Acier" ]
   },
   {
     "gen": 4,
@@ -5019,7 +5019,7 @@ const pokedex = [
     "namefr": "Momartik",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/froslass.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/froslass.png",
-    "types": [ "Glace, Spectre" ]
+    "types": [ "Glace", "Spectre" ]
   },
   {
     "gen": 4,
@@ -5028,7 +5028,7 @@ const pokedex = [
     "namefr": "Motisma",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rotom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rotom.png",
-    "types": [ "Électrik, Spectre" ]
+    "types": [ "Électrik", "Spectre" ]
   },
   {
     "gen": 4,
@@ -5064,7 +5064,7 @@ const pokedex = [
     "namefr": "Dialga",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dialga.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dialga.png",
-    "types": [ "Acier, Dragon" ]
+    "types": [ "Acier", "Dragon" ]
   },
   {
     "gen": 4,
@@ -5073,7 +5073,7 @@ const pokedex = [
     "namefr": "Palkia",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/palkia.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/palkia.png",
-    "types": [ "Eau, Dragon" ]
+    "types": [ "Eau", "Dragon" ]
   },
   {
     "gen": 4,
@@ -5082,7 +5082,7 @@ const pokedex = [
     "namefr": "Heatran",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/heatran.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/heatran.png",
-    "types": [ "Feu, Acier" ]
+    "types": [ "Feu", "Acier" ]
   },
   {
     "gen": 4,
@@ -5100,7 +5100,7 @@ const pokedex = [
     "namefr": "Giratina",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/giratina.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/giratina.png",
-    "types": [ "Spectre, Dragon" ]
+    "types": [ "Spectre", "Dragon" ]
   },
   {
     "gen": 4,
@@ -5163,7 +5163,7 @@ const pokedex = [
     "namefr": "Victini",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/victini.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/victini.png",
-    "types": [ "Psy, Feu" ]
+    "types": [ "Psy", "Feu" ]
   },
   {
     "gen": 5,
@@ -5208,7 +5208,7 @@ const pokedex = [
     "namefr": "Grotichon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pignite.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pignite.png",
-    "types": [ "Feu, Combat" ]
+    "types": [ "Feu", "Combat" ]
   },
   {
     "gen": 5,
@@ -5217,7 +5217,7 @@ const pokedex = [
     "namefr": "Roitiflam",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/emboar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/emboar.png",
-    "types": [ "Feu, Combat" ]
+    "types": [ "Feu", "Combat" ]
   },
   {
     "gen": 5,
@@ -5253,7 +5253,7 @@ const pokedex = [
     "namefr": "Clamiral (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/samurott-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/samurott-hisui.png",
-    "types": [ "Eau, Ténèbres" ]
+    "types": [ "Eau", "Ténèbres" ]
   },
   {
     "gen": 5,
@@ -5397,7 +5397,7 @@ const pokedex = [
     "namefr": "Poichigeon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pidove.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pidove.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 5,
@@ -5406,7 +5406,7 @@ const pokedex = [
     "namefr": "Colombeau",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tranquill.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tranquill.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 5,
@@ -5415,7 +5415,7 @@ const pokedex = [
     "namefr": "Déflaisan",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/unfezant.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/unfezant.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 5,
@@ -5469,7 +5469,7 @@ const pokedex = [
     "namefr": "Chovsourir",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/woobat.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/woobat.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 5,
@@ -5478,7 +5478,7 @@ const pokedex = [
     "namefr": "Rhinolove",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/swoobat.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/swoobat.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 5,
@@ -5496,7 +5496,7 @@ const pokedex = [
     "namefr": "Minotaupe",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/excadrill.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/excadrill.png",
-    "types": [ "Sol, Acier" ]
+    "types": [ "Sol", "Acier" ]
   },
   {
     "gen": 5,
@@ -5550,7 +5550,7 @@ const pokedex = [
     "namefr": "Batracné",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/palpitoad.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/palpitoad.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 5,
@@ -5559,7 +5559,7 @@ const pokedex = [
     "namefr": "Crapustule",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/seismitoad.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/seismitoad.png",
-    "types": [ "Eau, Sol" ]
+    "types": [ "Eau", "Sol" ]
   },
   {
     "gen": 5,
@@ -5586,7 +5586,7 @@ const pokedex = [
     "namefr": "Larveyette",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sewaddle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sewaddle.png",
-    "types": [ "Insecte, Plante" ]
+    "types": [ "Insecte", "Plante" ]
   },
   {
     "gen": 5,
@@ -5595,7 +5595,7 @@ const pokedex = [
     "namefr": "Couverdure",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/swadloon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/swadloon.png",
-    "types": [ "Insecte, Plante" ]
+    "types": [ "Insecte", "Plante" ]
   },
   {
     "gen": 5,
@@ -5604,7 +5604,7 @@ const pokedex = [
     "namefr": "Manternel",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/leavanny.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/leavanny.png",
-    "types": [ "Insecte, Plante" ]
+    "types": [ "Insecte", "Plante" ]
   },
   {
     "gen": 5,
@@ -5613,7 +5613,7 @@ const pokedex = [
     "namefr": "Venipatte",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/venipede.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/venipede.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 5,
@@ -5622,7 +5622,7 @@ const pokedex = [
     "namefr": "Scobolide",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/whirlipede.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/whirlipede.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 5,
@@ -5631,7 +5631,7 @@ const pokedex = [
     "namefr": "Brutapode",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/scolipede.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/scolipede.png",
-    "types": [ "Insecte, Poison" ]
+    "types": [ "Insecte", "Poison" ]
   },
   {
     "gen": 5,
@@ -5640,7 +5640,7 @@ const pokedex = [
     "namefr": "Doudouvet",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/cottonee.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/cottonee.png",
-    "types": [ "Plante, Fée" ]
+    "types": [ "Plante", "Fée" ]
   },
   {
     "gen": 5,
@@ -5649,7 +5649,7 @@ const pokedex = [
     "namefr": "Farfaduvet",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/whimsicott.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/whimsicott.png",
-    "types": [ "Plante, Fée" ]
+    "types": [ "Plante", "Fée" ]
   },
   {
     "gen": 5,
@@ -5676,7 +5676,7 @@ const pokedex = [
     "namefr": "Fragilady (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lilligant-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lilligant-hisui.png",
-    "types": [ "Plante, Combat" ]
+    "types": [ "Plante", "Combat" ]
   },
   {
     "gen": 5,
@@ -5712,7 +5712,7 @@ const pokedex = [
     "namefr": "Mascaïman",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sandile.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sandile.png",
-    "types": [ "Sol, Ténèbres" ]
+    "types": [ "Sol", "Ténèbres" ]
   },
   {
     "gen": 5,
@@ -5721,7 +5721,7 @@ const pokedex = [
     "namefr": "Escroco",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/krokorok.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/krokorok.png",
-    "types": [ "Sol, Ténèbres" ]
+    "types": [ "Sol", "Ténèbres" ]
   },
   {
     "gen": 5,
@@ -5730,7 +5730,7 @@ const pokedex = [
     "namefr": "Crocorible",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/krookodile.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/krookodile.png",
-    "types": [ "Sol, Ténèbres" ]
+    "types": [ "Sol", "Ténèbres" ]
   },
   {
     "gen": 5,
@@ -5784,7 +5784,7 @@ const pokedex = [
     "namefr": "Crabicoque",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dwebble.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dwebble.png",
-    "types": [ "Insecte, Roche" ]
+    "types": [ "Insecte", "Roche" ]
   },
   {
     "gen": 5,
@@ -5793,7 +5793,7 @@ const pokedex = [
     "namefr": "Crabaraque",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/crustle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/crustle.png",
-    "types": [ "Insecte, Roche" ]
+    "types": [ "Insecte", "Roche" ]
   },
   {
     "gen": 5,
@@ -5802,7 +5802,7 @@ const pokedex = [
     "namefr": "Baggiguane",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/scraggy.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/scraggy.png",
-    "types": [ "Ténèbres, Combat" ]
+    "types": [ "Ténèbres", "Combat" ]
   },
   {
     "gen": 5,
@@ -5811,7 +5811,7 @@ const pokedex = [
     "namefr": "Baggaïd",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/scrafty.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/scrafty.png",
-    "types": [ "Ténèbres, Combat" ]
+    "types": [ "Ténèbres", "Combat" ]
   },
   {
     "gen": 5,
@@ -5820,7 +5820,7 @@ const pokedex = [
     "namefr": "Cryptéro",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sigilyph.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sigilyph.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 5,
@@ -5838,7 +5838,7 @@ const pokedex = [
     "namefr": "Tutafeh (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/yamask-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/yamask-galar.png",
-    "types": [ "Sol, Spectre" ]
+    "types": [ "Sol", "Spectre" ]
   },
   {
     "gen": 5,
@@ -5856,7 +5856,7 @@ const pokedex = [
     "namefr": "Carapagos",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tirtouga.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tirtouga.png",
-    "types": [ "Eau, Roche" ]
+    "types": [ "Eau", "Roche" ]
   },
   {
     "gen": 5,
@@ -5865,7 +5865,7 @@ const pokedex = [
     "namefr": "Mégapagos",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/carracosta.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/carracosta.png",
-    "types": [ "Eau, Roche" ]
+    "types": [ "Eau", "Roche" ]
   },
   {
     "gen": 5,
@@ -5874,7 +5874,7 @@ const pokedex = [
     "namefr": "Arkéapti",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/archen.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/archen.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 5,
@@ -5883,7 +5883,7 @@ const pokedex = [
     "namefr": "Aéroptéryx",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/archeops.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/archeops.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 5,
@@ -5919,7 +5919,7 @@ const pokedex = [
     "namefr": "Zorua (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zorua-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zorua-hisui.png",
-    "types": [ "Normal, Spectre" ]
+    "types": [ "Normal", "Spectre" ]
   },
   {
     "gen": 5,
@@ -5937,7 +5937,7 @@ const pokedex = [
     "namefr": "Zoroark (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zoroark-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zoroark-hisui.png",
-    "types": [ "Normal, Spectre" ]
+    "types": [ "Normal", "Spectre" ]
   },
   {
     "gen": 5,
@@ -6018,7 +6018,7 @@ const pokedex = [
     "namefr": "Couaneton",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ducklett.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ducklett.png",
-    "types": [ "Eau, Vol" ]
+    "types": [ "Eau", "Vol" ]
   },
   {
     "gen": 5,
@@ -6027,7 +6027,7 @@ const pokedex = [
     "namefr": "Lakmécygne",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/swanna.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/swanna.png",
-    "types": [ "Eau, Vol" ]
+    "types": [ "Eau", "Vol" ]
   },
   {
     "gen": 5,
@@ -6063,7 +6063,7 @@ const pokedex = [
     "namefr": "Vivaldaim",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/deerling.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/deerling.png",
-    "types": [ "Normal, Plante" ]
+    "types": [ "Normal", "Plante" ]
   },
   {
     "gen": 5,
@@ -6072,7 +6072,7 @@ const pokedex = [
     "namefr": "Vivaldaim (Forme Été)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/deerling-summer.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/deerling-summer.png",
-    "types": [ "Normal, Plante" ]
+    "types": [ "Normal", "Plante" ]
   },
   {
     "gen": 5,
@@ -6081,7 +6081,7 @@ const pokedex = [
     "namefr": "Vivaldaim (Forme Automne)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/deerling-autumn.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/deerling-autumn.png",
-    "types": [ "Normal, Plante" ]
+    "types": [ "Normal", "Plante" ]
   },
   {
     "gen": 5,
@@ -6090,7 +6090,7 @@ const pokedex = [
     "namefr": "Vivaldaim (Forme Hiver)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/deerling-winter.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/deerling-winter.png",
-    "types": [ "Normal, Plante" ]
+    "types": [ "Normal", "Plante" ]
   },
   {
     "gen": 5,
@@ -6099,7 +6099,7 @@ const pokedex = [
     "namefr": "Haydaim",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sawsbuck.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sawsbuck.png",
-    "types": [ "Normal, Plante" ]
+    "types": [ "Normal", "Plante" ]
   },
   {
     "gen": 5,
@@ -6108,7 +6108,7 @@ const pokedex = [
     "namefr": "Haydaim (Forme Été)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sawsbuck-summer.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sawsbuck-summer.png",
-    "types": [ "Normal, Plante" ]
+    "types": [ "Normal", "Plante" ]
   },
   {
     "gen": 5,
@@ -6117,7 +6117,7 @@ const pokedex = [
     "namefr": "Haydaim (Forme Automne)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sawsbuck-autumn.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sawsbuck-autumn.png",
-    "types": [ "Normal, Plante" ]
+    "types": [ "Normal", "Plante" ]
   },
   {
     "gen": 5,
@@ -6126,7 +6126,7 @@ const pokedex = [
     "namefr": "Haydaim (Forme Hiver)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sawsbuck-winter.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sawsbuck-winter.png",
-    "types": [ "Normal, Plante" ]
+    "types": [ "Normal", "Plante" ]
   },
   {
     "gen": 5,
@@ -6135,7 +6135,7 @@ const pokedex = [
     "namefr": "Emolga",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/emolga.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/emolga.png",
-    "types": [ "Électrik, Vol" ]
+    "types": [ "Électrik", "Vol" ]
   },
   {
     "gen": 5,
@@ -6153,7 +6153,7 @@ const pokedex = [
     "namefr": "Lançargot",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/escavalier.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/escavalier.png",
-    "types": [ "Insecte, Acier" ]
+    "types": [ "Insecte", "Acier" ]
   },
   {
     "gen": 5,
@@ -6162,7 +6162,7 @@ const pokedex = [
     "namefr": "Trompignon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/foongus.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/foongus.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 5,
@@ -6171,7 +6171,7 @@ const pokedex = [
     "namefr": "Gaulet",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/amoonguss.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/amoonguss.png",
-    "types": [ "Plante, Poison" ]
+    "types": [ "Plante", "Poison" ]
   },
   {
     "gen": 5,
@@ -6180,7 +6180,7 @@ const pokedex = [
     "namefr": "Viskuse",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/frillish.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/frillish.png",
-    "types": [ "Eau, Spectre" ]
+    "types": [ "Eau", "Spectre" ]
   },
   {
     "gen": 5,
@@ -6189,7 +6189,7 @@ const pokedex = [
     "namefr": "Moyade",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/jellicent.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/jellicent.png",
-    "types": [ "Eau, Spectre" ]
+    "types": [ "Eau", "Spectre" ]
   },
   {
     "gen": 5,
@@ -6207,7 +6207,7 @@ const pokedex = [
     "namefr": "Statitik",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/joltik.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/joltik.png",
-    "types": [ "Insecte, Électrik" ]
+    "types": [ "Insecte", "Électrik" ]
   },
   {
     "gen": 5,
@@ -6216,7 +6216,7 @@ const pokedex = [
     "namefr": "Mygavolt",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/galvantula.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/galvantula.png",
-    "types": [ "Insecte, Électrik" ]
+    "types": [ "Insecte", "Électrik" ]
   },
   {
     "gen": 5,
@@ -6225,7 +6225,7 @@ const pokedex = [
     "namefr": "Grindur",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ferroseed.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ferroseed.png",
-    "types": [ "Plante, Acier" ]
+    "types": [ "Plante", "Acier" ]
   },
   {
     "gen": 5,
@@ -6234,7 +6234,7 @@ const pokedex = [
     "namefr": "Noacier",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ferrothorn.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ferrothorn.png",
-    "types": [ "Plante, Acier" ]
+    "types": [ "Plante", "Acier" ]
   },
   {
     "gen": 5,
@@ -6315,7 +6315,7 @@ const pokedex = [
     "namefr": "Funécire",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/litwick.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/litwick.png",
-    "types": [ "Spectre, Feu" ]
+    "types": [ "Spectre", "Feu" ]
   },
   {
     "gen": 5,
@@ -6324,7 +6324,7 @@ const pokedex = [
     "namefr": "Mélancolux",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lampent.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lampent.png",
-    "types": [ "Spectre, Feu" ]
+    "types": [ "Spectre", "Feu" ]
   },
   {
     "gen": 5,
@@ -6333,7 +6333,7 @@ const pokedex = [
     "namefr": "Lugulabre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/chandelure.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/chandelure.png",
-    "types": [ "Spectre, Feu" ]
+    "types": [ "Spectre", "Feu" ]
   },
   {
     "gen": 5,
@@ -6414,7 +6414,7 @@ const pokedex = [
     "namefr": "Limonde",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/stunfisk.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/stunfisk.png",
-    "types": [ "Sol, Électrik" ]
+    "types": [ "Sol", "Électrik" ]
   },
   {
     "gen": 5,
@@ -6423,7 +6423,7 @@ const pokedex = [
     "namefr": "Limonde (Forme de Galar)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/stunfisk-galar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/stunfisk-galar.png",
-    "types": [ "Sol, Acier" ]
+    "types": [ "Sol", "Acier" ]
   },
   {
     "gen": 5,
@@ -6459,7 +6459,7 @@ const pokedex = [
     "namefr": "Gringolem",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/golett.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/golett.png",
-    "types": [ "Sol, Spectre" ]
+    "types": [ "Sol", "Spectre" ]
   },
   {
     "gen": 5,
@@ -6468,7 +6468,7 @@ const pokedex = [
     "namefr": "Golemastoc",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/golurk.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/golurk.png",
-    "types": [ "Sol, Spectre" ]
+    "types": [ "Sol", "Spectre" ]
   },
   {
     "gen": 5,
@@ -6477,7 +6477,7 @@ const pokedex = [
     "namefr": "Scalpion",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pawniard.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pawniard.png",
-    "types": [ "Ténèbres, Acier" ]
+    "types": [ "Ténèbres", "Acier" ]
   },
   {
     "gen": 5,
@@ -6486,7 +6486,7 @@ const pokedex = [
     "namefr": "Scalproie",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bisharp.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bisharp.png",
-    "types": [ "Ténèbres, Acier" ]
+    "types": [ "Ténèbres", "Acier" ]
   },
   {
     "gen": 5,
@@ -6504,7 +6504,7 @@ const pokedex = [
     "namefr": "Furaiglon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rufflet.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rufflet.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 5,
@@ -6513,7 +6513,7 @@ const pokedex = [
     "namefr": "Gueriaigle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/braviary.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/braviary.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 5,
@@ -6522,7 +6522,7 @@ const pokedex = [
     "namefr": "Gueriaigle (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/braviary-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/braviary-hisui.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 5,
@@ -6531,7 +6531,7 @@ const pokedex = [
     "namefr": "Vostourno",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/vullaby.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/vullaby.png",
-    "types": [ "Ténèbres, Vol" ]
+    "types": [ "Ténèbres", "Vol" ]
   },
   {
     "gen": 5,
@@ -6540,7 +6540,7 @@ const pokedex = [
     "namefr": "Vaututrice",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mandibuzz.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mandibuzz.png",
-    "types": [ "Ténèbres, Vol" ]
+    "types": [ "Ténèbres", "Vol" ]
   },
   {
     "gen": 5,
@@ -6558,7 +6558,7 @@ const pokedex = [
     "namefr": "Fermite",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/durant.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/durant.png",
-    "types": [ "Insecte, Acier" ]
+    "types": [ "Insecte", "Acier" ]
   },
   {
     "gen": 5,
@@ -6567,7 +6567,7 @@ const pokedex = [
     "namefr": "Solochi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/deino.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/deino.png",
-    "types": [ "Ténèbres, Dragon" ]
+    "types": [ "Ténèbres", "Dragon" ]
   },
   {
     "gen": 5,
@@ -6576,7 +6576,7 @@ const pokedex = [
     "namefr": "Diamat",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zweilous.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zweilous.png",
-    "types": [ "Ténèbres, Dragon" ]
+    "types": [ "Ténèbres", "Dragon" ]
   },
   {
     "gen": 5,
@@ -6585,7 +6585,7 @@ const pokedex = [
     "namefr": "Trioxhydre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hydreigon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hydreigon.png",
-    "types": [ "Ténèbres, Dragon" ]
+    "types": [ "Ténèbres", "Dragon" ]
   },
   {
     "gen": 5,
@@ -6594,7 +6594,7 @@ const pokedex = [
     "namefr": "Pyronille",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/larvesta.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/larvesta.png",
-    "types": [ "Insecte, Feu" ]
+    "types": [ "Insecte", "Feu" ]
   },
   {
     "gen": 5,
@@ -6603,7 +6603,7 @@ const pokedex = [
     "namefr": "Pyrax",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/volcarona.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/volcarona.png",
-    "types": [ "Insecte, Feu" ]
+    "types": [ "Insecte", "Feu" ]
   },
   {
     "gen": 5,
@@ -6612,7 +6612,7 @@ const pokedex = [
     "namefr": "Cobaltium",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/cobalion.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/cobalion.png",
-    "types": [ "Acier, Combat" ]
+    "types": [ "Acier", "Combat" ]
   },
   {
     "gen": 5,
@@ -6621,7 +6621,7 @@ const pokedex = [
     "namefr": "Terrakium",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/terrakion.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/terrakion.png",
-    "types": [ "Roche, Combat" ]
+    "types": [ "Roche", "Combat" ]
   },
   {
     "gen": 5,
@@ -6630,7 +6630,7 @@ const pokedex = [
     "namefr": "Viridium",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/virizion.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/virizion.png",
-    "types": [ "Plante, Combat" ]
+    "types": [ "Plante", "Combat" ]
   },
   {
     "gen": 5,
@@ -6648,7 +6648,7 @@ const pokedex = [
     "namefr": "Fulguris",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/thundurus.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/thundurus.png",
-    "types": [ "Électrik, Vol" ]
+    "types": [ "Électrik", "Vol" ]
   },
   {
     "gen": 5,
@@ -6657,7 +6657,7 @@ const pokedex = [
     "namefr": "Reshiram",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/reshiram.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/reshiram.png",
-    "types": [ "Dragon, Feu" ]
+    "types": [ "Dragon", "Feu" ]
   },
   {
     "gen": 5,
@@ -6666,7 +6666,7 @@ const pokedex = [
     "namefr": "Zekrom",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zekrom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zekrom.png",
-    "types": [ "Dragon, Électrik" ]
+    "types": [ "Dragon", "Électrik" ]
   },
   {
     "gen": 5,
@@ -6675,7 +6675,7 @@ const pokedex = [
     "namefr": "Démétéros",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/landorus.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/landorus.png",
-    "types": [ "Sol, Vol" ]
+    "types": [ "Sol", "Vol" ]
   },
   {
     "gen": 5,
@@ -6684,7 +6684,7 @@ const pokedex = [
     "namefr": "Kyurem",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kyurem.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kyurem.png",
-    "types": [ "Dragon, Glace" ]
+    "types": [ "Dragon", "Glace" ]
   },
   {
     "gen": 5,
@@ -6693,7 +6693,7 @@ const pokedex = [
     "namefr": "Keldeo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/keldeo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/keldeo.png",
-    "types": [ "Eau, Combat" ]
+    "types": [ "Eau", "Combat" ]
   },
   {
     "gen": 5,
@@ -6702,7 +6702,7 @@ const pokedex = [
     "namefr": "Meloetta",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/meloetta.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/meloetta.png",
-    "types": [ "Normal, Psy" ]
+    "types": [ "Normal", "Psy" ]
   },
   {
     "gen": 5,
@@ -6711,7 +6711,7 @@ const pokedex = [
     "namefr": "Genesect",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/genesect.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/genesect.png",
-    "types": [ "Insecte, Acier" ]
+    "types": [ "Insecte", "Acier" ]
   },
   {
     "gen": 6,
@@ -6738,7 +6738,7 @@ const pokedex = [
     "namefr": "Blindépique",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/chesnaught.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/chesnaught.png",
-    "types": [ "Plante, Combat" ]
+    "types": [ "Plante", "Combat" ]
   },
   {
     "gen": 6,
@@ -6765,7 +6765,7 @@ const pokedex = [
     "namefr": "Goupelin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/delphox.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/delphox.png",
-    "types": [ "Feu, Psy" ]
+    "types": [ "Feu", "Psy" ]
   },
   {
     "gen": 6,
@@ -6792,7 +6792,7 @@ const pokedex = [
     "namefr": "Amphinobi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/greninja.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/greninja.png",
-    "types": [ "Eau, Ténèbres" ]
+    "types": [ "Eau", "Ténèbres" ]
   },
   {
     "gen": 6,
@@ -6810,7 +6810,7 @@ const pokedex = [
     "namefr": "Excavarenne",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/diggersby.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/diggersby.png",
-    "types": [ "Normal, Sol" ]
+    "types": [ "Normal", "Sol" ]
   },
   {
     "gen": 6,
@@ -6819,7 +6819,7 @@ const pokedex = [
     "namefr": "Passerouge",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/fletchling.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/fletchling.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 6,
@@ -6828,7 +6828,7 @@ const pokedex = [
     "namefr": "Braisillon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/fletchinder.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/fletchinder.png",
-    "types": [ "Feu, Vol" ]
+    "types": [ "Feu", "Vol" ]
   },
   {
     "gen": 6,
@@ -6837,7 +6837,7 @@ const pokedex = [
     "namefr": "Flambusard",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/talonflame.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/talonflame.png",
-    "types": [ "Feu, Vol" ]
+    "types": [ "Feu", "Vol" ]
   },
   {
     "gen": 6,
@@ -6864,7 +6864,7 @@ const pokedex = [
     "namefr": "Prismillon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/vivillon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/vivillon.png",
-    "types": [ "Insecte, Vol" ]
+    "types": [ "Insecte", "Vol" ]
   },
   {
     "gen": 6,
@@ -6873,7 +6873,7 @@ const pokedex = [
     "namefr": "Hélionceau",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/litleo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/litleo.png",
-    "types": [ "Feu, Normal" ]
+    "types": [ "Feu", "Normal" ]
   },
   {
     "gen": 6,
@@ -6882,7 +6882,7 @@ const pokedex = [
     "namefr": "Némélios",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pyroar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pyroar.png",
-    "types": [ "Feu, Normal" ]
+    "types": [ "Feu", "Normal" ]
   },
   {
     "gen": 6,
@@ -7053,7 +7053,7 @@ const pokedex = [
     "namefr": "Pandarbare",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pangoro.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pangoro.png",
-    "types": [ "Combat, Ténèbres" ]
+    "types": [ "Combat", "Ténèbres" ]
   },
   {
     "gen": 6,
@@ -7098,7 +7098,7 @@ const pokedex = [
     "namefr": "Monorpale",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/honedge.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/honedge.png",
-    "types": [ "Acier, Spectre" ]
+    "types": [ "Acier", "Spectre" ]
   },
   {
     "gen": 6,
@@ -7107,7 +7107,7 @@ const pokedex = [
     "namefr": "Dimoclès",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/doublade.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/doublade.png",
-    "types": [ "Acier, Spectre" ]
+    "types": [ "Acier", "Spectre" ]
   },
   {
     "gen": 6,
@@ -7116,7 +7116,7 @@ const pokedex = [
     "namefr": "Exagide",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/aegislash.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/aegislash.png",
-    "types": [ "Acier, Spectre" ]
+    "types": [ "Acier", "Spectre" ]
   },
   {
     "gen": 6,
@@ -7161,7 +7161,7 @@ const pokedex = [
     "namefr": "Sepiatop",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/inkay.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/inkay.png",
-    "types": [ "Ténèbres, Psy" ]
+    "types": [ "Ténèbres", "Psy" ]
   },
   {
     "gen": 6,
@@ -7170,7 +7170,7 @@ const pokedex = [
     "namefr": "Sepiatroce",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/malamar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/malamar.png",
-    "types": [ "Ténèbres, Psy" ]
+    "types": [ "Ténèbres", "Psy" ]
   },
   {
     "gen": 6,
@@ -7179,7 +7179,7 @@ const pokedex = [
     "namefr": "Opermine",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/binacle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/binacle.png",
-    "types": [ "Roche, Eau" ]
+    "types": [ "Roche", "Eau" ]
   },
   {
     "gen": 6,
@@ -7188,7 +7188,7 @@ const pokedex = [
     "namefr": "Golgopathe",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/barbaracle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/barbaracle.png",
-    "types": [ "Roche, Eau" ]
+    "types": [ "Roche", "Eau" ]
   },
   {
     "gen": 6,
@@ -7197,7 +7197,7 @@ const pokedex = [
     "namefr": "Venalgue",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/skrelp.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/skrelp.png",
-    "types": [ "Poison, Eau" ]
+    "types": [ "Poison", "Eau" ]
   },
   {
     "gen": 6,
@@ -7206,7 +7206,7 @@ const pokedex = [
     "namefr": "Kravarech",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dragalge.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dragalge.png",
-    "types": [ "Poison, Dragon" ]
+    "types": [ "Poison", "Dragon" ]
   },
   {
     "gen": 6,
@@ -7233,7 +7233,7 @@ const pokedex = [
     "namefr": "Galvaran",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/helioptile.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/helioptile.png",
-    "types": [ "Électrik, Normal" ]
+    "types": [ "Électrik", "Normal" ]
   },
   {
     "gen": 6,
@@ -7242,7 +7242,7 @@ const pokedex = [
     "namefr": "Iguolta",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/heliolisk.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/heliolisk.png",
-    "types": [ "Électrik, Normal" ]
+    "types": [ "Électrik", "Normal" ]
   },
   {
     "gen": 6,
@@ -7251,7 +7251,7 @@ const pokedex = [
     "namefr": "Ptyranidur",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tyrunt.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tyrunt.png",
-    "types": [ "Roche, Dragon" ]
+    "types": [ "Roche", "Dragon" ]
   },
   {
     "gen": 6,
@@ -7260,7 +7260,7 @@ const pokedex = [
     "namefr": "Rexillius",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tyrantrum.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tyrantrum.png",
-    "types": [ "Roche, Dragon" ]
+    "types": [ "Roche", "Dragon" ]
   },
   {
     "gen": 6,
@@ -7269,7 +7269,7 @@ const pokedex = [
     "namefr": "Amagara",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/amaura.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/amaura.png",
-    "types": [ "Roche, Glace" ]
+    "types": [ "Roche", "Glace" ]
   },
   {
     "gen": 6,
@@ -7278,7 +7278,7 @@ const pokedex = [
     "namefr": "Dragmara",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/aurorus.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/aurorus.png",
-    "types": [ "Roche, Glace" ]
+    "types": [ "Roche", "Glace" ]
   },
   {
     "gen": 6,
@@ -7296,7 +7296,7 @@ const pokedex = [
     "namefr": "Brutalibré",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hawlucha.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hawlucha.png",
-    "types": [ "Combat, Vol" ]
+    "types": [ "Combat", "Vol" ]
   },
   {
     "gen": 6,
@@ -7305,7 +7305,7 @@ const pokedex = [
     "namefr": "Dedenne",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dedenne.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dedenne.png",
-    "types": [ "Électrik, Fée" ]
+    "types": [ "Électrik", "Fée" ]
   },
   {
     "gen": 6,
@@ -7314,7 +7314,7 @@ const pokedex = [
     "namefr": "Strassie",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/carbink.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/carbink.png",
-    "types": [ "Roche, Fée" ]
+    "types": [ "Roche", "Fée" ]
   },
   {
     "gen": 6,
@@ -7341,7 +7341,7 @@ const pokedex = [
     "namefr": "Colimucus (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sliggoo-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sliggoo-hisui.png",
-    "types": [ "Acier, Dragon" ]
+    "types": [ "Acier", "Dragon" ]
   },
   {
     "gen": 6,
@@ -7359,7 +7359,7 @@ const pokedex = [
     "namefr": "Muplodocus (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/goodra-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/goodra-hisui.png",
-    "types": [ "Acier, Dragon" ]
+    "types": [ "Acier", "Dragon" ]
   },
   {
     "gen": 6,
@@ -7368,7 +7368,7 @@ const pokedex = [
     "namefr": "Trousselin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/klefki.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/klefki.png",
-    "types": [ "Acier, Fée" ]
+    "types": [ "Acier", "Fée" ]
   },
   {
     "gen": 6,
@@ -7377,7 +7377,7 @@ const pokedex = [
     "namefr": "Brocélôme",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/phantump.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/phantump.png",
-    "types": [ "Spectre, Plante" ]
+    "types": [ "Spectre", "Plante" ]
   },
   {
     "gen": 6,
@@ -7386,7 +7386,7 @@ const pokedex = [
     "namefr": "Desséliande",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/trevenant.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/trevenant.png",
-    "types": [ "Spectre, Plante" ]
+    "types": [ "Spectre", "Plante" ]
   },
   {
     "gen": 6,
@@ -7395,7 +7395,7 @@ const pokedex = [
     "namefr": "Pitrouille",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pumpkaboo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pumpkaboo.png",
-    "types": [ "Spectre, Plante" ]
+    "types": [ "Spectre", "Plante" ]
   },
   {
     "gen": 6,
@@ -7404,7 +7404,7 @@ const pokedex = [
     "namefr": "Banshitrouye",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gourgeist.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gourgeist.png",
-    "types": [ "Spectre, Plante" ]
+    "types": [ "Spectre", "Plante" ]
   },
   {
     "gen": 6,
@@ -7431,7 +7431,7 @@ const pokedex = [
     "namefr": "Séracrawl (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/avalugg-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/avalugg-hisui.png",
-    "types": [ "Glace, Roche" ]
+    "types": [ "Glace", "Roche" ]
   },
   {
     "gen": 6,
@@ -7440,7 +7440,7 @@ const pokedex = [
     "namefr": "Sonistrelle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/noibat.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/noibat.png",
-    "types": [ "Vol, Dragon" ]
+    "types": [ "Vol", "Dragon" ]
   },
   {
     "gen": 6,
@@ -7449,7 +7449,7 @@ const pokedex = [
     "namefr": "Bruyverne",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/noivern.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/noivern.png",
-    "types": [ "Vol, Dragon" ]
+    "types": [ "Vol", "Dragon" ]
   },
   {
     "gen": 6,
@@ -7467,7 +7467,7 @@ const pokedex = [
     "namefr": "Yveltal",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/yveltal.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/yveltal.png",
-    "types": [ "Ténèbres, Vol" ]
+    "types": [ "Ténèbres", "Vol" ]
   },
   {
     "gen": 6,
@@ -7476,7 +7476,7 @@ const pokedex = [
     "namefr": "Zygarde",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zygarde.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zygarde.png",
-    "types": [ "Dragon, Sol" ]
+    "types": [ "Dragon", "Sol" ]
   },
   {
     "gen": 6,
@@ -7485,7 +7485,7 @@ const pokedex = [
     "namefr": "Diancie",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/diancie.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/diancie.png",
-    "types": [ "Roche, Fée" ]
+    "types": [ "Roche", "Fée" ]
   },
   {
     "gen": 6,
@@ -7494,7 +7494,7 @@ const pokedex = [
     "namefr": "Hoopa",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hoopa.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hoopa.png",
-    "types": [ "Psy, Spectre" ]
+    "types": [ "Psy", "Spectre" ]
   },
   {
     "gen": 6,
@@ -7503,7 +7503,7 @@ const pokedex = [
     "namefr": "Volcanion",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/volcanion.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/volcanion.png",
-    "types": [ "Feu, Eau" ]
+    "types": [ "Feu", "Eau" ]
   },
   {
     "gen": 7,
@@ -7512,7 +7512,7 @@ const pokedex = [
     "namefr": "Brindibou",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rowlet.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rowlet.png",
-    "types": [ "Plante, Vol" ]
+    "types": [ "Plante", "Vol" ]
   },
   {
     "gen": 7,
@@ -7521,7 +7521,7 @@ const pokedex = [
     "namefr": "Efflèche",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dartrix.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dartrix.png",
-    "types": [ "Plante, Vol" ]
+    "types": [ "Plante", "Vol" ]
   },
   {
     "gen": 7,
@@ -7530,7 +7530,7 @@ const pokedex = [
     "namefr": "Archéduc",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/decidueye.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/decidueye.png",
-    "types": [ "Plante, Spectre" ]
+    "types": [ "Plante", "Spectre" ]
   },
   {
     "gen": 7,
@@ -7539,7 +7539,7 @@ const pokedex = [
     "namefr": "Archéduc (Forme de Hisui)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/decidueye-hisui.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/decidueye-hisui.png",
-    "types": [ "Plante, Combat" ]
+    "types": [ "Plante", "Combat" ]
   },
   {
     "gen": 7,
@@ -7566,7 +7566,7 @@ const pokedex = [
     "namefr": "Félinferno",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/incineroar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/incineroar.png",
-    "types": [ "Feu, Ténèbres" ]
+    "types": [ "Feu", "Ténèbres" ]
   },
   {
     "gen": 7,
@@ -7593,7 +7593,7 @@ const pokedex = [
     "namefr": "Oratoria",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/primarina.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/primarina.png",
-    "types": [ "Eau, Fée" ]
+    "types": [ "Eau", "Fée" ]
   },
   {
     "gen": 7,
@@ -7602,7 +7602,7 @@ const pokedex = [
     "namefr": "Picassaut",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pikipek.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pikipek.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 7,
@@ -7611,7 +7611,7 @@ const pokedex = [
     "namefr": "Piclairon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/trumbeak.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/trumbeak.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 7,
@@ -7620,7 +7620,7 @@ const pokedex = [
     "namefr": "Bazoucan",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/toucannon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/toucannon.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 7,
@@ -7656,7 +7656,7 @@ const pokedex = [
     "namefr": "Chrysapile",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/charjabug.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/charjabug.png",
-    "types": [ "Insecte, Électrik" ]
+    "types": [ "Insecte", "Électrik" ]
   },
   {
     "gen": 7,
@@ -7665,7 +7665,7 @@ const pokedex = [
     "namefr": "Lucanon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/vikavolt.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/vikavolt.png",
-    "types": [ "Insecte, Électrik" ]
+    "types": [ "Insecte", "Électrik" ]
   },
   {
     "gen": 7,
@@ -7683,7 +7683,7 @@ const pokedex = [
     "namefr": "Crabominable",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/crabominable.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/crabominable.png",
-    "types": [ "Combat, Glace" ]
+    "types": [ "Combat", "Glace" ]
   },
   {
     "gen": 7,
@@ -7692,7 +7692,7 @@ const pokedex = [
     "namefr": "Plumeline",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/oricorio.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/oricorio.png",
-    "types": [ "Feu, Vol" ]
+    "types": [ "Feu", "Vol" ]
   },
   {
     "gen": 7,
@@ -7701,7 +7701,7 @@ const pokedex = [
     "namefr": "Plumeline (Style Pom-Pom)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/oricorio-pompom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/oricorio-pompom.png",
-    "types": [ "Électrik, Vol" ]
+    "types": [ "Électrik", "Vol" ]
   },
   {
     "gen": 7,
@@ -7710,7 +7710,7 @@ const pokedex = [
     "namefr": "Plumeline (Style Hula)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/oricorio-pau.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/oricorio-pau.png",
-    "types": [ "Psy, Vol" ]
+    "types": [ "Psy", "Vol" ]
   },
   {
     "gen": 7,
@@ -7719,7 +7719,7 @@ const pokedex = [
     "namefr": "Plumeline (Style Buyō)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/oricorio-sensu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/oricorio-sensu.png",
-    "types": [ "Spectre, Vol" ]
+    "types": [ "Spectre", "Vol" ]
   },
   {
     "gen": 7,
@@ -7728,7 +7728,7 @@ const pokedex = [
     "namefr": "Bombydou",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/cutiefly.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/cutiefly.png",
-    "types": [ "Insecte, Fée" ]
+    "types": [ "Insecte", "Fée" ]
   },
   {
     "gen": 7,
@@ -7737,7 +7737,7 @@ const pokedex = [
     "namefr": "Rubombelle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ribombee.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ribombee.png",
-    "types": [ "Insecte, Fée" ]
+    "types": [ "Insecte", "Fée" ]
   },
   {
     "gen": 7,
@@ -7791,7 +7791,7 @@ const pokedex = [
     "namefr": "Vorastérie",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mareanie.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mareanie.png",
-    "types": [ "Poison, Eau" ]
+    "types": [ "Poison", "Eau" ]
   },
   {
     "gen": 7,
@@ -7800,7 +7800,7 @@ const pokedex = [
     "namefr": "Prédastérie",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/toxapex.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/toxapex.png",
-    "types": [ "Poison, Eau" ]
+    "types": [ "Poison", "Eau" ]
   },
   {
     "gen": 7,
@@ -7827,7 +7827,7 @@ const pokedex = [
     "namefr": "Araqua",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dewpider.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dewpider.png",
-    "types": [ "Eau, Insecte" ]
+    "types": [ "Eau", "Insecte" ]
   },
   {
     "gen": 7,
@@ -7836,7 +7836,7 @@ const pokedex = [
     "namefr": "Tarenbulle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/araquanid.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/araquanid.png",
-    "types": [ "Eau, Insecte" ]
+    "types": [ "Eau", "Insecte" ]
   },
   {
     "gen": 7,
@@ -7863,7 +7863,7 @@ const pokedex = [
     "namefr": "Spododo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/morelull.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/morelull.png",
-    "types": [ "Plante, Fée" ]
+    "types": [ "Plante", "Fée" ]
   },
   {
     "gen": 7,
@@ -7872,7 +7872,7 @@ const pokedex = [
     "namefr": "Lampignon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/shiinotic.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/shiinotic.png",
-    "types": [ "Plante, Fée" ]
+    "types": [ "Plante", "Fée" ]
   },
   {
     "gen": 7,
@@ -7881,7 +7881,7 @@ const pokedex = [
     "namefr": "Tritox",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/salandit.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/salandit.png",
-    "types": [ "Poison, Feu" ]
+    "types": [ "Poison", "Feu" ]
   },
   {
     "gen": 7,
@@ -7890,7 +7890,7 @@ const pokedex = [
     "namefr": "Malamandre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/salazzle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/salazzle.png",
-    "types": [ "Poison, Feu" ]
+    "types": [ "Poison", "Feu" ]
   },
   {
     "gen": 7,
@@ -7899,7 +7899,7 @@ const pokedex = [
     "namefr": "Nounourson",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/stufful.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/stufful.png",
-    "types": [ "Normal, Combat" ]
+    "types": [ "Normal", "Combat" ]
   },
   {
     "gen": 7,
@@ -7908,7 +7908,7 @@ const pokedex = [
     "namefr": "Chelours",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bewear.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bewear.png",
-    "types": [ "Normal, Combat" ]
+    "types": [ "Normal", "Combat" ]
   },
   {
     "gen": 7,
@@ -7953,7 +7953,7 @@ const pokedex = [
     "namefr": "Gouroutan",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/oranguru.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/oranguru.png",
-    "types": [ "Normal, Psy" ]
+    "types": [ "Normal", "Psy" ]
   },
   {
     "gen": 7,
@@ -7971,7 +7971,7 @@ const pokedex = [
     "namefr": "Sovkipou",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wimpod.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wimpod.png",
-    "types": [ "Insecte, Eau" ]
+    "types": [ "Insecte", "Eau" ]
   },
   {
     "gen": 7,
@@ -7980,7 +7980,7 @@ const pokedex = [
     "namefr": "Sarmuraï",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/golisopod.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/golisopod.png",
-    "types": [ "Insecte, Eau" ]
+    "types": [ "Insecte", "Eau" ]
   },
   {
     "gen": 7,
@@ -7989,7 +7989,7 @@ const pokedex = [
     "namefr": "Bacabouh",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sandygast.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sandygast.png",
-    "types": [ "Spectre, Sol" ]
+    "types": [ "Spectre", "Sol" ]
   },
   {
     "gen": 7,
@@ -7998,7 +7998,7 @@ const pokedex = [
     "namefr": "Trépassable",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/palossand.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/palossand.png",
-    "types": [ "Spectre, Sol" ]
+    "types": [ "Spectre", "Sol" ]
   },
   {
     "gen": 7,
@@ -8034,7 +8034,7 @@ const pokedex = [
     "namefr": "Météno",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/minior.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/minior.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 7,
@@ -8043,7 +8043,7 @@ const pokedex = [
     "namefr": "Météno (Noyau Rouge)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/minior-red.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/minior-red.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 7,
@@ -8052,7 +8052,7 @@ const pokedex = [
     "namefr": "Météno (Noyau Orange)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/minior-orange.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/minior-orange.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 7,
@@ -8061,7 +8061,7 @@ const pokedex = [
     "namefr": "Météno (Noyau Jaune)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/minior-yellow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/minior-yellow.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 7,
@@ -8070,7 +8070,7 @@ const pokedex = [
     "namefr": "Météno (Noyau Vert)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/minior-green.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/minior-green.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 7,
@@ -8079,7 +8079,7 @@ const pokedex = [
     "namefr": "Météno (Noyau Bleu)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/minior-blue.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/minior-blue.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 7,
@@ -8088,7 +8088,7 @@ const pokedex = [
     "namefr": "Météno (Noyau Indigo)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/minior-indigo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/minior-indigo.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 7,
@@ -8097,7 +8097,7 @@ const pokedex = [
     "namefr": "Météno (Noyau Violet)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/minior-violet.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/minior-violet.png",
-    "types": [ "Roche, Vol" ]
+    "types": [ "Roche", "Vol" ]
   },
   {
     "gen": 7,
@@ -8115,7 +8115,7 @@ const pokedex = [
     "namefr": "Boumata",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/turtonator.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/turtonator.png",
-    "types": [ "Feu, Dragon" ]
+    "types": [ "Feu", "Dragon" ]
   },
   {
     "gen": 7,
@@ -8124,7 +8124,7 @@ const pokedex = [
     "namefr": "Togedemaru",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/togedemaru.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/togedemaru.png",
-    "types": [ "Électrik, Acier" ]
+    "types": [ "Électrik", "Acier" ]
   },
   {
     "gen": 7,
@@ -8133,7 +8133,7 @@ const pokedex = [
     "namefr": "Mimiqui",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mimikyu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mimikyu.png",
-    "types": [ "Spectre, Fée" ]
+    "types": [ "Spectre", "Fée" ]
   },
   {
     "gen": 7,
@@ -8142,7 +8142,7 @@ const pokedex = [
     "namefr": "Denticrisse",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bruxish.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bruxish.png",
-    "types": [ "Eau, Psy" ]
+    "types": [ "Eau", "Psy" ]
   },
   {
     "gen": 7,
@@ -8151,7 +8151,7 @@ const pokedex = [
     "namefr": "Draïeul",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/drampa.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/drampa.png",
-    "types": [ "Normal, Dragon" ]
+    "types": [ "Normal", "Dragon" ]
   },
   {
     "gen": 7,
@@ -8160,7 +8160,7 @@ const pokedex = [
     "namefr": "Sinistrail",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dhelmise.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dhelmise.png",
-    "types": [ "Spectre, Plante" ]
+    "types": [ "Spectre", "Plante" ]
   },
   {
     "gen": 7,
@@ -8178,7 +8178,7 @@ const pokedex = [
     "namefr": "Écaïd",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hakamoo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hakamoo.png",
-    "types": [ "Dragon, Combat" ]
+    "types": [ "Dragon", "Combat" ]
   },
   {
     "gen": 7,
@@ -8187,7 +8187,7 @@ const pokedex = [
     "namefr": "Ékaïser",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kommoo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kommoo.png",
-    "types": [ "Dragon, Combat" ]
+    "types": [ "Dragon", "Combat" ]
   },
   {
     "gen": 7,
@@ -8196,7 +8196,7 @@ const pokedex = [
     "namefr": "Tokorico",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tapukoko.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tapukoko.png",
-    "types": [ "Électrik, Fée" ]
+    "types": [ "Électrik", "Fée" ]
   },
   {
     "gen": 7,
@@ -8205,7 +8205,7 @@ const pokedex = [
     "namefr": "Tokopiyon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tapulele.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tapulele.png",
-    "types": [ "Psy, Fée" ]
+    "types": [ "Psy", "Fée" ]
   },
   {
     "gen": 7,
@@ -8214,7 +8214,7 @@ const pokedex = [
     "namefr": "Tokotoro",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tapubulu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tapubulu.png",
-    "types": [ "Plante, Fée" ]
+    "types": [ "Plante", "Fée" ]
   },
   {
     "gen": 7,
@@ -8223,7 +8223,7 @@ const pokedex = [
     "namefr": "Tokopisco",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tapufini.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tapufini.png",
-    "types": [ "Eau, Fée" ]
+    "types": [ "Eau", "Fée" ]
   },
   {
     "gen": 7,
@@ -8250,7 +8250,7 @@ const pokedex = [
     "namefr": "Solgaleo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/solgaleo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/solgaleo.png",
-    "types": [ "Psy, Acier" ]
+    "types": [ "Psy", "Acier" ]
   },
   {
     "gen": 7,
@@ -8259,7 +8259,7 @@ const pokedex = [
     "namefr": "Lunala",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lunala.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lunala.png",
-    "types": [ "Psy, Spectre" ]
+    "types": [ "Psy", "Spectre" ]
   },
   {
     "gen": 7,
@@ -8268,7 +8268,7 @@ const pokedex = [
     "namefr": "Zéroïd",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/nihilego.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/nihilego.png",
-    "types": [ "Roche, Poison" ]
+    "types": [ "Roche", "Poison" ]
   },
   {
     "gen": 7,
@@ -8277,7 +8277,7 @@ const pokedex = [
     "namefr": "Mouscoto",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/buzzwole.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/buzzwole.png",
-    "types": [ "Insecte, Combat" ]
+    "types": [ "Insecte", "Combat" ]
   },
   {
     "gen": 7,
@@ -8286,7 +8286,7 @@ const pokedex = [
     "namefr": "Cancrelove",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pheromosa.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pheromosa.png",
-    "types": [ "Insecte, Combat" ]
+    "types": [ "Insecte", "Combat" ]
   },
   {
     "gen": 7,
@@ -8304,7 +8304,7 @@ const pokedex = [
     "namefr": "Bamboiselle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/celesteela.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/celesteela.png",
-    "types": [ "Acier, Vol" ]
+    "types": [ "Acier", "Vol" ]
   },
   {
     "gen": 7,
@@ -8313,7 +8313,7 @@ const pokedex = [
     "namefr": "Katagami",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kartana.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kartana.png",
-    "types": [ "Plante, Acier" ]
+    "types": [ "Plante", "Acier" ]
   },
   {
     "gen": 7,
@@ -8322,7 +8322,7 @@ const pokedex = [
     "namefr": "Engloutyran",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/guzzlord.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/guzzlord.png",
-    "types": [ "Ténèbres, Dragon" ]
+    "types": [ "Ténèbres", "Dragon" ]
   },
   {
     "gen": 7,
@@ -8340,7 +8340,7 @@ const pokedex = [
     "namefr": "Magearna",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/magearna.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/magearna.png",
-    "types": [ "Acier, Fée" ]
+    "types": [ "Acier", "Fée" ]
   },
   {
     "gen": 7,
@@ -8349,7 +8349,7 @@ const pokedex = [
     "namefr": "Marshadow",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/marshadow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/marshadow.png",
-    "types": [ "Combat, Spectre" ]
+    "types": [ "Combat", "Spectre" ]
   },
   {
     "gen": 7,
@@ -8367,7 +8367,7 @@ const pokedex = [
     "namefr": "Mandrillon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/naganadel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/naganadel.png",
-    "types": [ "Poison, Dragon" ]
+    "types": [ "Poison", "Dragon" ]
   },
   {
     "gen": 7,
@@ -8376,7 +8376,7 @@ const pokedex = [
     "namefr": "Ama-Ama",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/stakataka.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/stakataka.png",
-    "types": [ "Roche, Acier" ]
+    "types": [ "Roche", "Acier" ]
   },
   {
     "gen": 7,
@@ -8385,7 +8385,7 @@ const pokedex = [
     "namefr": "Pierroteknik",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/blacephalon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/blacephalon.png",
-    "types": [ "Feu, Spectre" ]
+    "types": [ "Feu", "Spectre" ]
   },
   {
     "gen": 7,
@@ -8538,7 +8538,7 @@ const pokedex = [
     "namefr": "Corvaillus",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/corviknight.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/corviknight.png",
-    "types": [ "Vol, Acier" ]
+    "types": [ "Vol", "Acier" ]
   },
   {
     "gen": 8,
@@ -8556,7 +8556,7 @@ const pokedex = [
     "namefr": "Coléodôme",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dottler.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dottler.png",
-    "types": [ "Insecte, Psy" ]
+    "types": [ "Insecte", "Psy" ]
   },
   {
     "gen": 8,
@@ -8565,7 +8565,7 @@ const pokedex = [
     "namefr": "Astronelle",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/orbeetle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/orbeetle.png",
-    "types": [ "Insecte, Psy" ]
+    "types": [ "Insecte", "Psy" ]
   },
   {
     "gen": 8,
@@ -8637,7 +8637,7 @@ const pokedex = [
     "namefr": "Torgamord",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/drednaw.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/drednaw.png",
-    "types": [ "Eau, Roche" ]
+    "types": [ "Eau", "Roche" ]
   },
   {
     "gen": 8,
@@ -8673,7 +8673,7 @@ const pokedex = [
     "namefr": "Wagomine",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/carkol.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/carkol.png",
-    "types": [ "Roche, Feu" ]
+    "types": [ "Roche", "Feu" ]
   },
   {
     "gen": 8,
@@ -8682,7 +8682,7 @@ const pokedex = [
     "namefr": "Monthracite",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/coalossal.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/coalossal.png",
-    "types": [ "Roche, Feu" ]
+    "types": [ "Roche", "Feu" ]
   },
   {
     "gen": 8,
@@ -8691,7 +8691,7 @@ const pokedex = [
     "namefr": "Verpom",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/applin.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/applin.png",
-    "types": [ "Plante, Dragon" ]
+    "types": [ "Plante", "Dragon" ]
   },
   {
     "gen": 8,
@@ -8700,7 +8700,7 @@ const pokedex = [
     "namefr": "Pomdrapi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/flapple.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/flapple.png",
-    "types": [ "Plante, Dragon" ]
+    "types": [ "Plante", "Dragon" ]
   },
   {
     "gen": 8,
@@ -8709,7 +8709,7 @@ const pokedex = [
     "namefr": "Dratatin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/appletun.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/appletun.png",
-    "types": [ "Plante, Dragon" ]
+    "types": [ "Plante", "Dragon" ]
   },
   {
     "gen": 8,
@@ -8736,7 +8736,7 @@ const pokedex = [
     "namefr": "Nigosier",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/cramorant.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/cramorant.png",
-    "types": [ "Vol, Eau" ]
+    "types": [ "Vol", "Eau" ]
   },
   {
     "gen": 8,
@@ -8763,7 +8763,7 @@ const pokedex = [
     "namefr": "Toxizap",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/toxel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/toxel.png",
-    "types": [ "Électrik, Poison" ]
+    "types": [ "Électrik", "Poison" ]
   },
   {
     "gen": 8,
@@ -8772,7 +8772,7 @@ const pokedex = [
     "namefr": "Salarsen",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/toxtricity.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/toxtricity.png",
-    "types": [ "Électrik, Poison" ]
+    "types": [ "Électrik", "Poison" ]
   },
   {
     "gen": 8,
@@ -8781,7 +8781,7 @@ const pokedex = [
     "namefr": "Salarsen (Forme Grave)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/toxtricity-lowkey.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/toxtricity-lowkey.png",
-    "types": [ "Électrik, Poison" ]
+    "types": [ "Électrik", "Poison" ]
   },
   {
     "gen": 8,
@@ -8790,7 +8790,7 @@ const pokedex = [
     "namefr": "Grillepattes",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sizzlipede.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sizzlipede.png",
-    "types": [ "Feu, Insecte" ]
+    "types": [ "Feu", "Insecte" ]
   },
   {
     "gen": 8,
@@ -8799,7 +8799,7 @@ const pokedex = [
     "namefr": "Scolocendre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/centiskorch.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/centiskorch.png",
-    "types": [ "Feu, Insecte" ]
+    "types": [ "Feu", "Insecte" ]
   },
   {
     "gen": 8,
@@ -8880,7 +8880,7 @@ const pokedex = [
     "namefr": "Sorcilence",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hatterene.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hatterene.png",
-    "types": [ "Psy, Fée" ]
+    "types": [ "Psy", "Fée" ]
   },
   {
     "gen": 8,
@@ -8889,7 +8889,7 @@ const pokedex = [
     "namefr": "Grimalin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/impidimp.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/impidimp.png",
-    "types": [ "Ténèbres, Fée" ]
+    "types": [ "Ténèbres", "Fée" ]
   },
   {
     "gen": 8,
@@ -8898,7 +8898,7 @@ const pokedex = [
     "namefr": "Fourbelin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/morgrem.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/morgrem.png",
-    "types": [ "Ténèbres, Fée" ]
+    "types": [ "Ténèbres", "Fée" ]
   },
   {
     "gen": 8,
@@ -8907,7 +8907,7 @@ const pokedex = [
     "namefr": "Angoliath",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/grimmsnarl.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/grimmsnarl.png",
-    "types": [ "Ténèbres, Fée" ]
+    "types": [ "Ténèbres", "Fée" ]
   },
   {
     "gen": 8,
@@ -8916,7 +8916,7 @@ const pokedex = [
     "namefr": "Ixon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/obstagoon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/obstagoon.png",
-    "types": [ "Ténèbres, Normal" ]
+    "types": [ "Ténèbres", "Normal" ]
   },
   {
     "gen": 8,
@@ -8952,7 +8952,7 @@ const pokedex = [
     "namefr": "M. Glaquette",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/mrrime.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/mrrime.png",
-    "types": [ "Glace, Psy" ]
+    "types": [ "Glace", "Psy" ]
   },
   {
     "gen": 8,
@@ -8961,7 +8961,7 @@ const pokedex = [
     "namefr": "Tutétékri",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/runerigus.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/runerigus.png",
-    "types": [ "Sol, Spectre" ]
+    "types": [ "Sol", "Spectre" ]
   },
   {
     "gen": 8,
@@ -9006,7 +9006,7 @@ const pokedex = [
     "namefr": "Frissonille",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/snom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/snom.png",
-    "types": [ "Glace, Insecte" ]
+    "types": [ "Glace", "Insecte" ]
   },
   {
     "gen": 8,
@@ -9015,7 +9015,7 @@ const pokedex = [
     "namefr": "Beldeneige",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/frosmoth.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/frosmoth.png",
-    "types": [ "Glace, Insecte" ]
+    "types": [ "Glace", "Insecte" ]
   },
   {
     "gen": 8,
@@ -9042,7 +9042,7 @@ const pokedex = [
     "namefr": "Wimessir",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/indeedee.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/indeedee.png",
-    "types": [ "Psy, Normal" ]
+    "types": [ "Psy", "Normal" ]
   },
   {
     "gen": 8,
@@ -9051,7 +9051,7 @@ const pokedex = [
     "namefr": "Wimessir (Femelle)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/indeedee-f.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/indeedee-f.png",
-    "types": [ "Psy, Normal" ]
+    "types": [ "Psy", "Normal" ]
   },
   {
     "gen": 8,
@@ -9060,7 +9060,7 @@ const pokedex = [
     "namefr": "Morpeko",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/morpeko.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/morpeko.png",
-    "types": [ "Électrik, Ténèbres" ]
+    "types": [ "Électrik", "Ténèbres" ]
   },
   {
     "gen": 8,
@@ -9087,7 +9087,7 @@ const pokedex = [
     "namefr": "Galvagon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dracozolt.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dracozolt.png",
-    "types": [ "Électrik, Dragon" ]
+    "types": [ "Électrik", "Dragon" ]
   },
   {
     "gen": 8,
@@ -9096,7 +9096,7 @@ const pokedex = [
     "namefr": "Galvagla",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/arctozolt.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/arctozolt.png",
-    "types": [ "Électrik, Glace" ]
+    "types": [ "Électrik", "Glace" ]
   },
   {
     "gen": 8,
@@ -9105,7 +9105,7 @@ const pokedex = [
     "namefr": "Hydragon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dracovish.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dracovish.png",
-    "types": [ "Eau, Dragon" ]
+    "types": [ "Eau", "Dragon" ]
   },
   {
     "gen": 8,
@@ -9114,7 +9114,7 @@ const pokedex = [
     "namefr": "Hydragla",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/arctovish.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/arctovish.png",
-    "types": [ "Eau, Glace" ]
+    "types": [ "Eau", "Glace" ]
   },
   {
     "gen": 8,
@@ -9123,7 +9123,7 @@ const pokedex = [
     "namefr": "Duralugon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/duraludon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/duraludon.png",
-    "types": [ "Acier, Dragon" ]
+    "types": [ "Acier", "Dragon" ]
   },
   {
     "gen": 8,
@@ -9132,7 +9132,7 @@ const pokedex = [
     "namefr": "Fantyrm",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dreepy.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dreepy.png",
-    "types": [ "Dragon, Spectre" ]
+    "types": [ "Dragon", "Spectre" ]
   },
   {
     "gen": 8,
@@ -9141,7 +9141,7 @@ const pokedex = [
     "namefr": "Dispareptil",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/drakloak.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/drakloak.png",
-    "types": [ "Dragon, Spectre" ]
+    "types": [ "Dragon", "Spectre" ]
   },
   {
     "gen": 8,
@@ -9150,7 +9150,7 @@ const pokedex = [
     "namefr": "Lanssorien",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dragapult.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dragapult.png",
-    "types": [ "Dragon, Spectre" ]
+    "types": [ "Dragon", "Spectre" ]
   },
   {
     "gen": 8,
@@ -9177,7 +9177,7 @@ const pokedex = [
     "namefr": "Éthernatos",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/eternatus.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/eternatus.png",
-    "types": [ "Poison, Dragon" ]
+    "types": [ "Poison", "Dragon" ]
   },
   {
     "gen": 8,
@@ -9195,7 +9195,7 @@ const pokedex = [
     "namefr": "Shifours",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/urshifu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/urshifu.png",
-    "types": [ "Combat, Ténèbres" ]
+    "types": [ "Combat", "Ténèbres" ]
   },
   {
     "gen": 8,
@@ -9204,7 +9204,7 @@ const pokedex = [
     "namefr": "Shifours (Style Mille Poings)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/urshifu-rapidstrike.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/urshifu-rapidstrike.png",
-    "types": [ "Combat, Eau" ]
+    "types": [ "Combat", "Eau" ]
   },
   {
     "gen": 8,
@@ -9213,7 +9213,7 @@ const pokedex = [
     "namefr": "Zarude",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/zarude.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/zarude.png",
-    "types": [ "Ténèbres, Plante" ]
+    "types": [ "Ténèbres", "Plante" ]
   },
   {
     "gen": 8,
@@ -9258,7 +9258,7 @@ const pokedex = [
     "namefr": "Sylveroy",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/calyrex.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/calyrex.png",
-    "types": [ "Psy, Plante" ]
+    "types": [ "Psy", "Plante" ]
   },
   {
     "gen": 8,
@@ -9267,7 +9267,7 @@ const pokedex = [
     "namefr": "Cerbyllin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wyrdeer.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wyrdeer.png",
-    "types": [ "Normal, Psy" ]
+    "types": [ "Normal", "Psy" ]
   },
   {
     "gen": 8,
@@ -9276,7 +9276,7 @@ const pokedex = [
     "namefr": "Hachécateur",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kleavor.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kleavor.png",
-    "types": [ "Insecte, Roche" ]
+    "types": [ "Insecte", "Roche" ]
   },
   {
     "gen": 8,
@@ -9285,7 +9285,7 @@ const pokedex = [
     "namefr": "Ursaking",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ursaluna.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ursaluna.png",
-    "types": [ "Sol, Normal" ]
+    "types": [ "Sol", "Normal" ]
   },
   {
     "gen": 8,
@@ -9294,7 +9294,7 @@ const pokedex = [
     "namefr": "Ursaking (Lune Vermeille)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ursaluna-bloodmoon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ursaluna-bloodmoon.png",
-    "types": [ "Sol, Normal" ]
+    "types": [ "Sol", "Normal" ]
   },
   {
     "gen": 8,
@@ -9303,7 +9303,7 @@ const pokedex = [
     "namefr": "Paragruel",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/basculegion.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/basculegion.png",
-    "types": [ "Eau, Spectre" ]
+    "types": [ "Eau", "Spectre" ]
   },
   {
     "gen": 8,
@@ -9312,7 +9312,7 @@ const pokedex = [
     "namefr": "Paragruel (Femelle)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/basculegion-f.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/basculegion-f.png",
-    "types": [ "Eau, Spectre" ]
+    "types": [ "Eau", "Spectre" ]
   },
   {
     "gen": 8,
@@ -9321,7 +9321,7 @@ const pokedex = [
     "namefr": "Farfurex",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sneasler.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sneasler.png",
-    "types": [ "Combat, Poison" ]
+    "types": [ "Combat", "Poison" ]
   },
   {
     "gen": 8,
@@ -9330,7 +9330,7 @@ const pokedex = [
     "namefr": "Qwilpik",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/overqwil.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/overqwil.png",
-    "types": [ "Ténèbres, Poison" ]
+    "types": [ "Ténèbres", "Poison" ]
   },
   {
     "gen": 8,
@@ -9339,7 +9339,7 @@ const pokedex = [
     "namefr": "Amovénus",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/enamorus.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/enamorus.png",
-    "types": [ "Fée, Vol" ]
+    "types": [ "Fée", "Vol" ]
   },
   {
     "gen": 9,
@@ -9366,7 +9366,7 @@ const pokedex = [
     "namefr": "Miascarade",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/meowscarada.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/meowscarada.png",
-    "types": [ "Plante, Ténèbres" ]
+    "types": [ "Plante", "Ténèbres" ]
   },
   {
     "gen": 9,
@@ -9393,7 +9393,7 @@ const pokedex = [
     "namefr": "Flâmigator",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/skeledirge.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/skeledirge.png",
-    "types": [ "Feu, Spectre" ]
+    "types": [ "Feu", "Spectre" ]
   },
   {
     "gen": 9,
@@ -9420,7 +9420,7 @@ const pokedex = [
     "namefr": "Palmaval",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/quaquaval.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/quaquaval.png",
-    "types": [ "Eau, Combat" ]
+    "types": [ "Eau", "Combat" ]
   },
   {
     "gen": 9,
@@ -9483,7 +9483,7 @@ const pokedex = [
     "namefr": "Gambex",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/lokix.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/lokix.png",
-    "types": [ "Insecte, Ténèbres" ]
+    "types": [ "Insecte", "Ténèbres" ]
   },
   {
     "gen": 9,
@@ -9501,7 +9501,7 @@ const pokedex = [
     "namefr": "Pohmotte",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pawmo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pawmo.png",
-    "types": [ "Électrik, Combat" ]
+    "types": [ "Électrik", "Combat" ]
   },
   {
     "gen": 9,
@@ -9510,7 +9510,7 @@ const pokedex = [
     "namefr": "Pohmarmotte",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pawmot.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pawmot.png",
-    "types": [ "Électrik, Combat" ]
+    "types": [ "Électrik", "Combat" ]
   },
   {
     "gen": 9,
@@ -9564,7 +9564,7 @@ const pokedex = [
     "namefr": "Olivini",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/smoliv.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/smoliv.png",
-    "types": [ "Plante, Normal" ]
+    "types": [ "Plante", "Normal" ]
   },
   {
     "gen": 9,
@@ -9573,7 +9573,7 @@ const pokedex = [
     "namefr": "Olivado",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dolliv.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dolliv.png",
-    "types": [ "Plante, Normal" ]
+    "types": [ "Plante", "Normal" ]
   },
   {
     "gen": 9,
@@ -9582,7 +9582,7 @@ const pokedex = [
     "namefr": "Arboliva",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/arboliva.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/arboliva.png",
-    "types": [ "Plante, Normal" ]
+    "types": [ "Plante", "Normal" ]
   },
   {
     "gen": 9,
@@ -9591,7 +9591,7 @@ const pokedex = [
     "namefr": "Tapatoès",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/squawkabilly.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/squawkabilly.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 9,
@@ -9600,7 +9600,7 @@ const pokedex = [
     "namefr": "Tapatoès (Plumage Bleu)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/squawkabilly-blue.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/squawkabilly-blue.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 9,
@@ -9609,7 +9609,7 @@ const pokedex = [
     "namefr": "Tapatoès (Plumage Jaune)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/squawkabilly-yellow.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/squawkabilly-yellow.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 9,
@@ -9618,7 +9618,7 @@ const pokedex = [
     "namefr": "Tapatoès (Plumage Blanc)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/squawkabilly-white.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/squawkabilly-white.png",
-    "types": [ "Normal, Vol" ]
+    "types": [ "Normal", "Vol" ]
   },
   {
     "gen": 9,
@@ -9663,7 +9663,7 @@ const pokedex = [
     "namefr": "Carmadura",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/armarouge.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/armarouge.png",
-    "types": [ "Feu, Psy" ]
+    "types": [ "Feu", "Psy" ]
   },
   {
     "gen": 9,
@@ -9672,7 +9672,7 @@ const pokedex = [
     "namefr": "Malvalame",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ceruledge.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ceruledge.png",
-    "types": [ "Feu, Spectre" ]
+    "types": [ "Feu", "Spectre" ]
   },
   {
     "gen": 9,
@@ -9699,7 +9699,7 @@ const pokedex = [
     "namefr": "Zapétrel",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wattrel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wattrel.png",
-    "types": [ "Électrik, Vol" ]
+    "types": [ "Électrik", "Vol" ]
   },
   {
     "gen": 9,
@@ -9708,7 +9708,7 @@ const pokedex = [
     "namefr": "Fulgulairo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kilowattrel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kilowattrel.png",
-    "types": [ "Électrik, Vol" ]
+    "types": [ "Électrik", "Vol" ]
   },
   {
     "gen": 9,
@@ -9735,7 +9735,7 @@ const pokedex = [
     "namefr": "Gribouraigne",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/shroodle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/shroodle.png",
-    "types": [ "Poison, Normal" ]
+    "types": [ "Poison", "Normal" ]
   },
   {
     "gen": 9,
@@ -9744,7 +9744,7 @@ const pokedex = [
     "namefr": "Tag-Tag",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/grafaiai.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/grafaiai.png",
-    "types": [ "Poison, Normal" ]
+    "types": [ "Poison", "Normal" ]
   },
   {
     "gen": 9,
@@ -9753,7 +9753,7 @@ const pokedex = [
     "namefr": "Virovent",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bramblin.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bramblin.png",
-    "types": [ "Plante, Spectre" ]
+    "types": [ "Plante", "Spectre" ]
   },
   {
     "gen": 9,
@@ -9762,7 +9762,7 @@ const pokedex = [
     "namefr": "Virevorreur",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/brambleghast.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/brambleghast.png",
-    "types": [ "Plante, Spectre" ]
+    "types": [ "Plante", "Spectre" ]
   },
   {
     "gen": 9,
@@ -9771,7 +9771,7 @@ const pokedex = [
     "namefr": "Terracool",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/toedscool.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/toedscool.png",
-    "types": [ "Sol, Plante" ]
+    "types": [ "Sol", "Plante" ]
   },
   {
     "gen": 9,
@@ -9780,7 +9780,7 @@ const pokedex = [
     "namefr": "Terracruel",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/toedscruel.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/toedscruel.png",
-    "types": [ "Sol, Plante" ]
+    "types": [ "Sol", "Plante" ]
   },
   {
     "gen": 9,
@@ -9807,7 +9807,7 @@ const pokedex = [
     "namefr": "Scovilain",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/scovillain.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/scovillain.png",
-    "types": [ "Plante, Feu" ]
+    "types": [ "Plante", "Feu" ]
   },
   {
     "gen": 9,
@@ -9825,7 +9825,7 @@ const pokedex = [
     "namefr": "Bérasca",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/rabsca.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/rabsca.png",
-    "types": [ "Insecte, Psy" ]
+    "types": [ "Insecte", "Psy" ]
   },
   {
     "gen": 9,
@@ -9852,7 +9852,7 @@ const pokedex = [
     "namefr": "Forgerette",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tinkatink.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tinkatink.png",
-    "types": [ "Fée, Acier" ]
+    "types": [ "Fée", "Acier" ]
   },
   {
     "gen": 9,
@@ -9861,7 +9861,7 @@ const pokedex = [
     "namefr": "Forgella",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tinkatuff.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tinkatuff.png",
-    "types": [ "Fée, Acier" ]
+    "types": [ "Fée", "Acier" ]
   },
   {
     "gen": 9,
@@ -9870,7 +9870,7 @@ const pokedex = [
     "namefr": "Forgelina",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tinkaton.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tinkaton.png",
-    "types": [ "Fée, Acier" ]
+    "types": [ "Fée", "Acier" ]
   },
   {
     "gen": 9,
@@ -9897,7 +9897,7 @@ const pokedex = [
     "namefr": "Lestombaile",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/bombirdier.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/bombirdier.png",
-    "types": [ "Vol, Ténèbres" ]
+    "types": [ "Vol", "Ténèbres" ]
   },
   {
     "gen": 9,
@@ -9924,7 +9924,7 @@ const pokedex = [
     "namefr": "Vrombi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/varoom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/varoom.png",
-    "types": [ "Acier, Poison" ]
+    "types": [ "Acier", "Poison" ]
   },
   {
     "gen": 9,
@@ -9933,7 +9933,7 @@ const pokedex = [
     "namefr": "Vrombotor",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/revavroom.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/revavroom.png",
-    "types": [ "Acier, Poison" ]
+    "types": [ "Acier", "Poison" ]
   },
   {
     "gen": 9,
@@ -9942,7 +9942,7 @@ const pokedex = [
     "namefr": "Motorizard",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/cyclizar.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/cyclizar.png",
-    "types": [ "Dragon, Normal" ]
+    "types": [ "Dragon", "Normal" ]
   },
   {
     "gen": 9,
@@ -9960,7 +9960,7 @@ const pokedex = [
     "namefr": "Germéclat",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/glimmet.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/glimmet.png",
-    "types": [ "Roche, Poison" ]
+    "types": [ "Roche", "Poison" ]
   },
   {
     "gen": 9,
@@ -9969,7 +9969,7 @@ const pokedex = [
     "namefr": "Floréclat",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/glimmora.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/glimmora.png",
-    "types": [ "Roche, Poison" ]
+    "types": [ "Roche", "Poison" ]
   },
   {
     "gen": 9,
@@ -9996,7 +9996,7 @@ const pokedex = [
     "namefr": "Flamenroule",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/flamigo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/flamigo.png",
-    "types": [ "Vol, Combat" ]
+    "types": [ "Vol", "Combat" ]
   },
   {
     "gen": 9,
@@ -10023,7 +10023,7 @@ const pokedex = [
     "namefr": "Délestin",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/veluza.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/veluza.png",
-    "types": [ "Eau, Psy" ]
+    "types": [ "Eau", "Psy" ]
   },
   {
     "gen": 9,
@@ -10041,7 +10041,7 @@ const pokedex = [
     "namefr": "Nigirigon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tatsugiri.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tatsugiri.png",
-    "types": [ "Dragon, Eau" ]
+    "types": [ "Dragon", "Eau" ]
   },
   {
     "gen": 9,
@@ -10050,7 +10050,7 @@ const pokedex = [
     "namefr": "Nigirigon (Forme Affalée)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tatsugiri-droopy.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tatsugiri-droopy.png",
-    "types": [ "Dragon, Eau" ]
+    "types": [ "Dragon", "Eau" ]
   },
   {
     "gen": 9,
@@ -10059,7 +10059,7 @@ const pokedex = [
     "namefr": "Nigirigon (Forme Raide)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tatsugiri-stretchy.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tatsugiri-stretchy.png",
-    "types": [ "Dragon, Eau" ]
+    "types": [ "Dragon", "Eau" ]
   },
   {
     "gen": 9,
@@ -10068,7 +10068,7 @@ const pokedex = [
     "namefr": "Courrousinge",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/annihilape.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/annihilape.png",
-    "types": [ "Combat, Spectre" ]
+    "types": [ "Combat", "Spectre" ]
   },
   {
     "gen": 9,
@@ -10077,7 +10077,7 @@ const pokedex = [
     "namefr": "Terraiste",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/clodsire.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/clodsire.png",
-    "types": [ "Poison, Sol" ]
+    "types": [ "Poison", "Sol" ]
   },
   {
     "gen": 9,
@@ -10086,7 +10086,7 @@ const pokedex = [
     "namefr": "Farigiraf",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/farigiraf.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/farigiraf.png",
-    "types": [ "Normal, Psy" ]
+    "types": [ "Normal", "Psy" ]
   },
   {
     "gen": 9,
@@ -10113,7 +10113,7 @@ const pokedex = [
     "namefr": "Scalpereur",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/kingambit.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/kingambit.png",
-    "types": [ "Ténèbres, Acier" ]
+    "types": [ "Ténèbres", "Acier" ]
   },
   {
     "gen": 9,
@@ -10122,7 +10122,7 @@ const pokedex = [
     "namefr": "Fort-Ivoire",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/greattusk.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/greattusk.png",
-    "types": [ "Sol, Combat" ]
+    "types": [ "Sol", "Combat" ]
   },
   {
     "gen": 9,
@@ -10131,7 +10131,7 @@ const pokedex = [
     "namefr": "Hurle-Queue",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/screamtail.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/screamtail.png",
-    "types": [ "Fée, Psy" ]
+    "types": [ "Fée", "Psy" ]
   },
   {
     "gen": 9,
@@ -10140,7 +10140,7 @@ const pokedex = [
     "namefr": "Fongus-Furie",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/brutebonnet.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/brutebonnet.png",
-    "types": [ "Plante, Ténèbres" ]
+    "types": [ "Plante", "Ténèbres" ]
   },
   {
     "gen": 9,
@@ -10149,7 +10149,7 @@ const pokedex = [
     "namefr": "Flotte-Mèche",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/fluttermane.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/fluttermane.png",
-    "types": [ "Spectre, Fée" ]
+    "types": [ "Spectre", "Fée" ]
   },
   {
     "gen": 9,
@@ -10158,7 +10158,7 @@ const pokedex = [
     "namefr": "Rampe-Ailes",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/slitherwing.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/slitherwing.png",
-    "types": [ "Insecte, Combat" ]
+    "types": [ "Insecte", "Combat" ]
   },
   {
     "gen": 9,
@@ -10167,7 +10167,7 @@ const pokedex = [
     "namefr": "Pelage-Sablé",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sandyshocks.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sandyshocks.png",
-    "types": [ "Électrik, Sol" ]
+    "types": [ "Électrik", "Sol" ]
   },
   {
     "gen": 9,
@@ -10176,7 +10176,7 @@ const pokedex = [
     "namefr": "Roue-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/irontreads.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/irontreads.png",
-    "types": [ "Sol, Acier" ]
+    "types": [ "Sol", "Acier" ]
   },
   {
     "gen": 9,
@@ -10185,7 +10185,7 @@ const pokedex = [
     "namefr": "Hotte-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironbundle.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironbundle.png",
-    "types": [ "Glace, Eau" ]
+    "types": [ "Glace", "Eau" ]
   },
   {
     "gen": 9,
@@ -10194,7 +10194,7 @@ const pokedex = [
     "namefr": "Paume-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironhands.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironhands.png",
-    "types": [ "Combat, Électrik" ]
+    "types": [ "Combat", "Électrik" ]
   },
   {
     "gen": 9,
@@ -10203,7 +10203,7 @@ const pokedex = [
     "namefr": "Têtes-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironjugulis.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironjugulis.png",
-    "types": [ "Ténèbres, Vol" ]
+    "types": [ "Ténèbres", "Vol" ]
   },
   {
     "gen": 9,
@@ -10212,7 +10212,7 @@ const pokedex = [
     "namefr": "Mite-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironmoth.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironmoth.png",
-    "types": [ "Feu, Poison" ]
+    "types": [ "Feu", "Poison" ]
   },
   {
     "gen": 9,
@@ -10221,7 +10221,7 @@ const pokedex = [
     "namefr": "Épine-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironthorns.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironthorns.png",
-    "types": [ "Roche, Électrik" ]
+    "types": [ "Roche", "Électrik" ]
   },
   {
     "gen": 9,
@@ -10230,7 +10230,7 @@ const pokedex = [
     "namefr": "Frigodo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/frigibax.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/frigibax.png",
-    "types": [ "Dragon, Glace" ]
+    "types": [ "Dragon", "Glace" ]
   },
   {
     "gen": 9,
@@ -10239,7 +10239,7 @@ const pokedex = [
     "namefr": "Cryodo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/arctibax.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/arctibax.png",
-    "types": [ "Dragon, Glace" ]
+    "types": [ "Dragon", "Glace" ]
   },
   {
     "gen": 9,
@@ -10248,7 +10248,7 @@ const pokedex = [
     "namefr": "Glaivodo",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/baxcalibur.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/baxcalibur.png",
-    "types": [ "Dragon, Glace" ]
+    "types": [ "Dragon", "Glace" ]
   },
   {
     "gen": 9,
@@ -10275,7 +10275,7 @@ const pokedex = [
     "namefr": "Gromago",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gholdengo.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gholdengo.png",
-    "types": [ "Acier, Spectre" ]
+    "types": [ "Acier", "Spectre" ]
   },
   {
     "gen": 9,
@@ -10284,7 +10284,7 @@ const pokedex = [
     "namefr": "Chongjian",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/wochien.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/wochien.png",
-    "types": [ "Ténèbres, Plante" ]
+    "types": [ "Ténèbres", "Plante" ]
   },
   {
     "gen": 9,
@@ -10293,7 +10293,7 @@ const pokedex = [
     "namefr": "Baojian",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/chienpao.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/chienpao.png",
-    "types": [ "Ténèbres, Glace" ]
+    "types": [ "Ténèbres", "Glace" ]
   },
   {
     "gen": 9,
@@ -10302,7 +10302,7 @@ const pokedex = [
     "namefr": "Dinglu",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/tinglu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/tinglu.png",
-    "types": [ "Ténèbres, Sol" ]
+    "types": [ "Ténèbres", "Sol" ]
   },
   {
     "gen": 9,
@@ -10311,7 +10311,7 @@ const pokedex = [
     "namefr": "Yuyu",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/chiyu.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/chiyu.png",
-    "types": [ "Ténèbres, Feu" ]
+    "types": [ "Ténèbres", "Feu" ]
   },
   {
     "gen": 9,
@@ -10320,7 +10320,7 @@ const pokedex = [
     "namefr": "Rugit-Lune",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/roaringmoon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/roaringmoon.png",
-    "types": [ "Dragon, Ténèbres" ]
+    "types": [ "Dragon", "Ténèbres" ]
   },
   {
     "gen": 9,
@@ -10329,7 +10329,7 @@ const pokedex = [
     "namefr": "Garde-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironvaliant.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironvaliant.png",
-    "types": [ "Fée, Combat" ]
+    "types": [ "Fée", "Combat" ]
   },
   {
     "gen": 9,
@@ -10338,7 +10338,7 @@ const pokedex = [
     "namefr": "Koraidon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/koraidon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/koraidon.png",
-    "types": [ "Combat, Dragon" ]
+    "types": [ "Combat", "Dragon" ]
   },
   {
     "gen": 9,
@@ -10347,7 +10347,7 @@ const pokedex = [
     "namefr": "Miraidon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/miraidon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/miraidon.png",
-    "types": [ "Électrik, Dragon" ]
+    "types": [ "Électrik", "Dragon" ]
   },
   {
     "gen": 9,
@@ -10356,7 +10356,7 @@ const pokedex = [
     "namefr": "Serpente-Eau",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/walkingwake.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/walkingwake.png",
-    "types": [ "Eau, Dragon" ]
+    "types": [ "Eau", "Dragon" ]
   },
   {
     "gen": 9,
@@ -10365,7 +10365,7 @@ const pokedex = [
     "namefr": "Vert-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironleaves.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironleaves.png",
-    "types": [ "Plante, Psy" ]
+    "types": [ "Plante", "Psy" ]
   },
   {
     "gen": 9,
@@ -10374,7 +10374,7 @@ const pokedex = [
     "namefr": "Pomdramour",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/dipplin.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/dipplin.png",
-    "types": [ "Plante, Dragon" ]
+    "types": [ "Plante", "Dragon" ]
   },
   {
     "gen": 9,
@@ -10383,7 +10383,7 @@ const pokedex = [
     "namefr": "Poltchageist",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/poltchageist.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/poltchageist.png",
-    "types": [ "Plante, Spectre" ]
+    "types": [ "Plante", "Spectre" ]
   },
   {
     "gen": 9,
@@ -10392,7 +10392,7 @@ const pokedex = [
     "namefr": "Poltchageist (Forme Onéreuse)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/poltchageist-artisan.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/poltchageist-artisan.png",
-    "types": [ "Plante, Spectre" ]
+    "types": [ "Plante", "Spectre" ]
   },
   {
     "gen": 9,
@@ -10401,7 +10401,7 @@ const pokedex = [
     "namefr": "Théffroyable",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sinistcha.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sinistcha.png",
-    "types": [ "Plante, Spectre" ]
+    "types": [ "Plante", "Spectre" ]
   },
   {
     "gen": 9,
@@ -10410,7 +10410,7 @@ const pokedex = [
     "namefr": "Théffroyable (Forme Exceptionnelle)",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/sinistcha-masterpiece.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/sinistcha-masterpiece.png",
-    "types": [ "Plante, Spectre" ]
+    "types": [ "Plante", "Spectre" ]
   },
   {
     "gen": 9,
@@ -10419,7 +10419,7 @@ const pokedex = [
     "namefr": "Félicanis",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/okidogi.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/okidogi.png",
-    "types": [ "Poison, Combat" ]
+    "types": [ "Poison", "Combat" ]
   },
   {
     "gen": 9,
@@ -10428,7 +10428,7 @@ const pokedex = [
     "namefr": "Fortusimia",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/munkidori.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/munkidori.png",
-    "types": [ "Poison, Psy" ]
+    "types": [ "Poison", "Psy" ]
   },
   {
     "gen": 9,
@@ -10437,7 +10437,7 @@ const pokedex = [
     "namefr": "Favianos",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/fezandipiti.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/fezandipiti.png",
-    "types": [ "Poison, Fée" ]
+    "types": [ "Poison", "Fée" ]
   },
   {
     "gen": 9,
@@ -10455,7 +10455,7 @@ const pokedex = [
     "namefr": "Pondralugon",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/archaludon.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/archaludon.png",
-    "types": [ "Acier, Dragon" ]
+    "types": [ "Acier", "Dragon" ]
   },
   {
     "gen": 9,
@@ -10464,7 +10464,7 @@ const pokedex = [
     "namefr": "Pomdorochi",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hydrapple.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hydrapple.png",
-    "types": [ "Plante, Dragon" ]
+    "types": [ "Plante", "Dragon" ]
   },
   {
     "gen": 9,
@@ -10473,7 +10473,7 @@ const pokedex = [
     "namefr": "Feu-Perçant",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gougingfire.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gougingfire.png",
-    "types": [ "Feu, Dragon" ]
+    "types": [ "Feu", "Dragon" ]
   },
   {
     "gen": 9,
@@ -10482,7 +10482,7 @@ const pokedex = [
     "namefr": "Ire-Foudre",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ragingbolt.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ragingbolt.png",
-    "types": [ "Électrik, Dragon" ]
+    "types": [ "Électrik", "Dragon" ]
   },
   {
     "gen": 9,
@@ -10491,7 +10491,7 @@ const pokedex = [
     "namefr": "Roc-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironboulder.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironboulder.png",
-    "types": [ "Roche, Psy" ]
+    "types": [ "Roche", "Psy" ]
   },
   {
     "gen": 9,
@@ -10500,7 +10500,7 @@ const pokedex = [
     "namefr": "Chef-de-Fer",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironcrown.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironcrown.png",
-    "types": [ "Acier, Psy" ]
+    "types": [ "Acier", "Psy" ]
   },
   {
     "gen": 9,
@@ -10518,6 +10518,6 @@ const pokedex = [
     "namefr": "Pêchaminus",
     "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pecharunt.png",
     "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pecharunt.png",
-    "types": [ "Poison, Spectre" ]
+    "types": [ "Poison", "Spectre" ]
   }
 ]
