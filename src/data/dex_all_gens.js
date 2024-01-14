@@ -13365,5 +13365,100 @@ const pokedex = [
     "types": [
       "Plante"
     ]
+  },
+  {
+    "gen": 9,
+    "id": 1018,
+    "nameen": "Archaludon",
+    "namefr": "Pondralugon",
+    "sprite": "https://play.pokemonshowdown.com/sprites/gen5/archaludon.png",
+    "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/archaludon.png",
+    "types": [
+      "Acier",
+      "Dragon"
+    ]
+  },
+  {
+    "gen": 9,
+    "id": 1019,
+    "nameen": "Hydrapple",
+    "namefr": "Pomdorochi",
+    "sprite": "https://play.pokemonshowdown.com/sprites/gen5/hydrapple.png",
+    "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/hydrapple.png",
+    "types": [
+      "Plante",
+      "Dragon"
+    ]
+  },
+  {
+    "gen": 9,
+    "id": 1020,
+    "nameen": "Gouging Fire",
+    "namefr": "Feu-Perçant",
+    "sprite": "https://play.pokemonshowdown.com/sprites/gen5/gougingfire.png",
+    "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/gougingfire.png",
+    "types": [
+      "Feu",
+      "Dragon"
+    ]
+  },
+  {
+    "gen": 9,
+    "id": 1021,
+    "nameen": "Raging Bolt",
+    "namefr": "Ire-Foudre",
+    "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ragingbolt.png",
+    "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ragingbolt.png",
+    "types": [
+      "Électrik",
+      "Dragon"
+    ]
+  },
+  {
+    "gen": 9,
+    "id": 1022,
+    "nameen": "Iron Boulder",
+    "namefr": "Roc-de-Fer",
+    "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironboulder.png",
+    "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironboulder.png",
+    "types": [
+      "Roche",
+      "Psy"
+    ]
+  },
+  {
+    "gen": 9,
+    "id": 1023,
+    "nameen": "Iron Crown",
+    "namefr": "Chef-de-Fer",
+    "sprite": "https://play.pokemonshowdown.com/sprites/gen5/ironcrown.png",
+    "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/ironcrown.png",
+    "types": [
+      "Acier",
+      "Psy"
+    ]
+  },
+  {
+    "gen": 9,
+    "id": 1024,
+    "nameen": "Terapagos",
+    "namefr": "Terapagos",
+    "sprite": "https://play.pokemonshowdown.com/sprites/gen5/terapagos.png",
+    "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/terapagos.png",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "gen": 9,
+    "id": 1025,
+    "nameen": "Pecharunt",
+    "namefr": "Pêchaminus",
+    "sprite": "https://play.pokemonshowdown.com/sprites/gen5/pecharunt.png",
+    "spriteshiny": "https://play.pokemonshowdown.com/sprites/gen5-shiny/pecharunt.png",
+    "types": [
+      "Poison",
+      "Spectre"
+    ]
   }
 ]
