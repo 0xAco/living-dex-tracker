@@ -1,5 +1,6 @@
 // pokedex est importé depuis le html
 let main;
+let displayedPokemon = [];
 let isShinyDisplay = false;
 let isAsideVisible = false;
 let isFilterActive = false;
@@ -47,6 +48,19 @@ function updateTypeFilterEffect(event) {
 
 // exports the data as a JSON
 function exportData() {
+  /* TODO:
+  check if a filter is active.
+  if yes
+    build the object just like previously, except we need to get every checkbox, not only the checked ones
+    check if localStorage exists
+    if yes
+      check if internalid already has an entry for the filtered pokemon
+        if yes : remove the line if checkbox is not checked
+        if no : create the line if checkbox is checked
+    if no : create the line if checkbox is checked
+  if no
+    dont change anything
+  */
   const checkboxes = document.querySelectorAll('.pokemon__checkbox:checked');
   const exportedData = [];
 
@@ -182,6 +196,7 @@ function createPokemon(filters) {
   let currentGen;
 
   main.innerHTML = '';
+  displayedPokemon = [];
   const existingData = loadData(isShinyDisplay);
 
   let filteredPokedex = pokedex;
@@ -207,13 +222,16 @@ function createPokemon(filters) {
           captureTest = existingData.findIndex(pok => pok.internalid === internalid) <= -1;
       }
 
-      if (numTest && nameTest && genTest && typeTest && captureTest)
+      if (numTest && nameTest && genTest && typeTest && captureTest) {
         filteredPokedex.push(pokemon);
+        displayedPokemon.push({ id: pokemon.id, internalid });
+      }
     }
   }
 
   for(pokemon of filteredPokedex) {
     const internalid = `${pokemon.id}+${pokemon.namefr}`;
+    displayedPokemon.push({ id: pokemon.id, internalid });
 
     // créations des sections pour les générations
     currentGen = pokemon.gen;
