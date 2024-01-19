@@ -1,5 +1,6 @@
 // pokedex est importé depuis le html
 let main;
+let displayedPokemon = [];
 let isShinyDisplay = false;
 let isAsideVisible = false;
 let isFilterActive = false;
@@ -47,20 +48,36 @@ function updateTypeFilterEffect(event) {
 
 // exports the data as a JSON
 function exportData() {
-  const checkboxes = document.querySelectorAll('.pokemon__checkbox:checked');
-  const exportedData = [];
+  const checkboxes = isFilterActive
+    ? document.querySelectorAll('.pokemon__checkbox')
+    : document.querySelectorAll('.pokemon__checkbox:checked');
+  const localStorageData = loadData();
+  const toExport = isFilterActive ? localStorageData ? localStorageData : [] : [];
 
   checkboxes.forEach(box => {
-    const mon = { 
+    const currentMon = { 
       'id': parseInt(box.id.split('+')[0]),
       'internalid': box.id,
-    }
-    exportedData.push(mon);
-  })
+    };
 
-  saveData(exportedData, isShinyDisplay);
-  alertSaveData.classList.remove("display_none"); 
-  setTimeout(()=>alertSaveData.classList.add('display_none'), 3500);
+    if (isFilterActive) {
+      const localMonIndex = toExport.findIndex(pok => pok.internalid === currentMon.internalid);
+      const alreadySaved = localMonIndex > -1;
+      if (box.checked) {
+        // pokémon pas présent dans localStorage et vient d'être coché
+        if (!alreadySaved) toExport.push(currentMon);
+      } else {
+        // pokémon présent dans localStorage et vient d'être décoché
+        if (alreadySaved) toExport.splice(localMonIndex, 1);
+      }
+    } else {
+      toExport.push(currentMon);
+    }
+  });
+
+  saveData(toExport, isShinyDisplay);
+  alertSaveData.classList.remove('display_none'); 
+  setTimeout(() => alertSaveData.classList.add('display_none'), 3500);
 }
 
 // update checkboxes when changing display mode
@@ -113,7 +130,8 @@ function onCardClick(event) {
 
   // retrieve the card element
   card = event.target;
-  if (targetTag === 'IMG') card = event.target.closest('.pokemon__card');
+  const acceptedTags = ['IMG', 'SPAN', 'DIV'];
+  if (acceptedTags.includes(targetTag)) card = event.target.closest('.pokemon__card');
   const internalid = card.id.split('+').splice(1).join('+');
   const check = document.getElementById(internalid);
   check.click();
@@ -182,6 +200,7 @@ function createPokemon(filters) {
   let currentGen;
 
   main.innerHTML = '';
+  displayedPokemon = [];
   const existingData = loadData(isShinyDisplay);
 
   let filteredPokedex = pokedex;
@@ -207,13 +226,16 @@ function createPokemon(filters) {
           captureTest = existingData.findIndex(pok => pok.internalid === internalid) <= -1;
       }
 
-      if (numTest && nameTest && genTest && typeTest && captureTest)
+      if (numTest && nameTest && genTest && typeTest && captureTest) {
         filteredPokedex.push(pokemon);
+        displayedPokemon.push({ id: pokemon.id, internalid });
+      }
     }
   }
 
   for(pokemon of filteredPokedex) {
     const internalid = `${pokemon.id}+${pokemon.namefr}`;
+    displayedPokemon.push({ id: pokemon.id, internalid });
 
     // créations des sections pour les générations
     currentGen = pokemon.gen;
