@@ -61,20 +61,15 @@ function exportData() {
     };
 
     if (isFilterActive) {
-      toExport.forEach((localEntry, i) => {
-        if (box.checked) {
-          
-        } else {
-
-        }
-
-
-        if (localEntry.internalid === currentMon.internalid) { // le pokémon est déjà dans le localStorage
-          if (!box.checked) toExport.splice(i, 1); // il a été décoché, on le retire
-        } else {
-          if (box.checked) toExport.push(currentMon); // il a été coché, on l'ajoute
-        }
-      });
+      const localMonIndex = toExport.findIndex(pok => pok.internalid === currentMon.internalid);
+      const alreadySaved = localMonIndex > -1;
+      if (box.checked) {
+        // pokémon pas présent dans localStorage et vient d'être coché
+        if (!alreadySaved) toExport.push(currentMon);
+      } else {
+        // pokémon présent dans localStorage et vient d'être décoché
+        if (alreadySaved) toExport.splice(localMonIndex, 1);
+      }
     } else {
       toExport.push(currentMon);
     }
@@ -135,7 +130,8 @@ function onCardClick(event) {
 
   // retrieve the card element
   card = event.target;
-  if (targetTag === 'IMG') card = event.target.closest('.pokemon__card');
+  const acceptedTags = ['IMG', 'SPAN', 'DIV'];
+  if (acceptedTags.includes(targetTag)) card = event.target.closest('.pokemon__card');
   const internalid = card.id.split('+').splice(1).join('+');
   const check = document.getElementById(internalid);
   check.click();
