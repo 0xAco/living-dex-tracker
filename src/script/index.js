@@ -48,33 +48,41 @@ function updateTypeFilterEffect(event) {
 
 // exports the data as a JSON
 function exportData() {
-  /* TODO:
-  check if a filter is active.
-  if yes
-    build the object just like previously, except we need to get every checkbox, not only the checked ones
-    check if localStorage exists
-    if yes
-      check if internalid already has an entry for the filtered pokemon
-        if yes : remove the line if checkbox is not checked
-        if no : create the line if checkbox is checked
-    if no : create the line if checkbox is checked
-  if no
-    dont change anything
-  */
-  const checkboxes = document.querySelectorAll('.pokemon__checkbox:checked');
-  const exportedData = [];
+  const checkboxes = isFilterActive
+    ? document.querySelectorAll('.pokemon__checkbox')
+    : document.querySelectorAll('.pokemon__checkbox:checked');
+  const localStorageData = loadData();
+  const toExport = isFilterActive ? localStorageData ? localStorageData : [] : [];
 
   checkboxes.forEach(box => {
-    const mon = { 
+    const currentMon = { 
       'id': parseInt(box.id.split('+')[0]),
       'internalid': box.id,
-    }
-    exportedData.push(mon);
-  })
+    };
 
-  saveData(exportedData, isShinyDisplay);
-  alertSaveData.classList.remove("display_none"); 
-  setTimeout(()=>alertSaveData.classList.add('display_none'), 3500);
+    if (isFilterActive) {
+      toExport.forEach((localEntry, i) => {
+        if (box.checked) {
+          
+        } else {
+
+        }
+
+
+        if (localEntry.internalid === currentMon.internalid) { // le pokémon est déjà dans le localStorage
+          if (!box.checked) toExport.splice(i, 1); // il a été décoché, on le retire
+        } else {
+          if (box.checked) toExport.push(currentMon); // il a été coché, on l'ajoute
+        }
+      });
+    } else {
+      toExport.push(currentMon);
+    }
+  });
+
+  saveData(toExport, isShinyDisplay);
+  alertSaveData.classList.remove('display_none'); 
+  setTimeout(() => alertSaveData.classList.add('display_none'), 3500);
 }
 
 // update checkboxes when changing display mode
